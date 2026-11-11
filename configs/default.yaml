@@ -1,0 +1,49 @@
+# All settings live here. Change them in this file, in an extra YAML passed with --config,
+# or for one run with --set key=value (for example: --set finetune.epochs=5).
+
+model: openai/clip-vit-large-patch14   # the model behind every Step 2 number (ViT-L/14, 768-d embeddings)
+device: auto                           # auto = cuda (NVIDIA) > mps (Apple Silicon) > cpu
+images_dir: data/images                # the 840 test images: data/images/L0/apple_scab/apple_scab_001_clean_L0.png ...
+results_dir: results                   # every run gets its own folder here; results/runs.csv logs them all
+test_set: original                     # original = the 840 test images; recipe_b = same photos and folds, noise made
+                                       # a different way (robustness test; build it with scripts/make_recipe_b.py)
+recipe_b_dir: data/images_recipe_b     # where scripts/make_recipe_b.py writes the recipe-B noisy images
+black_gram: false                      # true = add black gram yellow mosaic as an 8th disease (30 photos, 120 images;
+                                       # scripts/add_black_gram.py); reports keep the 840 old images separate
+black_gram_dir: data/images_black_gram # its images (kept apart, so data/images stays the frozen 840)
+seed: 299
+batch_size: 32                         # images per forward pass when embedding; lower it if memory runs out
+use_saved_features: true               # frozen ViT-L/14 test features from data/features (exactly the Step 2 numbers)
+
+database:                              # the Step 2 "CLIP photo database" predictor
+  k: 5                                 # nearest reference images that vote (Step 2 used 5)
+
+noisy_copies:                          # synthetic noisy copies of the 210 clean photos (E1 noisy database, E2 probe)
+  per_type: 1                          # copies per photo, per noise type, per level
+  levels: [1, 2, 3]                    # our levels (L1 mild, L2 medium, L3 severe)
+  seed: 2026                           # NOT 299: 299 is the test set's seed family
+
+linear_probe:                          # E2: classic classifier on frozen features
+  classifier: logistic                 # logistic (linear probe) or svm (the "traditional ML" baseline)
+  C: auto                              # auto = picked inside the training photos (4-fold by photo); or a number
+  use_copies: true                     # train on clean + noisy copies (false = clean photos only)
+
+finetune:                              # E3: fine-tune the image encoder (5-fold cross-validation by photo)
+  folds: [0, 1, 2, 3, 4]               # which held-out folds to run; [0] for a quick check
+  unfreeze_last: 4                     # train the last N of 24 transformer blocks (+ final norm + projection); -1 = all
+  epochs: 15
+  batch_photos: 16                     # photos per step (each gives 1 clean + noisy_views noisy images)
+  noisy_views: 1
+  train_levels: [1, 2, 3]              # noise levels used for the on-the-fly noisy views
+  geometric_aug: true                  # random flip + quarter turn
+  lr: 1.0e-5                           # encoder learning rate
+  head_lr: 1.0e-3                      # classifier head learning rate
+  weight_decay: 0.05
+  warmup_epochs: 1
+  consistency_weight: 1.0              # pull each noisy view towards its own clean view (0 = cross-entropy only)
+  head_scale: 30.0                     # temperature of the cosine classifier (logits = scale * cos)
+  num_workers: 2                       # data-loading processes (0 if you see multiprocessing errors)
+  grad_checkpointing: false            # true saves GPU memory, costs ~30% speed
+  db_noisy_copies: false               # E4: also put fine-tuned noisy copies in the database
+  also_score_recipe_b: false           # E7: also score recipe B with the same trained models (saves a second training)
+  save_checkpoints: false              # per-fold weights (~200 MB each for 4 blocks of ViT-L/14)

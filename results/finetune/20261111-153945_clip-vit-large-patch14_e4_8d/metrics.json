@@ -1,0 +1,118 @@
+{
+ "Fine-tuned CLIP database (k4 e15 cons1.0) + noisy copies [8 diseases]": {
+  "levels": {
+   "L0": 100.0,
+   "L1": 100.0,
+   "L2": 99.0,
+   "L3": 96.7,
+   "All": 98.9,
+   "n": 840
+  },
+  "A": 98.8,
+  "B": 99.0,
+  "vs": {
+   "CLIP database, frozen (Step 2)": {
+    "All": {
+     "images": 840,
+     "only_new_right": 191,
+     "only_baseline_right": 1,
+     "p": 6.149334776971266e-56
+    },
+    "L3": {
+     "images": 210,
+     "only_new_right": 120,
+     "only_baseline_right": 1,
+     "p": 9.178259891220421e-35
+    }
+   },
+   "Gemini + references + descriptions (Step 2b)": {
+    "All": {
+     "images": 840,
+     "only_new_right": 171,
+     "only_baseline_right": 2,
+     "p": 2.514403401019233e-48
+    },
+    "L3": {
+     "images": 210,
+     "only_new_right": 105,
+     "only_baseline_right": 1,
+     "p": 2.6377536518327582e-30
+    }
+   }
+  },
+  "black_gram": {
+   "L0": 100.0,
+   "L1": 96.7,
+   "L2": 96.7,
+   "L3": 90.0,
+   "All": 95.8,
+   "n": 120
+  },
+  "all_images": {
+   "L0": 100.0,
+   "L1": 99.6,
+   "L2": 98.8,
+   "L3": 95.8,
+   "All": 98.5,
+   "n": 960
+  }
+ },
+ "Fine-tuned CLIP head (k4 e15 cons1.0) [8 diseases]": {
+  "levels": {
+   "L0": 100.0,
+   "L1": 100.0,
+   "L2": 99.5,
+   "L3": 94.3,
+   "All": 98.5,
+   "n": 840
+  },
+  "A": 97.9,
+  "B": 98.8,
+  "vs": {
+   "CLIP database, frozen (Step 2)": {
+    "All": {
+     "images": 840,
+     "only_new_right": 187,
+     "only_baseline_right": 1,
+     "p": 9.635019878529071e-55
+    },
+    "L3": {
+     "images": 210,
+     "only_new_right": 115,
+     "only_baseline_right": 1,
+     "p": 2.8166725436663324e-33
+    }
+   },
+   "Gemini + references + descriptions (Step 2b)": {
+    "All": {
+     "images": 840,
+     "only_new_right": 166,
+     "only_baseline_right": 1,
+     "p": 1.7960978851819555e-48
+    },
+    "L3": {
+     "images": 210,
+     "only_new_right": 100,
+     "only_baseline_right": 1,
+     "p": 8.04638123325432e-29
+    }
+   }
+  },
+  "black_gram": {
+   "L0": 100.0,
+   "L1": 96.7,
+   "L2": 96.7,
+   "L3": 93.3,
+   "All": 96.7,
+   "n": 120
+  },
+  "all_images": {
+   "L0": 100.0,
+   "L1": 99.6,
+   "L2": 99.2,
+   "L3": 94.2,
+   "All": 98.2,
+   "n": 960
+  }
+ }
+}

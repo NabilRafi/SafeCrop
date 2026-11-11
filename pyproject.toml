@@ -1,0 +1,12 @@
+[project]
+name = "safecrop"
+version = "0.1.0"
+description = "SafeCrop CSE299: CLIP fine-tuning on the 840-image noisy crop-disease test set"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

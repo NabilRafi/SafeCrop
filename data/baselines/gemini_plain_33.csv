@@ -1,0 +1,841 @@
+image,model,answer,pred_label,confidence,clear_enough,seconds,time
+L0/rice_stem_borer/rice_stem_borer_021_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,0,2026-10-30T15:27:10
+L1/rice_stem_borer/rice_stem_borer_021_motion_blur_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.65,False,3.7,2026-10-30T15:27:14
+L2/rice_stem_borer/rice_stem_borer_021_motion_blur_L2.png,gemini-3.5-flash-lite,Rice: blast,rice_blast,0.35,False,4.7,2026-10-30T15:27:19
+L3/rice_stem_borer/rice_stem_borer_021_motion_blur_L3.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.2,False,4.5,2026-10-30T15:27:23
+L0/jute_dieback/jute_dieback_028_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,4.5,2026-10-30T15:27:28
+L1/jute_dieback/jute_dieback_028_low_light_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.75,True,6.3,2026-10-30T15:27:34
+L2/jute_dieback/jute_dieback_028_low_light_L2.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.25,False,3.0,2026-10-30T15:27:37
+L3/jute_dieback/jute_dieback_028_low_light_L3.png,gemini-3.5-flash-lite,Grape: healthy,grape_healthy,0.1,False,5.9,2026-10-30T15:27:43
+L0/pear_leaf_spot/pear_leaf_spot_005_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,2.1,2026-10-30T15:27:45
+L1/pear_leaf_spot/pear_leaf_spot_005_low_light_L1.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.85,True,3.9,2026-10-30T15:27:49
+L2/pear_leaf_spot/pear_leaf_spot_005_low_light_L2.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.85,True,3.8,2026-10-30T15:27:53
+L3/pear_leaf_spot/pear_leaf_spot_005_low_light_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.2,False,4.2,2026-10-30T15:27:57
+L0/potato_late_blight/potato_late_blight_019_clean_L0.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.95,True,4.4,2026-10-30T15:28:01
+L1/potato_late_blight/potato_late_blight_019_jpeg_compression_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.95,True,6.7,2026-10-30T15:28:08
+L2/potato_late_blight/potato_late_blight_019_jpeg_compression_L2.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.95,True,2.3,2026-10-30T15:28:10
+L3/potato_late_blight/potato_late_blight_019_jpeg_compression_L3.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.9,True,3.6,2026-10-30T15:28:14
+L0/jute_mosaic/jute_mosaic_022_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,4.1,2026-10-30T15:28:18
+L1/jute_mosaic/jute_mosaic_022_gaussian_noise_L1.png,gemini-3.5-flash-lite,Rice: brown spot,rice_brown_spot,0.15,False,6.2,2026-10-30T15:28:24
+L2/jute_mosaic/jute_mosaic_022_gaussian_noise_L2.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.45,False,5.1,2026-10-30T15:28:29
+L3/jute_mosaic/jute_mosaic_022_gaussian_noise_L3.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.1,False,3.6,2026-10-30T15:28:33
+L0/rice_stem_borer/rice_stem_borer_019_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,7.5,2026-10-30T15:28:41
+L1/rice_stem_borer/rice_stem_borer_019_low_light_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,4.2,2026-10-30T15:28:45
+L2/rice_stem_borer/rice_stem_borer_019_low_light_L2.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,3.5,2026-10-30T15:28:48
+L3/rice_stem_borer/rice_stem_borer_019_low_light_L3.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.45,False,2.3,2026-10-30T15:28:51
+L0/rice_stem_borer/rice_stem_borer_018_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,7.8,2026-10-30T15:28:58
+L1/rice_stem_borer/rice_stem_borer_018_defocus_blur_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,4.8,2026-10-30T15:29:03
+L2/rice_stem_borer/rice_stem_borer_018_defocus_blur_L2.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.45,False,2.1,2026-10-30T15:29:05
+L3/rice_stem_borer/rice_stem_borer_018_defocus_blur_L3.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.4,False,6.1,2026-10-30T15:29:11
+L0/apple_scab/apple_scab_029_clean_L0.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,1.5,2026-10-30T15:29:13
+L1/apple_scab/apple_scab_029_defocus_blur_L1.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.75,True,10.9,2026-10-30T15:29:24
+L2/apple_scab/apple_scab_029_defocus_blur_L2.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.85,True,4.9,2026-10-30T15:29:29
+L3/apple_scab/apple_scab_029_defocus_blur_L3.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.35,False,0.9,2026-10-30T15:29:30
+L0/rice_stem_borer/rice_stem_borer_023_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,7.5,2026-10-30T15:29:37
+L1/rice_stem_borer/rice_stem_borer_023_jpeg_compression_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,4.1,2026-10-30T15:29:41
+L2/rice_stem_borer/rice_stem_borer_023_jpeg_compression_L2.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,1.9,2026-10-30T15:29:43
+L3/rice_stem_borer/rice_stem_borer_023_jpeg_compression_L3.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,7.8,2026-10-30T15:29:51
+L0/pear_leaf_spot/pear_leaf_spot_015_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,2.3,2026-10-30T15:29:53
+L1/pear_leaf_spot/pear_leaf_spot_015_jpeg_compression_L1.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,3.1,2026-10-30T15:29:56
+L2/pear_leaf_spot/pear_leaf_spot_015_jpeg_compression_L2.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,4.0,2026-10-30T15:30:00
+L3/pear_leaf_spot/pear_leaf_spot_015_jpeg_compression_L3.png,gemini-3.5-flash-lite,Pear: rust,pear_rust,0.85,True,4.8,2026-10-30T15:30:05
+L0/potato_late_blight/potato_late_blight_024_clean_L0.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.95,True,4.6,2026-10-30T15:30:10
+L1/potato_late_blight/potato_late_blight_024_gaussian_noise_L1.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.85,True,3.6,2026-10-30T15:30:13
+L2/potato_late_blight/potato_late_blight_024_gaussian_noise_L2.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.45,False,7.5,2026-10-30T15:30:21
+L3/potato_late_blight/potato_late_blight_024_gaussian_noise_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,3.6,2026-10-30T15:30:24
+L0/jute_mosaic/jute_mosaic_029_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,5.0,2026-10-30T15:30:29
+L1/jute_mosaic/jute_mosaic_029_low_light_L1.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,1.7,2026-10-30T15:30:31
+L2/jute_mosaic/jute_mosaic_029_low_light_L2.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.3,False,4.6,2026-10-30T15:30:36
+L3/jute_mosaic/jute_mosaic_029_low_light_L3.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.45,False,7.5,2026-10-30T15:30:43
+L0/rice_stem_borer/rice_stem_borer_029_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,5.7,2026-10-30T15:30:49
+L1/rice_stem_borer/rice_stem_borer_029_defocus_blur_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,3.4,2026-10-30T15:30:52
+L2/rice_stem_borer/rice_stem_borer_029_defocus_blur_L2.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.5,False,4.1,2026-10-30T15:30:57
+L3/rice_stem_borer/rice_stem_borer_029_defocus_blur_L3.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.3,False,2.3,2026-10-30T15:30:59
+L0/grape_leaf_blight/grape_leaf_blight_025_clean_L0.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.9,True,5.3,2026-10-30T15:31:04
+L1/grape_leaf_blight/grape_leaf_blight_025_defocus_blur_L1.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.85,True,3.5,2026-10-30T15:31:08
+L2/grape_leaf_blight/grape_leaf_blight_025_defocus_blur_L2.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.45,False,3.9,2026-10-30T15:31:11
+L3/grape_leaf_blight/grape_leaf_blight_025_defocus_blur_L3.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.5,False,8.0,2026-10-30T15:31:20
+L0/jute_mosaic/jute_mosaic_016_clean_L0.png,gemini-3.5-flash-lite,Jute: mosaic,jute_mosaic,0.85,True,4.5,2026-10-30T15:31:24
+L1/jute_mosaic/jute_mosaic_016_jpeg_compression_L1.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,5.0,2026-10-30T15:31:29
+L2/jute_mosaic/jute_mosaic_016_jpeg_compression_L2.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,1.3,2026-10-30T15:31:30
+L3/jute_mosaic/jute_mosaic_016_jpeg_compression_L3.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,5.3,2026-10-30T15:31:36
+L0/apple_scab/apple_scab_015_clean_L0.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,3.6,2026-10-30T15:31:39
+L1/apple_scab/apple_scab_015_low_light_L1.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,3.4,2026-10-30T15:31:43
+L2/apple_scab/apple_scab_015_low_light_L2.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.45,False,5.2,2026-10-30T15:31:48
+L3/apple_scab/apple_scab_015_low_light_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.05,False,3.7,2026-10-30T15:31:52
+L0/pear_leaf_spot/pear_leaf_spot_010_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,4.3,2026-10-30T15:31:56
+L1/pear_leaf_spot/pear_leaf_spot_010_motion_blur_L1.png,gemini-3.5-flash-lite,Pear: healthy,pear_healthy,0.85,True,5.5,2026-10-30T15:32:01
+L2/pear_leaf_spot/pear_leaf_spot_010_motion_blur_L2.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,4.5,2026-10-30T15:32:06
+L3/pear_leaf_spot/pear_leaf_spot_010_motion_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,2.9,2026-10-30T15:32:09
+L0/jute_mosaic/jute_mosaic_026_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,5.7,2026-10-30T15:32:14
+L1/jute_mosaic/jute_mosaic_026_jpeg_compression_L1.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,4.5,2026-10-30T15:32:19
+L2/jute_mosaic/jute_mosaic_026_jpeg_compression_L2.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,4.0,2026-10-30T15:32:23
+L3/jute_mosaic/jute_mosaic_026_jpeg_compression_L3.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,20.2,2026-10-30T15:32:43
+L0/jute_mosaic/jute_mosaic_003_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,2.5,2026-10-30T15:32:46
+L1/jute_mosaic/jute_mosaic_003_gaussian_noise_L1.png,gemini-3.5-flash-lite,Black gram: Cercospora leaf spot,black_gram_cercospora_leaf_spot,0.65,False,3.7,2026-10-30T15:32:49
+L2/jute_mosaic/jute_mosaic_003_gaussian_noise_L2.png,gemini-3.5-flash-lite,Black gram: yellow mosaic,black_gram_yellow_mosaic,0.4,False,3.6,2026-10-30T15:32:53
+L3/jute_mosaic/jute_mosaic_003_gaussian_noise_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.05,False,4.8,2026-10-30T15:32:58
+L0/apple_scab/apple_scab_030_clean_L0.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,6.0,2026-10-30T15:33:04
+L1/apple_scab/apple_scab_030_gaussian_noise_L1.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,2.4,2026-10-30T15:33:06
+L2/apple_scab/apple_scab_030_gaussian_noise_L2.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.45,False,5.4,2026-10-30T15:33:12
+L3/apple_scab/apple_scab_030_gaussian_noise_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,3.3,2026-10-30T15:33:15
+L0/potato_late_blight/potato_late_blight_001_clean_L0.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.95,True,6.3,2026-10-30T15:33:21
+L1/potato_late_blight/potato_late_blight_001_gaussian_noise_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,2.2,2026-10-30T15:33:23
+L2/potato_late_blight/potato_late_blight_001_gaussian_noise_L2.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.45,False,24.5,2026-10-30T15:33:48
+L3/potato_late_blight/potato_late_blight_001_gaussian_noise_L3.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.1,False,6.4,2026-10-30T15:33:54
+L0/apple_scab/apple_scab_011_clean_L0.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.85,True,2.1,2026-10-30T15:33:56
+L1/apple_scab/apple_scab_011_motion_blur_L1.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.85,True,4.1,2026-10-30T15:34:00
+L2/apple_scab/apple_scab_011_motion_blur_L2.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.35,False,3.8,2026-10-30T15:34:04
+L3/apple_scab/apple_scab_011_motion_blur_L3.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.2,False,5.0,2026-10-30T15:34:09
+L0/pear_leaf_spot/pear_leaf_spot_020_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,3.9,2026-10-30T15:34:13
+L1/pear_leaf_spot/pear_leaf_spot_020_gaussian_noise_L1.png,gemini-3.5-flash-lite,Pear: rust,pear_rust,0.85,True,4.8,2026-10-30T15:34:18
+L2/pear_leaf_spot/pear_leaf_spot_020_gaussian_noise_L2.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.45,False,3.3,2026-10-30T15:34:21
+L3/pear_leaf_spot/pear_leaf_spot_020_gaussian_noise_L3.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.15,False,4.6,2026-10-30T15:34:26
+L0/pear_leaf_spot/pear_leaf_spot_018_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.9,True,4.8,2026-10-30T15:34:31
+L1/pear_leaf_spot/pear_leaf_spot_018_low_light_L1.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,3.1,2026-10-30T15:34:34
+L2/pear_leaf_spot/pear_leaf_spot_018_low_light_L2.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.85,True,5.7,2026-10-30T15:34:40
+L3/pear_leaf_spot/pear_leaf_spot_018_low_light_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.3,False,2.8,2026-10-30T15:34:42
+L0/jute_mosaic/jute_mosaic_004_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,6.5,2026-10-30T15:34:49
+L1/jute_mosaic/jute_mosaic_004_motion_blur_L1.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,2.3,2026-10-30T15:34:51
+L2/jute_mosaic/jute_mosaic_004_motion_blur_L2.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.4,False,4.1,2026-10-30T15:34:55
+L3/jute_mosaic/jute_mosaic_004_motion_blur_L3.png,gemini-3.5-flash-lite,Jute: healthy,jute_healthy,0.1,False,4.0,2026-10-30T15:34:59
+L0/pear_leaf_spot/pear_leaf_spot_001_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,5.7,2026-10-30T15:35:05
+L1/pear_leaf_spot/pear_leaf_spot_001_low_light_L1.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.55,True,3.7,2026-10-30T15:35:09
+L2/pear_leaf_spot/pear_leaf_spot_001_low_light_L2.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.35,False,4.6,2026-10-30T15:35:13
+L3/pear_leaf_spot/pear_leaf_spot_001_low_light_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.4,False,3.7,2026-10-30T15:35:17
+L0/potato_late_blight/potato_late_blight_012_clean_L0.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,5.0,2026-10-30T15:35:22
+L1/potato_late_blight/potato_late_blight_012_jpeg_compression_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.9,True,4.3,2026-10-30T15:35:26
+L2/potato_late_blight/potato_late_blight_012_jpeg_compression_L2.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,4.9,2026-10-30T15:35:31
+L3/potato_late_blight/potato_late_blight_012_jpeg_compression_L3.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,2.8,2026-10-30T15:35:34
+L0/grape_leaf_blight/grape_leaf_blight_005_clean_L0.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,5.2,2026-10-30T15:35:39
+L1/grape_leaf_blight/grape_leaf_blight_005_jpeg_compression_L1.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,3.4,2026-10-30T15:35:43
+L2/grape_leaf_blight/grape_leaf_blight_005_jpeg_compression_L2.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.95,True,4.1,2026-10-30T15:35:47
+L3/grape_leaf_blight/grape_leaf_blight_005_jpeg_compression_L3.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.95,True,4.5,2026-10-30T15:35:51
+L0/jute_dieback/jute_dieback_026_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,4.4,2026-10-30T15:35:56
+L1/jute_dieback/jute_dieback_026_jpeg_compression_L1.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,4.6,2026-10-30T15:36:00
+L2/jute_dieback/jute_dieback_026_jpeg_compression_L2.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,3.6,2026-10-30T15:36:04
+L3/jute_dieback/jute_dieback_026_jpeg_compression_L3.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.85,True,4.2,2026-10-30T15:36:08
+L0/rice_stem_borer/rice_stem_borer_002_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,5.7,2026-10-30T15:36:14
+L1/rice_stem_borer/rice_stem_borer_002_low_light_L1.png,gemini-3.5-flash-lite,Rice: blast,rice_blast,0.85,True,4.6,2026-10-30T15:36:18
+L2/rice_stem_borer/rice_stem_borer_002_low_light_L2.png,gemini-3.5-flash-lite,Rice: brown spot,rice_brown_spot,0.45,False,2.7,2026-10-30T15:36:21
+L3/rice_stem_borer/rice_stem_borer_002_low_light_L3.png,gemini-3.5-flash-lite,Rice: blast,rice_blast,0.45,False,5.9,2026-10-30T15:36:27
+L0/grape_leaf_blight/grape_leaf_blight_018_clean_L0.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,2.5,2026-10-30T15:36:29
+L1/grape_leaf_blight/grape_leaf_blight_018_jpeg_compression_L1.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.85,True,5.5,2026-10-30T15:36:35
+L2/grape_leaf_blight/grape_leaf_blight_018_jpeg_compression_L2.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,3.1,2026-10-30T15:36:38
+L3/grape_leaf_blight/grape_leaf_blight_018_jpeg_compression_L3.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,5.3,2026-10-30T15:36:43
+L0/pear_leaf_spot/pear_leaf_spot_032_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,5.5,2026-10-30T15:36:49
+L1/pear_leaf_spot/pear_leaf_spot_032_gaussian_noise_L1.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,7.0,2026-10-30T15:36:56
+L2/pear_leaf_spot/pear_leaf_spot_032_gaussian_noise_L2.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.45,False,3.8,2026-10-30T15:37:00
+L3/pear_leaf_spot/pear_leaf_spot_032_gaussian_noise_L3.png,gemini-3.5-flash-lite,Grape: healthy,grape_healthy,0.1,False,2.4,2026-10-30T15:37:02
+L0/apple_scab/apple_scab_004_clean_L0.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.85,True,4.7,2026-10-30T15:37:07
+L1/apple_scab/apple_scab_004_gaussian_noise_L1.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.85,True,3.7,2026-10-30T15:37:10
+L2/apple_scab/apple_scab_004_gaussian_noise_L2.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.35,False,3.6,2026-10-30T15:37:14
+L3/apple_scab/apple_scab_004_gaussian_noise_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,4.4,2026-10-30T15:37:19
+L0/apple_scab/apple_scab_026_clean_L0.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,4.1,2026-10-30T15:37:23
+L1/apple_scab/apple_scab_026_defocus_blur_L1.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.85,True,4.0,2026-10-30T15:37:27
+L2/apple_scab/apple_scab_026_defocus_blur_L2.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.85,True,14.6,2026-10-30T15:37:41
+L3/apple_scab/apple_scab_026_defocus_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,0.8,2026-10-30T15:37:42
+L0/potato_late_blight/potato_late_blight_020_clean_L0.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.9,True,4.4,2026-10-30T15:37:46
+L1/potato_late_blight/potato_late_blight_020_low_light_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,8.2,2026-10-30T15:37:55
+L2/potato_late_blight/potato_late_blight_020_low_light_L2.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.45,False,0.9,2026-10-30T15:37:56
+L3/potato_late_blight/potato_late_blight_020_low_light_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,6.4,2026-10-30T15:38:02
+L0/apple_scab/apple_scab_010_clean_L0.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,2.9,2026-10-30T15:38:05
+L1/apple_scab/apple_scab_010_gaussian_noise_L1.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,4.2,2026-10-30T15:38:09
+L2/apple_scab/apple_scab_010_gaussian_noise_L2.png,gemini-3.5-flash-lite,Grape: healthy,grape_healthy,0.3,False,5.3,2026-10-30T15:38:14
+L3/apple_scab/apple_scab_010_gaussian_noise_L3.png,gemini-3.5-flash-lite,Potato: healthy,potato_healthy,0.1,False,3.5,2026-10-30T15:38:18
+L0/jute_mosaic/jute_mosaic_008_clean_L0.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,8.9,2026-10-30T15:38:27
+L1/jute_mosaic/jute_mosaic_008_motion_blur_L1.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,2.0,2026-10-30T15:38:29
+L2/jute_mosaic/jute_mosaic_008_motion_blur_L2.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.2,False,3.6,2026-10-30T15:38:32
+L3/jute_mosaic/jute_mosaic_008_motion_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,5.9,2026-10-30T15:38:38
+L0/apple_scab/apple_scab_002_clean_L0.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.95,True,2.1,2026-10-30T15:38:40
+L1/apple_scab/apple_scab_002_low_light_L1.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.65,True,4.7,2026-10-30T15:38:45
+L2/apple_scab/apple_scab_002_low_light_L2.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.4,False,4.0,2026-10-30T15:38:49
+L3/apple_scab/apple_scab_002_low_light_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,6.8,2026-10-30T15:38:56
+L0/potato_late_blight/potato_late_blight_015_clean_L0.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.95,True,3.4,2026-10-30T15:38:59
+L1/potato_late_blight/potato_late_blight_015_defocus_blur_L1.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.85,True,4.0,2026-10-30T15:39:03
+L2/potato_late_blight/potato_late_blight_015_defocus_blur_L2.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.45,False,4.6,2026-10-30T15:39:08
+L3/potato_late_blight/potato_late_blight_015_defocus_blur_L3.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.35,False,3.4,2026-10-30T15:39:11
+L0/pear_leaf_spot/pear_leaf_spot_003_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,4.1,2026-10-30T15:39:15
+L1/pear_leaf_spot/pear_leaf_spot_003_motion_blur_L1.png,gemini-3.5-flash-lite,Pear: healthy,pear_healthy,0.85,True,3.7,2026-10-30T15:39:19
+L2/pear_leaf_spot/pear_leaf_spot_003_motion_blur_L2.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.4,False,4.5,2026-10-30T15:39:23
+L3/pear_leaf_spot/pear_leaf_spot_003_motion_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,5.4,2026-10-30T15:39:29
+L0/jute_mosaic/jute_mosaic_010_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,6.7,2026-10-30T15:39:36
+L1/jute_mosaic/jute_mosaic_010_low_light_L1.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.8,True,1.9,2026-10-30T15:39:37
+L2/jute_mosaic/jute_mosaic_010_low_light_L2.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.45,False,6.0,2026-10-30T15:39:43
+L3/jute_mosaic/jute_mosaic_010_low_light_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,1.8,2026-10-30T15:39:45
+L0/jute_dieback/jute_dieback_019_clean_L0.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,4.8,2026-10-30T15:39:50
+L1/jute_dieback/jute_dieback_019_defocus_blur_L1.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.45,False,5.3,2026-10-30T15:39:55
+L2/jute_dieback/jute_dieback_019_defocus_blur_L2.png,gemini-3.5-flash-lite,Rice: healthy,rice_healthy,0.1,False,3.0,2026-10-30T15:39:58
+L3/jute_dieback/jute_dieback_019_defocus_blur_L3.png,gemini-3.5-flash-lite,Rice: healthy,rice_healthy,0.1,False,7.8,2026-10-30T15:40:06
+L0/rice_stem_borer/rice_stem_borer_007_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,1.8,2026-10-30T15:40:08
+L1/rice_stem_borer/rice_stem_borer_007_defocus_blur_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,4.0,2026-10-30T15:40:12
+L2/rice_stem_borer/rice_stem_borer_007_defocus_blur_L2.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.3,False,3.8,2026-10-30T15:40:16
+L3/rice_stem_borer/rice_stem_borer_007_defocus_blur_L3.png,gemini-3.5-flash-lite,Rice: brown spot,rice_brown_spot,0.1,False,5.0,2026-10-30T15:40:21
+L0/jute_dieback/jute_dieback_008_clean_L0.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.82,True,3.9,2026-10-30T15:40:25
+L1/jute_dieback/jute_dieback_008_defocus_blur_L1.png,gemini-3.5-flash-lite,Jute: healthy,jute_healthy,0.1,False,5.3,2026-10-30T15:40:30
+L2/jute_dieback/jute_dieback_008_defocus_blur_L2.png,gemini-3.5-flash-lite,Jute: healthy,jute_healthy,0.1,False,4.8,2026-10-30T15:40:35
+L3/jute_dieback/jute_dieback_008_defocus_blur_L3.png,gemini-3.5-flash-lite,Rice: healthy,rice_healthy,0.2,False,3.5,2026-10-30T15:40:38
+L0/potato_late_blight/potato_late_blight_014_clean_L0.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.95,True,3.2,2026-10-30T15:40:41
+L1/potato_late_blight/potato_late_blight_014_defocus_blur_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.92,True,5.9,2026-10-30T15:40:47
+L2/potato_late_blight/potato_late_blight_014_defocus_blur_L2.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.35,False,2.8,2026-10-30T15:40:50
+L3/potato_late_blight/potato_late_blight_014_defocus_blur_L3.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,3.8,2026-10-30T15:40:54
+L0/grape_leaf_blight/grape_leaf_blight_026_clean_L0.png,gemini-3.5-flash-lite,Grape: esca (black measles),grape_esca,0.85,True,5.3,2026-10-30T15:40:59
+L1/grape_leaf_blight/grape_leaf_blight_026_low_light_L1.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.8,True,4.0,2026-10-30T15:41:03
+L2/grape_leaf_blight/grape_leaf_blight_026_low_light_L2.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.35,False,3.7,2026-10-30T15:41:07
+L3/grape_leaf_blight/grape_leaf_blight_026_low_light_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,4.8,2026-10-30T15:41:12
+L0/rice_stem_borer/rice_stem_borer_013_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,4.0,2026-10-30T15:41:16
+L1/rice_stem_borer/rice_stem_borer_013_low_light_L1.png,gemini-3.5-flash-lite,Rice: sheath blight,rice_sheath_blight,0.85,True,5.1,2026-10-30T15:41:21
+L2/rice_stem_borer/rice_stem_borer_013_low_light_L2.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,3.6,2026-10-30T15:41:25
+L3/rice_stem_borer/rice_stem_borer_013_low_light_L3.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.45,False,4.0,2026-10-30T15:41:29
+L0/jute_dieback/jute_dieback_023_clean_L0.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,4.3,2026-10-30T15:41:33
+L1/jute_dieback/jute_dieback_023_motion_blur_L1.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.75,True,4.8,2026-10-30T15:41:38
+L2/jute_dieback/jute_dieback_023_motion_blur_L2.png,gemini-3.5-flash-lite,Jute: healthy,jute_healthy,0.1,False,4.3,2026-10-30T15:41:42
+L3/jute_dieback/jute_dieback_023_motion_blur_L3.png,gemini-3.5-flash-lite,Rice: healthy,rice_healthy,0.1,False,4.0,2026-10-30T15:41:46
+L0/jute_dieback/jute_dieback_021_clean_L0.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,4.6,2026-10-30T15:41:50
+L1/jute_dieback/jute_dieback_021_gaussian_noise_L1.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,4.2,2026-10-30T15:41:55
+L2/jute_dieback/jute_dieback_021_gaussian_noise_L2.png,gemini-3.5-flash-lite,Jute: stem rot,jute_stem_rot,0.45,False,5.0,2026-10-30T15:42:00
+L3/jute_dieback/jute_dieback_021_gaussian_noise_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.0,False,3.1,2026-10-30T15:42:03
+L0/potato_late_blight/potato_late_blight_018_clean_L0.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.95,True,5.1,2026-10-30T15:42:08
+L1/potato_late_blight/potato_late_blight_018_jpeg_compression_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,4.4,2026-10-30T15:42:12
+L2/potato_late_blight/potato_late_blight_018_jpeg_compression_L2.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,3.5,2026-10-30T15:42:16
+L3/potato_late_blight/potato_late_blight_018_jpeg_compression_L3.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,4.7,2026-10-30T15:42:20
+L0/rice_stem_borer/rice_stem_borer_003_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,6.9,2026-10-30T15:42:27
+L1/rice_stem_borer/rice_stem_borer_003_jpeg_compression_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,1.9,2026-10-30T15:42:29
+L2/rice_stem_borer/rice_stem_borer_003_jpeg_compression_L2.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,5.9,2026-10-30T15:42:35
+L3/rice_stem_borer/rice_stem_borer_003_jpeg_compression_L3.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,5.6,2026-10-30T15:42:41
+L0/pear_leaf_spot/pear_leaf_spot_024_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,1.1,2026-10-30T15:42:42
+L1/pear_leaf_spot/pear_leaf_spot_024_motion_blur_L1.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,5.1,2026-10-30T15:42:47
+L2/pear_leaf_spot/pear_leaf_spot_024_motion_blur_L2.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.2,False,3.3,2026-10-30T15:42:50
+L3/pear_leaf_spot/pear_leaf_spot_024_motion_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,5.6,2026-10-30T15:42:56
+L0/pear_leaf_spot/pear_leaf_spot_022_clean_L0.png,gemini-3.5-flash-lite,Pear: rust,pear_rust,0.85,True,4.4,2026-10-30T15:43:00
+L1/pear_leaf_spot/pear_leaf_spot_022_gaussian_noise_L1.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,3.2,2026-10-30T15:43:04
+L2/pear_leaf_spot/pear_leaf_spot_022_gaussian_noise_L2.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.4,False,7.0,2026-10-30T15:43:11
+L3/pear_leaf_spot/pear_leaf_spot_022_gaussian_noise_L3.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.1,False,2.7,2026-10-30T15:43:13
+L0/rice_stem_borer/rice_stem_borer_026_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,4.0,2026-10-30T15:43:17
+L1/rice_stem_borer/rice_stem_borer_026_gaussian_noise_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,7.2,2026-10-30T15:43:25
+L2/rice_stem_borer/rice_stem_borer_026_gaussian_noise_L2.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,2.3,2026-10-30T15:43:27
+L3/rice_stem_borer/rice_stem_borer_026_gaussian_noise_L3.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,2.9,2026-10-30T15:43:30
+L0/apple_scab/apple_scab_021_clean_L0.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.85,True,5.2,2026-10-30T15:43:35
+L1/apple_scab/apple_scab_021_defocus_blur_L1.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.45,False,3.3,2026-10-30T15:43:38
+L2/apple_scab/apple_scab_021_defocus_blur_L2.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.3,False,4.7,2026-10-30T15:43:43
+L3/apple_scab/apple_scab_021_defocus_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,6.4,2026-10-30T15:43:49
+L0/pear_leaf_spot/pear_leaf_spot_019_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,3.6,2026-10-30T15:43:53
+L1/pear_leaf_spot/pear_leaf_spot_019_gaussian_noise_L1.png,gemini-3.5-flash-lite,Pear: healthy,pear_healthy,0.85,True,5.2,2026-10-30T15:43:58
+L2/pear_leaf_spot/pear_leaf_spot_019_gaussian_noise_L2.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.85,True,3.5,2026-10-30T15:44:02
+L3/pear_leaf_spot/pear_leaf_spot_019_gaussian_noise_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.2,False,3.1,2026-10-30T15:44:05
+L0/grape_leaf_blight/grape_leaf_blight_011_clean_L0.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,3.7,2026-10-30T15:44:09
+L1/grape_leaf_blight/grape_leaf_blight_011_low_light_L1.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,5.3,2026-10-30T15:44:14
+L2/grape_leaf_blight/grape_leaf_blight_011_low_light_L2.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.82,True,5.1,2026-10-30T15:44:19
+L3/grape_leaf_blight/grape_leaf_blight_011_low_light_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,2.4,2026-10-30T15:44:21
+L0/jute_mosaic/jute_mosaic_014_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,7.2,2026-10-30T15:44:29
+L1/jute_mosaic/jute_mosaic_014_defocus_blur_L1.png,gemini-3.5-flash-lite,Black gram: Cercospora leaf spot,black_gram_cercospora_leaf_spot,0.85,True,1.1,2026-10-30T15:44:30
+L2/jute_mosaic/jute_mosaic_014_defocus_blur_L2.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.3,False,5.4,2026-10-30T15:44:35
+L3/jute_mosaic/jute_mosaic_014_defocus_blur_L3.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.4,False,3.8,2026-10-30T15:44:39
+L0/jute_dieback/jute_dieback_013_clean_L0.png,gemini-3.5-flash-lite,Jute: healthy,jute_healthy,0.85,True,6.0,2026-10-30T15:44:45
+L1/jute_dieback/jute_dieback_013_jpeg_compression_L1.png,gemini-3.5-flash-lite,Jute: mosaic,jute_mosaic,0.35,False,3.2,2026-10-30T15:44:48
+L2/jute_dieback/jute_dieback_013_jpeg_compression_L2.png,gemini-3.5-flash-lite,Jute: healthy,jute_healthy,0.35,False,5.0,2026-10-30T15:44:53
+L3/jute_dieback/jute_dieback_013_jpeg_compression_L3.png,gemini-3.5-flash-lite,Grape: healthy,grape_healthy,0.4,False,3.9,2026-10-30T15:44:57
+L0/pear_leaf_spot/pear_leaf_spot_030_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,6.6,2026-10-30T15:45:03
+L1/pear_leaf_spot/pear_leaf_spot_030_defocus_blur_L1.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.45,False,3.4,2026-10-30T15:45:07
+L2/pear_leaf_spot/pear_leaf_spot_030_defocus_blur_L2.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.2,False,2.0,2026-10-30T15:45:09
+L3/pear_leaf_spot/pear_leaf_spot_030_defocus_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,6.8,2026-10-30T15:45:16
+L0/jute_dieback/jute_dieback_020_clean_L0.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,3.7,2026-10-30T15:45:19
+L1/jute_dieback/jute_dieback_020_jpeg_compression_L1.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,7.9,2026-10-30T15:45:27
+L2/jute_dieback/jute_dieback_020_jpeg_compression_L2.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,8.4,2026-10-30T15:45:36
+L3/jute_dieback/jute_dieback_020_jpeg_compression_L3.png,gemini-3.5-flash-lite,Jute: stem rot,jute_stem_rot,0.85,True,2.0,2026-10-30T15:45:38
+L0/potato_late_blight/potato_late_blight_025_clean_L0.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.95,True,7.0,2026-10-30T15:45:45
+L1/potato_late_blight/potato_late_blight_025_motion_blur_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.95,True,14.4,2026-10-30T15:45:59
+L2/potato_late_blight/potato_late_blight_025_motion_blur_L2.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,6.1,2026-10-30T15:46:05
+L3/potato_late_blight/potato_late_blight_025_motion_blur_L3.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.35,False,10.3,2026-10-30T15:46:15
+L0/rice_stem_borer/rice_stem_borer_001_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,6.6,2026-10-30T15:46:22
+L1/rice_stem_borer/rice_stem_borer_001_motion_blur_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,3.5,2026-10-30T15:46:25
+L2/rice_stem_borer/rice_stem_borer_001_motion_blur_L2.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.3,False,2.7,2026-10-30T15:46:28
+L3/rice_stem_borer/rice_stem_borer_001_motion_blur_L3.png,gemini-3.5-flash-lite,Rice: healthy,rice_healthy,0.1,False,7.9,2026-10-30T15:46:36
+L0/grape_leaf_blight/grape_leaf_blight_004_clean_L0.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,2.1,2026-10-30T15:46:38
+L1/grape_leaf_blight/grape_leaf_blight_004_low_light_L1.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.82,True,3.7,2026-10-30T15:46:42
+L2/grape_leaf_blight/grape_leaf_blight_004_low_light_L2.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.52,False,9.9,2026-10-30T15:46:52
+L3/grape_leaf_blight/grape_leaf_blight_004_low_light_L3.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.1,False,2.1,2026-10-30T15:46:54
+L0/potato_late_blight/potato_late_blight_013_clean_L0.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.95,True,3.2,2026-10-30T15:46:57
+L1/potato_late_blight/potato_late_blight_013_motion_blur_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,21.5,2026-10-30T15:47:18
+L2/potato_late_blight/potato_late_blight_013_motion_blur_L2.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.3,False,6.7,2026-10-30T15:47:25
+L3/potato_late_blight/potato_late_blight_013_motion_blur_L3.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.2,False,2.9,2026-10-30T15:47:28
+L0/grape_leaf_blight/grape_leaf_blight_003_clean_L0.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,4.1,2026-10-30T15:47:32
+L1/grape_leaf_blight/grape_leaf_blight_003_gaussian_noise_L1.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,6.1,2026-10-30T15:47:38
+L2/grape_leaf_blight/grape_leaf_blight_003_gaussian_noise_L2.png,gemini-3.5-flash-lite,Grape: healthy,grape_healthy,0.45,False,0.9,2026-10-30T15:47:39
+L3/grape_leaf_blight/grape_leaf_blight_003_gaussian_noise_L3.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.1,False,4.9,2026-10-30T15:47:44
+L0/potato_late_blight/potato_late_blight_016_clean_L0.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,6.4,2026-10-30T15:47:51
+L1/potato_late_blight/potato_late_blight_016_low_light_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,4.1,2026-10-30T15:47:55
+L2/potato_late_blight/potato_late_blight_016_low_light_L2.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.45,False,2.0,2026-10-30T15:47:57
+L3/potato_late_blight/potato_late_blight_016_low_light_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,5.5,2026-10-30T15:48:02
+L0/potato_late_blight/potato_late_blight_010_clean_L0.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.95,True,2.7,2026-10-30T15:48:05
+L1/potato_late_blight/potato_late_blight_010_gaussian_noise_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,4.3,2026-10-30T15:48:09
+L2/potato_late_blight/potato_late_blight_010_gaussian_noise_L2.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.45,False,4.4,2026-10-30T15:48:14
+L3/potato_late_blight/potato_late_blight_010_gaussian_noise_L3.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.1,False,6.4,2026-10-30T15:48:20
+L0/jute_mosaic/jute_mosaic_023_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,3.2,2026-10-30T15:48:23
+L1/jute_mosaic/jute_mosaic_023_gaussian_noise_L1.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.65,True,5.8,2026-10-30T15:48:29
+L2/jute_mosaic/jute_mosaic_023_gaussian_noise_L2.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.35,False,4.3,2026-10-30T15:48:33
+L3/jute_mosaic/jute_mosaic_023_gaussian_noise_L3.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.1,False,4.4,2026-10-30T15:48:38
+L0/potato_late_blight/potato_late_blight_002_clean_L0.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.95,True,4.7,2026-10-30T15:48:42
+L1/potato_late_blight/potato_late_blight_002_defocus_blur_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.92,True,1.6,2026-10-30T15:48:44
+L2/potato_late_blight/potato_late_blight_002_defocus_blur_L2.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.55,False,3.9,2026-10-30T15:48:48
+L3/potato_late_blight/potato_late_blight_002_defocus_blur_L3.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.45,False,4.1,2026-10-30T15:48:52
+L0/pear_leaf_spot/pear_leaf_spot_035_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,6.6,2026-10-30T15:48:59
+L1/pear_leaf_spot/pear_leaf_spot_035_defocus_blur_L1.png,gemini-3.5-flash-lite,Pear: healthy,pear_healthy,0.4,False,9.8,2026-10-30T15:49:08
+L2/pear_leaf_spot/pear_leaf_spot_035_defocus_blur_L2.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.2,False,1.0,2026-10-30T15:49:09
+L3/pear_leaf_spot/pear_leaf_spot_035_defocus_blur_L3.png,gemini-3.5-flash-lite,Grape: healthy,grape_healthy,0.1,False,4.3,2026-10-30T15:49:14
+L0/jute_mosaic/jute_mosaic_009_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,8.4,2026-10-30T15:49:22
+L1/jute_mosaic/jute_mosaic_009_defocus_blur_L1.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,3.2,2026-10-30T15:49:25
+L2/jute_mosaic/jute_mosaic_009_defocus_blur_L2.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.4,False,3.8,2026-10-30T15:49:29
+L3/jute_mosaic/jute_mosaic_009_defocus_blur_L3.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.1,False,4.7,2026-10-30T15:49:34
+L0/rice_stem_borer/rice_stem_borer_016_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,2.4,2026-10-30T15:49:36
+L1/rice_stem_borer/rice_stem_borer_016_defocus_blur_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,5.0,2026-10-30T15:49:41
+L2/rice_stem_borer/rice_stem_borer_016_defocus_blur_L2.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.35,False,4.4,2026-10-30T15:49:46
+L3/rice_stem_borer/rice_stem_borer_016_defocus_blur_L3.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.45,False,4.9,2026-10-30T15:49:50
+L0/apple_scab/apple_scab_028_clean_L0.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.85,True,3.1,2026-10-30T15:49:54
+L1/apple_scab/apple_scab_028_jpeg_compression_L1.png,gemini-3.5-flash-lite,Apple: powdery mildew,apple_powdery_mildew,0.85,True,5.4,2026-10-30T15:49:59
+L2/apple_scab/apple_scab_028_jpeg_compression_L2.png,gemini-3.5-flash-lite,Apple: powdery mildew,apple_powdery_mildew,0.85,True,3.3,2026-10-30T15:50:02
+L3/apple_scab/apple_scab_028_jpeg_compression_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.85,True,3.6,2026-10-30T15:50:06
+L0/jute_mosaic/jute_mosaic_025_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,6.0,2026-10-30T15:50:12
+L1/jute_mosaic/jute_mosaic_025_gaussian_noise_L1.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,2.9,2026-10-30T15:50:15
+L2/jute_mosaic/jute_mosaic_025_gaussian_noise_L2.png,gemini-3.5-flash-lite,Black gram: Cercospora leaf spot,black_gram_cercospora_leaf_spot,0.85,True,5.7,2026-10-30T15:50:20
+L3/jute_mosaic/jute_mosaic_025_gaussian_noise_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,4.2,2026-10-30T15:50:25
+L0/pear_leaf_spot/pear_leaf_spot_013_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,2.8,2026-10-30T15:50:28
+L1/pear_leaf_spot/pear_leaf_spot_013_gaussian_noise_L1.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.75,True,5.1,2026-10-30T15:50:33
+L2/pear_leaf_spot/pear_leaf_spot_013_gaussian_noise_L2.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.85,True,3.6,2026-10-30T15:50:36
+L3/pear_leaf_spot/pear_leaf_spot_013_gaussian_noise_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.4,False,4.4,2026-10-30T15:50:41
+L0/pear_leaf_spot/pear_leaf_spot_026_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,7.6,2026-10-30T15:50:48
+L1/pear_leaf_spot/pear_leaf_spot_026_defocus_blur_L1.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.45,False,3.2,2026-10-30T15:50:51
+L2/pear_leaf_spot/pear_leaf_spot_026_defocus_blur_L2.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.2,False,4.6,2026-10-30T15:50:56
+L3/pear_leaf_spot/pear_leaf_spot_026_defocus_blur_L3.png,gemini-3.5-flash-lite,Grape: healthy,grape_healthy,0.1,False,3.0,2026-10-30T15:50:59
+L0/rice_stem_borer/rice_stem_borer_025_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,3.8,2026-10-30T15:51:03
+L1/rice_stem_borer/rice_stem_borer_025_gaussian_noise_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,7.5,2026-10-30T15:51:10
+L2/rice_stem_borer/rice_stem_borer_025_gaussian_noise_L2.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,4.4,2026-10-30T15:51:15
+L3/rice_stem_borer/rice_stem_borer_025_gaussian_noise_L3.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.45,False,3.8,2026-10-30T15:51:19
+L0/rice_stem_borer/rice_stem_borer_020_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,1.8,2026-10-30T15:51:20
+L1/rice_stem_borer/rice_stem_borer_020_low_light_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,4.1,2026-10-30T15:51:25
+L2/rice_stem_borer/rice_stem_borer_020_low_light_L2.png,gemini-3.5-flash-lite,Rice: blast,rice_blast,0.85,True,7.5,2026-10-30T15:51:32
+L3/rice_stem_borer/rice_stem_borer_020_low_light_L3.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.45,False,1.0,2026-10-30T15:51:33
+L0/grape_leaf_blight/grape_leaf_blight_029_clean_L0.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,8.4,2026-10-30T15:51:42
+L1/grape_leaf_blight/grape_leaf_blight_029_gaussian_noise_L1.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.85,True,1.2,2026-10-30T15:51:43
+L2/grape_leaf_blight/grape_leaf_blight_029_gaussian_noise_L2.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,6.5,2026-10-30T15:51:49
+L3/grape_leaf_blight/grape_leaf_blight_029_gaussian_noise_L3.png,gemini-3.5-flash-lite,Grape: healthy,grape_healthy,0.15,False,2.0,2026-10-30T15:51:51
+L0/apple_scab/apple_scab_027_clean_L0.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,19.3,2026-10-30T15:52:10
+L1/apple_scab/apple_scab_027_jpeg_compression_L1.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,1.0,2026-10-30T15:52:11
+L2/apple_scab/apple_scab_027_jpeg_compression_L2.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,30.6,2026-10-30T15:52:42
+L3/apple_scab/apple_scab_027_jpeg_compression_L3.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.85,True,2.3,2026-10-30T15:52:44
+L0/jute_mosaic/jute_mosaic_011_clean_L0.png,gemini-3.5-flash-lite,Jute: mosaic,jute_mosaic,0.85,True,5.3,2026-10-30T15:52:50
+L1/jute_mosaic/jute_mosaic_011_jpeg_compression_L1.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,1.9,2026-10-30T15:52:52
+L2/jute_mosaic/jute_mosaic_011_jpeg_compression_L2.png,gemini-3.5-flash-lite,Black gram: Cercospora leaf spot,black_gram_cercospora_leaf_spot,0.85,True,5.7,2026-10-30T15:52:57
+L3/jute_mosaic/jute_mosaic_011_jpeg_compression_L3.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,4.2,2026-10-30T15:53:01
+L0/jute_dieback/jute_dieback_022_clean_L0.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,8.1,2026-10-30T15:53:10
+L1/jute_dieback/jute_dieback_022_jpeg_compression_L1.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,2.3,2026-10-30T15:53:12
+L2/jute_dieback/jute_dieback_022_jpeg_compression_L2.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,3.7,2026-10-30T15:53:16
+L3/jute_dieback/jute_dieback_022_jpeg_compression_L3.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.35,False,5.6,2026-10-30T15:53:21
+L0/jute_dieback/jute_dieback_005_clean_L0.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,3.8,2026-10-30T15:53:25
+L1/jute_dieback/jute_dieback_005_gaussian_noise_L1.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.65,True,5.2,2026-10-30T15:53:30
+L2/jute_dieback/jute_dieback_005_gaussian_noise_L2.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.45,False,5.1,2026-10-30T15:53:35
+L3/jute_dieback/jute_dieback_005_gaussian_noise_L3.png,gemini-3.5-flash-lite,Black gram: healthy,black_gram_healthy,0.05,False,1.4,2026-10-30T15:53:37
+L0/potato_late_blight/potato_late_blight_021_clean_L0.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.9,True,8.5,2026-10-30T15:53:45
+L1/potato_late_blight/potato_late_blight_021_motion_blur_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.92,True,1.6,2026-10-30T15:53:47
+L2/potato_late_blight/potato_late_blight_021_motion_blur_L2.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.45,False,4.4,2026-10-30T15:53:51
+L3/potato_late_blight/potato_late_blight_021_motion_blur_L3.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.2,False,3.7,2026-10-30T15:53:55
+L0/rice_stem_borer/rice_stem_borer_008_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,4.4,2026-10-30T15:53:59
+L1/rice_stem_borer/rice_stem_borer_008_motion_blur_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,5.1,2026-10-30T15:54:05
+L2/rice_stem_borer/rice_stem_borer_008_motion_blur_L2.png,gemini-3.5-flash-lite,Rice: healthy,rice_healthy,0.2,False,5.8,2026-10-30T15:54:10
+L3/rice_stem_borer/rice_stem_borer_008_motion_blur_L3.png,gemini-3.5-flash-lite,Rice: healthy,rice_healthy,0.1,False,3.0,2026-10-30T15:54:13
+L0/pear_leaf_spot/pear_leaf_spot_002_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,3.1,2026-10-30T15:54:16
+L1/pear_leaf_spot/pear_leaf_spot_002_low_light_L1.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,3.7,2026-10-30T15:54:20
+L2/pear_leaf_spot/pear_leaf_spot_002_low_light_L2.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.65,True,5.0,2026-10-30T15:54:25
+L3/pear_leaf_spot/pear_leaf_spot_002_low_light_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.35,False,3.8,2026-10-30T15:54:29
+L0/pear_leaf_spot/pear_leaf_spot_007_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,5.3,2026-10-30T15:54:34
+L1/pear_leaf_spot/pear_leaf_spot_007_jpeg_compression_L1.png,gemini-3.5-flash-lite,Pear: healthy,pear_healthy,0.85,True,3.6,2026-10-30T15:54:38
+L2/pear_leaf_spot/pear_leaf_spot_007_jpeg_compression_L2.png,gemini-3.5-flash-lite,Pear: healthy,pear_healthy,0.85,True,4.8,2026-10-30T15:54:43
+L3/pear_leaf_spot/pear_leaf_spot_007_jpeg_compression_L3.png,gemini-3.5-flash-lite,Pear: healthy,pear_healthy,0.85,True,4.8,2026-10-30T15:54:47
+L0/grape_leaf_blight/grape_leaf_blight_014_clean_L0.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,2.8,2026-10-30T15:54:50
+L1/grape_leaf_blight/grape_leaf_blight_014_gaussian_noise_L1.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,5.5,2026-10-30T15:54:56
+L2/grape_leaf_blight/grape_leaf_blight_014_gaussian_noise_L2.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.35,False,4.5,2026-10-30T15:55:00
+L3/grape_leaf_blight/grape_leaf_blight_014_gaussian_noise_L3.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.35,False,6.2,2026-10-30T15:55:07
+L0/jute_mosaic/jute_mosaic_030_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,2.3,2026-10-30T15:55:09
+L1/jute_mosaic/jute_mosaic_030_low_light_L1.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,3.9,2026-10-30T15:55:13
+L2/jute_mosaic/jute_mosaic_030_low_light_L2.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.45,False,5.7,2026-10-30T15:55:18
+L3/jute_mosaic/jute_mosaic_030_low_light_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.05,False,6.9,2026-10-30T15:55:25
+L0/grape_leaf_blight/grape_leaf_blight_028_clean_L0.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,3.3,2026-10-30T15:55:29
+L1/grape_leaf_blight/grape_leaf_blight_028_motion_blur_L1.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,6.2,2026-10-30T15:55:35
+L2/grape_leaf_blight/grape_leaf_blight_028_motion_blur_L2.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.4,False,2.0,2026-10-30T15:55:37
+L3/grape_leaf_blight/grape_leaf_blight_028_motion_blur_L3.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.2,False,6.1,2026-10-30T15:55:43
+L0/potato_late_blight/potato_late_blight_003_clean_L0.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.95,True,4.6,2026-10-30T15:55:48
+L1/potato_late_blight/potato_late_blight_003_motion_blur_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.95,True,3.8,2026-10-30T15:55:51
+L2/potato_late_blight/potato_late_blight_003_motion_blur_L2.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.45,False,4.4,2026-10-30T15:55:56
+L3/potato_late_blight/potato_late_blight_003_motion_blur_L3.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.25,False,1.4,2026-10-30T15:55:57
+L0/pear_leaf_spot/pear_leaf_spot_021_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,4.8,2026-10-30T15:56:02
+L1/pear_leaf_spot/pear_leaf_spot_021_defocus_blur_L1.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.65,False,4.3,2026-10-30T15:56:06
+L2/pear_leaf_spot/pear_leaf_spot_021_defocus_blur_L2.png,gemini-3.5-flash-lite,Grape: healthy,grape_healthy,0.4,False,4.3,2026-10-30T15:56:11
+L3/pear_leaf_spot/pear_leaf_spot_021_defocus_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.2,False,4.4,2026-10-30T15:56:15
+L0/potato_late_blight/potato_late_blight_008_clean_L0.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.95,True,6.0,2026-10-30T15:56:21
+L1/potato_late_blight/potato_late_blight_008_low_light_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,3.5,2026-10-30T15:56:24
+L2/potato_late_blight/potato_late_blight_008_low_light_L2.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.15,False,4.5,2026-10-30T15:56:29
+L3/potato_late_blight/potato_late_blight_008_low_light_L3.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.2,False,4.3,2026-10-30T15:56:33
+L0/grape_leaf_blight/grape_leaf_blight_010_clean_L0.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,6.7,2026-10-30T15:56:40
+L1/grape_leaf_blight/grape_leaf_blight_010_gaussian_noise_L1.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,2.8,2026-10-30T15:56:43
+L2/grape_leaf_blight/grape_leaf_blight_010_gaussian_noise_L2.png,gemini-3.5-flash-lite,Grape: healthy,grape_healthy,0.85,True,3.7,2026-10-30T15:56:47
+L3/grape_leaf_blight/grape_leaf_blight_010_gaussian_noise_L3.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.45,False,4.4,2026-10-30T15:56:51
+L0/grape_leaf_blight/grape_leaf_blight_030_clean_L0.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,4.2,2026-10-30T15:56:55
+L1/grape_leaf_blight/grape_leaf_blight_030_gaussian_noise_L1.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.85,True,3.0,2026-10-30T15:56:58
+L2/grape_leaf_blight/grape_leaf_blight_030_gaussian_noise_L2.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.85,True,7.0,2026-10-30T15:57:05
+L3/grape_leaf_blight/grape_leaf_blight_030_gaussian_noise_L3.png,gemini-3.5-flash-lite,Black gram: healthy,black_gram_healthy,0.1,False,4.1,2026-10-30T15:57:09
+L0/jute_dieback/jute_dieback_003_clean_L0.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,3.5,2026-10-30T15:57:13
+L1/jute_dieback/jute_dieback_003_low_light_L1.png,gemini-3.5-flash-lite,Black gram: yellow mosaic,black_gram_yellow_mosaic,0.85,True,6.4,2026-10-30T15:57:19
+L2/jute_dieback/jute_dieback_003_low_light_L2.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.45,False,2.6,2026-10-30T15:57:22
+L3/jute_dieback/jute_dieback_003_low_light_L3.png,gemini-3.5-flash-lite,Grape: healthy,grape_healthy,0.1,False,7.9,2026-10-30T15:57:30
+L0/potato_late_blight/potato_late_blight_011_clean_L0.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.95,True,7.3,2026-10-30T15:57:37
+L1/potato_late_blight/potato_late_blight_011_jpeg_compression_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,1.3,2026-10-30T15:57:38
+L2/potato_late_blight/potato_late_blight_011_jpeg_compression_L2.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,8.2,2026-10-30T15:57:46
+L3/potato_late_blight/potato_late_blight_011_jpeg_compression_L3.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,1.4,2026-10-30T15:57:48
+L0/apple_scab/apple_scab_016_clean_L0.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.85,True,4.5,2026-10-30T15:57:52
+L1/apple_scab/apple_scab_016_defocus_blur_L1.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.85,True,4.5,2026-10-30T15:57:57
+L2/apple_scab/apple_scab_016_defocus_blur_L2.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.4,False,3.5,2026-10-30T15:58:00
+L3/apple_scab/apple_scab_016_defocus_blur_L3.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.35,False,4.0,2026-10-30T15:58:04
+L0/apple_scab/apple_scab_006_clean_L0.png,gemini-3.5-flash-lite,Apple: powdery mildew,apple_powdery_mildew,0.85,True,8.3,2026-10-30T15:58:13
+L1/apple_scab/apple_scab_006_jpeg_compression_L1.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,3.9,2026-10-30T15:58:17
+L2/apple_scab/apple_scab_006_jpeg_compression_L2.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,2.7,2026-10-30T15:58:19
+L3/apple_scab/apple_scab_006_jpeg_compression_L3.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.35,False,3.1,2026-10-30T15:58:22
+L0/apple_scab/apple_scab_020_clean_L0.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,4.8,2026-10-30T15:58:27
+L1/apple_scab/apple_scab_020_jpeg_compression_L1.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.85,True,3.7,2026-10-30T15:58:31
+L2/apple_scab/apple_scab_020_jpeg_compression_L2.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,4.1,2026-10-30T15:58:35
+L3/apple_scab/apple_scab_020_jpeg_compression_L3.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.45,False,7.3,2026-10-30T15:58:42
+L0/jute_mosaic/jute_mosaic_018_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,6.4,2026-10-30T15:58:49
+L1/jute_mosaic/jute_mosaic_018_jpeg_compression_L1.png,gemini-3.5-flash-lite,Black gram: powdery mildew,black_gram_powdery_mildew,0.85,True,4.8,2026-10-30T15:58:53
+L2/jute_mosaic/jute_mosaic_018_jpeg_compression_L2.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,5.1,2026-10-30T15:58:59
+L3/jute_mosaic/jute_mosaic_018_jpeg_compression_L3.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.85,True,2.6,2026-10-30T15:59:01
+L0/jute_mosaic/jute_mosaic_028_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,3.7,2026-10-30T15:59:05
+L1/jute_mosaic/jute_mosaic_028_defocus_blur_L1.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.45,False,3.8,2026-10-30T15:59:09
+L2/jute_mosaic/jute_mosaic_028_defocus_blur_L2.png,gemini-3.5-flash-lite,Black gram: Cercospora leaf spot,black_gram_cercospora_leaf_spot,0.4,False,4.1,2026-10-30T15:59:13
+L3/jute_mosaic/jute_mosaic_028_defocus_blur_L3.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.45,False,11.1,2026-10-30T15:59:24
+L0/pear_leaf_spot/pear_leaf_spot_033_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,1.7,2026-10-30T15:59:26
+L1/pear_leaf_spot/pear_leaf_spot_033_jpeg_compression_L1.png,gemini-3.5-flash-lite,Pear: healthy,pear_healthy,0.85,True,4.6,2026-10-30T15:59:30
+L2/pear_leaf_spot/pear_leaf_spot_033_jpeg_compression_L2.png,gemini-3.5-flash-lite,Pear: healthy,pear_healthy,0.85,True,5.8,2026-10-30T15:59:36
+L3/pear_leaf_spot/pear_leaf_spot_033_jpeg_compression_L3.png,gemini-3.5-flash-lite,Pear: healthy,pear_healthy,0.85,True,7.0,2026-10-30T15:59:43
+L0/rice_stem_borer/rice_stem_borer_027_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,6.2,2026-10-30T15:59:49
+L1/rice_stem_borer/rice_stem_borer_027_gaussian_noise_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,4.2,2026-10-30T15:59:53
+L2/rice_stem_borer/rice_stem_borer_027_gaussian_noise_L2.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,4.4,2026-10-30T15:59:58
+L3/rice_stem_borer/rice_stem_borer_027_gaussian_noise_L3.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.1,False,4.5,2026-10-30T16:00:02
+L0/grape_leaf_blight/grape_leaf_blight_027_clean_L0.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,1.6,2026-10-30T16:00:04
+L1/grape_leaf_blight/grape_leaf_blight_027_jpeg_compression_L1.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,4.3,2026-10-30T16:00:08
+L2/grape_leaf_blight/grape_leaf_blight_027_jpeg_compression_L2.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,5.6,2026-10-30T16:00:14
+L3/grape_leaf_blight/grape_leaf_blight_027_jpeg_compression_L3.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,8.2,2026-10-30T16:00:22
+L0/apple_scab/apple_scab_024_clean_L0.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.85,True,14.1,2026-10-30T16:00:36
+L1/apple_scab/apple_scab_024_jpeg_compression_L1.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.85,True,10.8,2026-10-30T16:00:47
+L2/apple_scab/apple_scab_024_jpeg_compression_L2.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.85,True,13.3,2026-10-30T16:01:00
+L3/apple_scab/apple_scab_024_jpeg_compression_L3.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.85,True,23.4,2026-10-30T16:01:24
+L0/rice_stem_borer/rice_stem_borer_010_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,21.0,2026-10-30T16:01:44
+L1/rice_stem_borer/rice_stem_borer_010_motion_blur_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,2.7,2026-10-30T16:01:47
+L2/rice_stem_borer/rice_stem_borer_010_motion_blur_L2.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.35,False,4.2,2026-10-30T16:01:51
+L3/rice_stem_borer/rice_stem_borer_010_motion_blur_L3.png,gemini-3.5-flash-lite,Rice: healthy,rice_healthy,0.1,False,3.8,2026-10-30T16:01:55
+L0/pear_leaf_spot/pear_leaf_spot_008_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,4.2,2026-10-30T16:01:59
+L1/pear_leaf_spot/pear_leaf_spot_008_defocus_blur_L1.png,gemini-3.5-flash-lite,Pear: rust,pear_rust,0.4,False,3.2,2026-10-30T16:02:03
+L2/pear_leaf_spot/pear_leaf_spot_008_defocus_blur_L2.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,5.7,2026-10-30T16:02:08
+L3/pear_leaf_spot/pear_leaf_spot_008_defocus_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,3.9,2026-10-30T16:02:12
+L0/grape_leaf_blight/grape_leaf_blight_008_clean_L0.png,gemini-3.5-flash-lite,Grape: esca (black measles),grape_esca,0.85,True,13.0,2026-10-30T16:02:25
+L1/grape_leaf_blight/grape_leaf_blight_008_motion_blur_L1.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,1.3,2026-10-30T16:02:27
+L2/grape_leaf_blight/grape_leaf_blight_008_motion_blur_L2.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.85,True,5.0,2026-10-30T16:02:32
+L3/grape_leaf_blight/grape_leaf_blight_008_motion_blur_L3.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.35,False,4.4,2026-10-30T16:02:36
+L0/apple_scab/apple_scab_003_clean_L0.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.85,True,3.3,2026-10-30T16:02:39
+L1/apple_scab/apple_scab_003_motion_blur_L1.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.65,True,8.1,2026-10-30T16:02:47
+L2/apple_scab/apple_scab_003_motion_blur_L2.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.45,False,1.5,2026-10-30T16:02:49
+L3/apple_scab/apple_scab_003_motion_blur_L3.png,gemini-3.5-flash-lite,Grape: esca (black measles),grape_esca,0.1,False,4.1,2026-10-30T16:02:53
+L0/rice_stem_borer/rice_stem_borer_009_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.92,True,5.3,2026-10-30T16:02:58
+L1/rice_stem_borer/rice_stem_borer_009_defocus_blur_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.5,False,3.6,2026-10-30T16:03:02
+L2/rice_stem_borer/rice_stem_borer_009_defocus_blur_L2.png,gemini-3.5-flash-lite,Rice: bacterial leaf blight,rice_bacterial_leaf_blight,0.2,False,7.6,2026-10-30T16:03:09
+L3/rice_stem_borer/rice_stem_borer_009_defocus_blur_L3.png,gemini-3.5-flash-lite,Rice: brown spot,rice_brown_spot,0.15,False,2.4,2026-10-30T16:03:12
+L0/jute_mosaic/jute_mosaic_017_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,3.3,2026-10-30T16:03:15
+L1/jute_mosaic/jute_mosaic_017_gaussian_noise_L1.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.55,False,3.8,2026-10-30T16:03:19
+L2/jute_mosaic/jute_mosaic_017_gaussian_noise_L2.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.55,False,4.7,2026-10-30T16:03:24
+L3/jute_mosaic/jute_mosaic_017_gaussian_noise_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,4.3,2026-10-30T16:03:28
+L0/jute_dieback/jute_dieback_006_clean_L0.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,7.1,2026-10-30T16:03:35
+L1/jute_dieback/jute_dieback_006_low_light_L1.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.35,False,2.2,2026-10-30T16:03:37
+L2/jute_dieback/jute_dieback_006_low_light_L2.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.35,False,5.5,2026-10-30T16:03:43
+L3/jute_dieback/jute_dieback_006_low_light_L3.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.35,False,3.8,2026-10-30T16:03:47
+L0/rice_stem_borer/rice_stem_borer_012_clean_L0.png,gemini-3.5-flash-lite,Rice: sheath blight,rice_sheath_blight,0.85,True,5.7,2026-10-30T16:03:52
+L1/rice_stem_borer/rice_stem_borer_012_gaussian_noise_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,2.2,2026-10-30T16:03:54
+L2/rice_stem_borer/rice_stem_borer_012_gaussian_noise_L2.png,gemini-3.5-flash-lite,Rice: brown spot,rice_brown_spot,0.45,False,3.0,2026-10-30T16:03:57
+L3/rice_stem_borer/rice_stem_borer_012_gaussian_noise_L3.png,gemini-3.5-flash-lite,Rice: brown spot,rice_brown_spot,0.15,False,5.3,2026-10-30T16:04:03
+L0/rice_stem_borer/rice_stem_borer_011_clean_L0.png,gemini-3.5-flash-lite,Rice: bacterial leaf blight,rice_bacterial_leaf_blight,0.85,True,6.0,2026-10-30T16:04:09
+L1/rice_stem_borer/rice_stem_borer_011_gaussian_noise_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,2.9,2026-10-30T16:04:12
+L2/rice_stem_borer/rice_stem_borer_011_gaussian_noise_L2.png,gemini-3.5-flash-lite,Jute: stem rot,jute_stem_rot,0.85,True,5.8,2026-10-30T16:04:17
+L3/rice_stem_borer/rice_stem_borer_011_gaussian_noise_L3.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.1,False,1.7,2026-10-30T16:04:19
+L0/rice_stem_borer/rice_stem_borer_014_clean_L0.png,gemini-3.5-flash-lite,Rice: bacterial leaf blight,rice_bacterial_leaf_blight,0.85,True,7.1,2026-10-30T16:04:26
+L1/rice_stem_borer/rice_stem_borer_014_motion_blur_L1.png,gemini-3.5-flash-lite,Rice: bacterial leaf blight,rice_bacterial_leaf_blight,0.85,True,4.3,2026-10-30T16:04:31
+L2/rice_stem_borer/rice_stem_borer_014_motion_blur_L2.png,gemini-3.5-flash-lite,Rice: brown spot,rice_brown_spot,0.3,False,4.3,2026-10-30T16:04:35
+L3/rice_stem_borer/rice_stem_borer_014_motion_blur_L3.png,gemini-3.5-flash-lite,Rice: brown spot,rice_brown_spot,0.2,False,3.6,2026-10-30T16:04:39
+L0/apple_scab/apple_scab_012_clean_L0.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,4.7,2026-10-30T16:04:43
+L1/apple_scab/apple_scab_012_defocus_blur_L1.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,3.9,2026-10-30T16:04:47
+L2/apple_scab/apple_scab_012_defocus_blur_L2.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.45,False,2.1,2026-10-30T16:04:49
+L3/apple_scab/apple_scab_012_defocus_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.0,False,4.1,2026-10-30T16:04:53
+L0/jute_dieback/jute_dieback_027_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,5.7,2026-10-30T16:04:59
+L1/jute_dieback/jute_dieback_027_motion_blur_L1.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,2.7,2026-10-30T16:05:02
+L2/jute_dieback/jute_dieback_027_motion_blur_L2.png,gemini-3.5-flash-lite,Jute: stem rot,jute_stem_rot,0.2,False,4.8,2026-10-30T16:05:07
+L3/jute_dieback/jute_dieback_027_motion_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,4.5,2026-10-30T16:05:11
+L0/grape_leaf_blight/grape_leaf_blight_022_clean_L0.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.85,True,3.9,2026-10-30T16:05:15
+L1/grape_leaf_blight/grape_leaf_blight_022_motion_blur_L1.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,4.1,2026-10-30T16:05:19
+L2/grape_leaf_blight/grape_leaf_blight_022_motion_blur_L2.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.2,False,4.6,2026-10-30T16:05:24
+L3/grape_leaf_blight/grape_leaf_blight_022_motion_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,3.9,2026-10-30T16:05:28
+L0/pear_leaf_spot/pear_leaf_spot_025_clean_L0.png,gemini-3.5-flash-lite,Pear: rust,pear_rust,0.85,True,4.9,2026-10-30T16:05:32
+L1/pear_leaf_spot/pear_leaf_spot_025_motion_blur_L1.png,gemini-3.5-flash-lite,Pear: rust,pear_rust,0.85,True,5.4,2026-10-30T16:05:38
+L2/pear_leaf_spot/pear_leaf_spot_025_motion_blur_L2.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.4,False,3.1,2026-10-30T16:05:41
+L3/pear_leaf_spot/pear_leaf_spot_025_motion_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,4.9,2026-10-30T16:05:46
+L0/jute_dieback/jute_dieback_014_clean_L0.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,5.7,2026-10-30T16:05:51
+L1/jute_dieback/jute_dieback_014_gaussian_noise_L1.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,3.9,2026-10-30T16:05:55
+L2/jute_dieback/jute_dieback_014_gaussian_noise_L2.png,gemini-3.5-flash-lite,Grape: esca (black measles),grape_esca,0.35,False,5.1,2026-10-30T16:06:00
+L3/jute_dieback/jute_dieback_014_gaussian_noise_L3.png,gemini-3.5-flash-lite,Jute: stem rot,jute_stem_rot,0.1,False,3.9,2026-10-30T16:06:04
+L0/jute_dieback/jute_dieback_017_clean_L0.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,3.9,2026-10-30T16:06:08
+L1/jute_dieback/jute_dieback_017_defocus_blur_L1.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.45,False,4.9,2026-10-30T16:06:13
+L2/jute_dieback/jute_dieback_017_defocus_blur_L2.png,gemini-3.5-flash-lite,Jute: mosaic,jute_mosaic,0.1,False,3.5,2026-10-30T16:06:17
+L3/jute_dieback/jute_dieback_017_defocus_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,2.8,2026-10-30T16:06:19
+L0/grape_leaf_blight/grape_leaf_blight_017_clean_L0.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,4.2,2026-10-30T16:06:24
+L1/grape_leaf_blight/grape_leaf_blight_017_jpeg_compression_L1.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,3.9,2026-10-30T16:06:27
+L2/grape_leaf_blight/grape_leaf_blight_017_jpeg_compression_L2.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,4.5,2026-10-30T16:06:32
+L3/grape_leaf_blight/grape_leaf_blight_017_jpeg_compression_L3.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,4.4,2026-10-30T16:06:36
+L0/rice_stem_borer/rice_stem_borer_005_clean_L0.png,gemini-3.5-flash-lite,Rice: bacterial leaf blight,rice_bacterial_leaf_blight,0.85,True,6.2,2026-10-30T16:06:43
+L1/rice_stem_borer/rice_stem_borer_005_gaussian_noise_L1.png,gemini-3.5-flash-lite,Rice: bacterial leaf blight,rice_bacterial_leaf_blight,0.65,True,0,2026-10-31T15:18:10
+L2/rice_stem_borer/rice_stem_borer_005_gaussian_noise_L2.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,4.7,2026-10-31T15:18:15
+L3/rice_stem_borer/rice_stem_borer_005_gaussian_noise_L3.png,gemini-3.5-flash-lite,Rice: healthy,rice_healthy,0.35,False,3.7,2026-10-31T15:18:18
+L0/apple_scab/apple_scab_022_clean_L0.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,4.5,2026-10-31T15:18:23
+L1/apple_scab/apple_scab_022_motion_blur_L1.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,4.5,2026-10-31T15:18:28
+L2/apple_scab/apple_scab_022_motion_blur_L2.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,3.9,2026-10-31T15:18:31
+L3/apple_scab/apple_scab_022_motion_blur_L3.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.35,False,5.0,2026-10-31T15:18:36
+L0/pear_leaf_spot/pear_leaf_spot_017_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,4.0,2026-10-31T15:18:40
+L1/pear_leaf_spot/pear_leaf_spot_017_motion_blur_L1.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,4.1,2026-10-31T15:18:45
+L2/pear_leaf_spot/pear_leaf_spot_017_motion_blur_L2.png,gemini-3.5-flash-lite,Pear: rust,pear_rust,0.4,False,4.5,2026-10-31T15:18:49
+L3/pear_leaf_spot/pear_leaf_spot_017_motion_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,5.0,2026-10-31T15:18:54
+L0/jute_mosaic/jute_mosaic_001_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.8,True,3.0,2026-10-31T15:18:57
+L1/jute_mosaic/jute_mosaic_001_motion_blur_L1.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.65,True,4.2,2026-10-31T15:19:01
+L2/jute_mosaic/jute_mosaic_001_motion_blur_L2.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.2,False,4.2,2026-10-31T15:19:06
+L3/jute_mosaic/jute_mosaic_001_motion_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.05,False,4.5,2026-10-31T15:19:10
+L0/grape_leaf_blight/grape_leaf_blight_020_clean_L0.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.85,True,4.9,2026-10-31T15:19:15
+L1/grape_leaf_blight/grape_leaf_blight_020_jpeg_compression_L1.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,4.3,2026-10-31T15:19:19
+L2/grape_leaf_blight/grape_leaf_blight_020_jpeg_compression_L2.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.85,True,4.1,2026-10-31T15:19:23
+L3/grape_leaf_blight/grape_leaf_blight_020_jpeg_compression_L3.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,5.4,2026-10-31T15:19:29
+L0/grape_leaf_blight/grape_leaf_blight_016_clean_L0.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,2.5,2026-10-31T15:19:31
+L1/grape_leaf_blight/grape_leaf_blight_016_defocus_blur_L1.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,4.1,2026-10-31T15:19:35
+L2/grape_leaf_blight/grape_leaf_blight_016_defocus_blur_L2.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.45,False,4.6,2026-10-31T15:19:40
+L3/grape_leaf_blight/grape_leaf_blight_016_defocus_blur_L3.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.45,False,14.4,2026-10-31T15:19:54
+L0/apple_scab/apple_scab_008_clean_L0.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.9,True,1.8,2026-10-31T15:19:56
+L1/apple_scab/apple_scab_008_defocus_blur_L1.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.85,True,4.9,2026-10-31T15:20:01
+L2/apple_scab/apple_scab_008_defocus_blur_L2.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.85,True,4.3,2026-10-31T15:20:05
+L3/apple_scab/apple_scab_008_defocus_blur_L3.png,gemini-3.5-flash-lite,Apple: powdery mildew,apple_powdery_mildew,0.4,False,3.6,2026-10-31T15:20:09
+L0/rice_stem_borer/rice_stem_borer_024_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,3.7,2026-10-31T15:20:13
+L1/rice_stem_borer/rice_stem_borer_024_low_light_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.9,True,5.7,2026-10-31T15:20:18
+L2/rice_stem_borer/rice_stem_borer_024_low_light_L2.png,gemini-3.5-flash-lite,Rice: blast,rice_blast,0.85,True,4.5,2026-10-31T15:20:23
+L3/rice_stem_borer/rice_stem_borer_024_low_light_L3.png,gemini-3.5-flash-lite,Grape: esca (black measles),grape_esca,0.4,False,3.1,2026-10-31T15:20:26
+L0/apple_scab/apple_scab_018_clean_L0.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.85,True,4.2,2026-10-31T15:20:30
+L1/apple_scab/apple_scab_018_low_light_L1.png,gemini-3.5-flash-lite,Apple: powdery mildew,apple_powdery_mildew,0.85,True,4.4,2026-10-31T15:20:35
+L2/apple_scab/apple_scab_018_low_light_L2.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,4.9,2026-10-31T15:20:40
+L3/apple_scab/apple_scab_018_low_light_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,3.3,2026-10-31T15:20:43
+L0/potato_late_blight/potato_late_blight_023_clean_L0.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.95,True,5.0,2026-10-31T15:20:48
+L1/potato_late_blight/potato_late_blight_023_gaussian_noise_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,3.5,2026-10-31T15:20:51
+L2/potato_late_blight/potato_late_blight_023_gaussian_noise_L2.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.65,True,4.3,2026-10-31T15:20:56
+L3/potato_late_blight/potato_late_blight_023_gaussian_noise_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.2,False,4.8,2026-10-31T15:21:01
+L0/grape_leaf_blight/grape_leaf_blight_001_clean_L0.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.9,True,3.9,2026-10-31T15:21:04
+L1/grape_leaf_blight/grape_leaf_blight_001_motion_blur_L1.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,5.0,2026-10-31T15:21:09
+L2/grape_leaf_blight/grape_leaf_blight_001_motion_blur_L2.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.45,False,3.7,2026-10-31T15:21:13
+L3/grape_leaf_blight/grape_leaf_blight_001_motion_blur_L3.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.4,False,6.2,2026-10-31T15:21:19
+L0/jute_mosaic/jute_mosaic_006_clean_L0.png,gemini-3.5-flash-lite,Jute: mosaic,jute_mosaic,0.85,True,2.3,2026-10-31T15:21:22
+L1/jute_mosaic/jute_mosaic_006_low_light_L1.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.65,True,5.4,2026-10-31T15:21:27
+L2/jute_mosaic/jute_mosaic_006_low_light_L2.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.45,False,4.3,2026-10-31T15:21:31
+L3/jute_mosaic/jute_mosaic_006_low_light_L3.png,gemini-3.5-flash-lite,Grape: healthy,grape_healthy,0.2,False,3.1,2026-10-31T15:21:34
+L0/jute_dieback/jute_dieback_007_clean_L0.png,gemini-3.5-flash-lite,Jute: mosaic,jute_mosaic,0.85,True,5.2,2026-10-31T15:21:40
+L1/jute_dieback/jute_dieback_007_motion_blur_L1.png,gemini-3.5-flash-lite,Jute: healthy,jute_healthy,0.5,False,4.3,2026-10-31T15:21:44
+L2/jute_dieback/jute_dieback_007_motion_blur_L2.png,gemini-3.5-flash-lite,Jute: healthy,jute_healthy,0.1,False,3.2,2026-10-31T15:21:47
+L3/jute_dieback/jute_dieback_007_motion_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.05,False,7.3,2026-10-31T15:21:54
+L0/potato_late_blight/potato_late_blight_006_clean_L0.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.95,True,2.0,2026-10-31T15:21:56
+L1/potato_late_blight/potato_late_blight_006_gaussian_noise_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.95,True,7.2,2026-10-31T15:22:04
+L2/potato_late_blight/potato_late_blight_006_gaussian_noise_L2.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.82,True,2.7,2026-10-31T15:22:06
+L3/potato_late_blight/potato_late_blight_006_gaussian_noise_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.2,False,5.4,2026-10-31T15:22:12
+L0/grape_leaf_blight/grape_leaf_blight_024_clean_L0.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,2.6,2026-10-31T15:22:14
+L1/grape_leaf_blight/grape_leaf_blight_024_defocus_blur_L1.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.6,False,3.6,2026-10-31T15:22:18
+L2/grape_leaf_blight/grape_leaf_blight_024_defocus_blur_L2.png,gemini-3.5-flash-lite,Grape: esca (black measles),grape_esca,0.35,False,4.1,2026-10-31T15:22:22
+L3/grape_leaf_blight/grape_leaf_blight_024_defocus_blur_L3.png,gemini-3.5-flash-lite,Grape: healthy,grape_healthy,0.1,False,5.7,2026-10-31T15:22:28
+L0/jute_mosaic/jute_mosaic_021_clean_L0.png,gemini-3.5-flash-lite,Jute: mosaic,jute_mosaic,0.85,True,3.2,2026-10-31T15:22:31
+L1/jute_mosaic/jute_mosaic_021_low_light_L1.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.35,False,4.2,2026-10-31T15:22:35
+L2/jute_mosaic/jute_mosaic_021_low_light_L2.png,gemini-3.5-flash-lite,Potato: healthy,potato_healthy,0.4,False,5.5,2026-10-31T15:22:41
+L3/jute_mosaic/jute_mosaic_021_low_light_L3.png,gemini-3.5-flash-lite,Potato: healthy,potato_healthy,0.1,False,3.1,2026-10-31T15:22:44
+L0/jute_dieback/jute_dieback_009_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.82,True,4.5,2026-10-31T15:22:48
+L1/jute_dieback/jute_dieback_009_motion_blur_L1.png,gemini-3.5-flash-lite,Jute: stem rot,jute_stem_rot,0.45,False,3.9,2026-10-31T15:22:52
+L2/jute_dieback/jute_dieback_009_motion_blur_L2.png,gemini-3.5-flash-lite,Black gram: healthy,black_gram_healthy,0.1,False,5.1,2026-10-31T15:22:57
+L3/jute_dieback/jute_dieback_009_motion_blur_L3.png,gemini-3.5-flash-lite,Black gram: healthy,black_gram_healthy,0.1,False,4.0,2026-10-31T15:23:01
+L0/apple_scab/apple_scab_007_clean_L0.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,4.2,2026-10-31T15:23:05
+L1/apple_scab/apple_scab_007_motion_blur_L1.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.85,True,8.2,2026-10-31T15:23:14
+L2/apple_scab/apple_scab_007_motion_blur_L2.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.3,False,2.4,2026-10-31T15:23:16
+L3/apple_scab/apple_scab_007_motion_blur_L3.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.45,False,4.2,2026-10-31T15:23:20
+L0/potato_late_blight/potato_late_blight_017_clean_L0.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.85,True,3.6,2026-10-31T15:23:24
+L1/potato_late_blight/potato_late_blight_017_defocus_blur_L1.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.85,True,4.0,2026-10-31T15:23:28
+L2/potato_late_blight/potato_late_blight_017_defocus_blur_L2.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.5,False,5.0,2026-10-31T15:23:33
+L3/potato_late_blight/potato_late_blight_017_defocus_blur_L3.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.3,False,3.6,2026-10-31T15:23:36
+L0/grape_leaf_blight/grape_leaf_blight_009_clean_L0.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,5.3,2026-10-31T15:23:42
+L1/grape_leaf_blight/grape_leaf_blight_009_motion_blur_L1.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,3.2,2026-10-31T15:23:45
+L2/grape_leaf_blight/grape_leaf_blight_009_motion_blur_L2.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.72,True,4.2,2026-10-31T15:23:49
+L3/grape_leaf_blight/grape_leaf_blight_009_motion_blur_L3.png,gemini-3.5-flash-lite,Grape: healthy,grape_healthy,0.1,False,8.1,2026-10-31T15:23:57
+L0/jute_mosaic/jute_mosaic_013_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,1.6,2026-10-31T15:23:59
+L1/jute_mosaic/jute_mosaic_013_low_light_L1.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.45,False,4.9,2026-10-31T15:24:04
+L2/jute_mosaic/jute_mosaic_013_low_light_L2.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.45,False,4.4,2026-10-31T15:24:08
+L3/jute_mosaic/jute_mosaic_013_low_light_L3.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.1,False,5.4,2026-10-31T15:24:14
+L0/rice_stem_borer/rice_stem_borer_015_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,2.1,2026-10-31T15:24:16
+L1/rice_stem_borer/rice_stem_borer_015_low_light_L1.png,gemini-3.5-flash-lite,Rice: brown spot,rice_brown_spot,0.85,True,5.1,2026-10-31T15:24:21
+L2/rice_stem_borer/rice_stem_borer_015_low_light_L2.png,gemini-3.5-flash-lite,Rice: brown spot,rice_brown_spot,0.45,False,3.3,2026-10-31T15:24:24
+L3/rice_stem_borer/rice_stem_borer_015_low_light_L3.png,gemini-3.5-flash-lite,Jute: stem rot,jute_stem_rot,0.2,False,4.5,2026-10-31T15:24:29
+L0/jute_dieback/jute_dieback_002_clean_L0.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,5.2,2026-10-31T15:24:34
+L1/jute_dieback/jute_dieback_002_jpeg_compression_L1.png,gemini-3.5-flash-lite,Jute: mosaic,jute_mosaic,0.35,False,3.4,2026-10-31T15:24:37
+L2/jute_dieback/jute_dieback_002_jpeg_compression_L2.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.82,True,4.9,2026-10-31T15:24:42
+L3/jute_dieback/jute_dieback_002_jpeg_compression_L3.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,4.1,2026-10-31T15:24:46
+L0/rice_stem_borer/rice_stem_borer_017_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,3.9,2026-10-31T15:24:50
+L1/rice_stem_borer/rice_stem_borer_017_defocus_blur_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,6.5,2026-10-31T15:24:57
+L2/rice_stem_borer/rice_stem_borer_017_defocus_blur_L2.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.45,False,2.6,2026-10-31T15:24:59
+L3/rice_stem_borer/rice_stem_borer_017_defocus_blur_L3.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.8,False,5.0,2026-10-31T15:25:04
+L0/jute_mosaic/jute_mosaic_027_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,3.5,2026-10-31T15:25:08
+L1/jute_mosaic/jute_mosaic_027_jpeg_compression_L1.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,3.9,2026-10-31T15:25:12
+L2/jute_mosaic/jute_mosaic_027_jpeg_compression_L2.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,10.6,2026-10-31T15:25:22
+L3/jute_mosaic/jute_mosaic_027_jpeg_compression_L3.png,gemini-3.5-flash-lite,Jute: stem rot,jute_stem_rot,0.85,True,1.7,2026-10-31T15:25:24
+L0/jute_dieback/jute_dieback_024_clean_L0.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,4.0,2026-10-31T15:25:28
+L1/jute_dieback/jute_dieback_024_low_light_L1.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.25,False,4.7,2026-10-31T15:25:33
+L2/jute_dieback/jute_dieback_024_low_light_L2.png,gemini-3.5-flash-lite,Jute: healthy,jute_healthy,0.1,False,4.4,2026-10-31T15:25:37
+L3/jute_dieback/jute_dieback_024_low_light_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,4.1,2026-10-31T15:25:41
+L0/pear_leaf_spot/pear_leaf_spot_014_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,4.1,2026-10-31T15:25:45
+L1/pear_leaf_spot/pear_leaf_spot_014_defocus_blur_L1.png,gemini-3.5-flash-lite,Pear: rust,pear_rust,0.85,True,5.2,2026-10-31T15:25:50
+L2/pear_leaf_spot/pear_leaf_spot_014_defocus_blur_L2.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,3.3,2026-10-31T15:25:54
+L3/pear_leaf_spot/pear_leaf_spot_014_defocus_blur_L3.png,gemini-3.5-flash-lite,Grape: healthy,grape_healthy,0.1,False,4.8,2026-10-31T15:25:59
+L0/grape_leaf_blight/grape_leaf_blight_007_clean_L0.png,gemini-3.5-flash-lite,Grape: esca (black measles),grape_esca,0.85,True,4.6,2026-10-31T15:26:03
+L1/grape_leaf_blight/grape_leaf_blight_007_defocus_blur_L1.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.85,True,4.1,2026-10-31T15:26:07
+L2/grape_leaf_blight/grape_leaf_blight_007_defocus_blur_L2.png,gemini-3.5-flash-lite,Grape: esca (black measles),grape_esca,0.35,False,4.2,2026-10-31T15:26:11
+L3/grape_leaf_blight/grape_leaf_blight_007_defocus_blur_L3.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.45,False,3.8,2026-10-31T15:26:15
+L0/jute_dieback/jute_dieback_012_clean_L0.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.65,True,4.9,2026-10-31T15:26:20
+L1/jute_dieback/jute_dieback_012_low_light_L1.png,gemini-3.5-flash-lite,Jute: mosaic,jute_mosaic,0.35,False,4.6,2026-10-31T15:26:25
+L2/jute_dieback/jute_dieback_012_low_light_L2.png,gemini-3.5-flash-lite,Black gram: healthy,black_gram_healthy,0.1,False,3.0,2026-10-31T15:26:28
+L3/jute_dieback/jute_dieback_012_low_light_L3.png,gemini-3.5-flash-lite,Potato: healthy,potato_healthy,0.1,False,5.9,2026-10-31T15:26:34
+L0/grape_leaf_blight/grape_leaf_blight_019_clean_L0.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,3.6,2026-10-31T15:26:37
+L1/grape_leaf_blight/grape_leaf_blight_019_low_light_L1.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.82,True,3.5,2026-10-31T15:26:41
+L2/grape_leaf_blight/grape_leaf_blight_019_low_light_L2.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.85,True,5.6,2026-10-31T15:26:46
+L3/grape_leaf_blight/grape_leaf_blight_019_low_light_L3.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.1,False,3.1,2026-10-31T15:26:49
+L0/jute_mosaic/jute_mosaic_015_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,4.4,2026-10-31T15:26:54
+L1/jute_mosaic/jute_mosaic_015_defocus_blur_L1.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,9.2,2026-10-31T15:27:03
+L2/jute_mosaic/jute_mosaic_015_defocus_blur_L2.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.3,False,2.6,2026-10-31T15:27:06
+L3/jute_mosaic/jute_mosaic_015_defocus_blur_L3.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.45,False,3.5,2026-10-31T15:27:09
+L0/jute_dieback/jute_dieback_001_clean_L0.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,5.4,2026-10-31T15:27:15
+L1/jute_dieback/jute_dieback_001_low_light_L1.png,gemini-3.5-flash-lite,Black gram: healthy,black_gram_healthy,0.85,True,3.1,2026-10-31T15:27:18
+L2/jute_dieback/jute_dieback_001_low_light_L2.png,gemini-3.5-flash-lite,Jute: healthy,jute_healthy,0.3,False,4.1,2026-10-31T15:27:22
+L3/jute_dieback/jute_dieback_001_low_light_L3.png,gemini-3.5-flash-lite,Potato: healthy,potato_healthy,0.1,False,4.0,2026-10-31T15:27:26
+L0/jute_mosaic/jute_mosaic_012_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,4.5,2026-10-31T15:27:30
+L1/jute_mosaic/jute_mosaic_012_defocus_blur_L1.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.35,False,5.0,2026-10-31T15:27:35
+L2/jute_mosaic/jute_mosaic_012_defocus_blur_L2.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.45,False,3.9,2026-10-31T15:27:39
+L3/jute_mosaic/jute_mosaic_012_defocus_blur_L3.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.2,False,4.4,2026-10-31T15:27:44
+L0/grape_leaf_blight/grape_leaf_blight_021_clean_L0.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,3.7,2026-10-31T15:27:47
+L1/grape_leaf_blight/grape_leaf_blight_021_low_light_L1.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.65,True,5.6,2026-10-31T15:27:53
+L2/grape_leaf_blight/grape_leaf_blight_021_low_light_L2.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.2,False,3.8,2026-10-31T15:27:57
+L3/grape_leaf_blight/grape_leaf_blight_021_low_light_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.05,False,4.4,2026-10-31T15:28:01
+L0/jute_dieback/jute_dieback_010_clean_L0.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.82,True,5.0,2026-10-31T15:28:06
+L1/jute_dieback/jute_dieback_010_gaussian_noise_L1.png,gemini-3.5-flash-lite,Jute: stem rot,jute_stem_rot,0.65,True,3.4,2026-10-31T15:28:09
+L2/jute_dieback/jute_dieback_010_gaussian_noise_L2.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.45,False,6.4,2026-10-31T15:28:16
+L3/jute_dieback/jute_dieback_010_gaussian_noise_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.05,False,2.2,2026-10-31T15:28:18
+L0/potato_late_blight/potato_late_blight_004_clean_L0.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.95,True,3.8,2026-10-31T15:28:22
+L1/potato_late_blight/potato_late_blight_004_motion_blur_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,4.1,2026-10-31T15:28:26
+L2/potato_late_blight/potato_late_blight_004_motion_blur_L2.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,4.2,2026-10-31T15:28:30
+L3/potato_late_blight/potato_late_blight_004_motion_blur_L3.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.2,False,4.7,2026-10-31T15:28:35
+L0/apple_scab/apple_scab_014_clean_L0.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.9,True,8.2,2026-10-31T15:28:43
+L1/apple_scab/apple_scab_014_low_light_L1.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.65,True,2.4,2026-10-31T15:28:45
+L2/apple_scab/apple_scab_014_low_light_L2.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.4,False,4.3,2026-10-31T15:28:50
+L3/apple_scab/apple_scab_014_low_light_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,4.4,2026-10-31T15:28:54
+L0/jute_mosaic/jute_mosaic_024_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,3.2,2026-10-31T15:28:57
+L1/jute_mosaic/jute_mosaic_024_defocus_blur_L1.png,gemini-3.5-flash-lite,Black gram: Cercospora leaf spot,black_gram_cercospora_leaf_spot,0.5,False,4.4,2026-10-31T15:29:02
+L2/jute_mosaic/jute_mosaic_024_defocus_blur_L2.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.15,False,4.2,2026-10-31T15:29:06
+L3/jute_mosaic/jute_mosaic_024_defocus_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,5.3,2026-10-31T15:29:11
+L0/pear_leaf_spot/pear_leaf_spot_004_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,4.4,2026-10-31T15:29:16
+L1/pear_leaf_spot/pear_leaf_spot_004_jpeg_compression_L1.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,3.5,2026-10-31T15:29:19
+L2/pear_leaf_spot/pear_leaf_spot_004_jpeg_compression_L2.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,5.3,2026-10-31T15:29:24
+L3/pear_leaf_spot/pear_leaf_spot_004_jpeg_compression_L3.png,gemini-3.5-flash-lite,Pear: healthy,pear_healthy,0.85,True,3.2,2026-10-31T15:29:28
+L0/rice_stem_borer/rice_stem_borer_006_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,4.3,2026-10-31T15:29:32
+L1/rice_stem_borer/rice_stem_borer_006_jpeg_compression_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,4.7,2026-10-31T15:29:37
+L2/rice_stem_borer/rice_stem_borer_006_jpeg_compression_L2.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,4.3,2026-10-31T15:29:41
+L3/rice_stem_borer/rice_stem_borer_006_jpeg_compression_L3.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,3.5,2026-10-31T15:29:44
+L0/grape_leaf_blight/grape_leaf_blight_015_clean_L0.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.95,True,4.4,2026-10-31T15:29:49
+L1/grape_leaf_blight/grape_leaf_blight_015_low_light_L1.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,4.6,2026-10-31T15:29:53
+L2/grape_leaf_blight/grape_leaf_blight_015_low_light_L2.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.85,True,3.9,2026-10-31T15:29:57
+L3/grape_leaf_blight/grape_leaf_blight_015_low_light_L3.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.05,False,5.8,2026-10-31T15:30:03
+L0/pear_leaf_spot/pear_leaf_spot_031_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.9,True,2.9,2026-10-31T15:30:06
+L1/pear_leaf_spot/pear_leaf_spot_031_motion_blur_L1.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,4.7,2026-10-31T15:30:11
+L2/pear_leaf_spot/pear_leaf_spot_031_motion_blur_L2.png,gemini-3.5-flash-lite,Pear: rust,pear_rust,0.4,False,3.8,2026-10-31T15:30:15
+L3/pear_leaf_spot/pear_leaf_spot_031_motion_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,4.3,2026-10-31T15:30:19
+L0/apple_scab/apple_scab_009_clean_L0.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,4.1,2026-10-31T15:30:23
+L1/apple_scab/apple_scab_009_low_light_L1.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,4.6,2026-10-31T15:30:28
+L2/apple_scab/apple_scab_009_low_light_L2.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.15,False,4.0,2026-10-31T15:30:32
+L3/apple_scab/apple_scab_009_low_light_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.05,False,4.5,2026-10-31T15:30:36
+L0/jute_dieback/jute_dieback_018_clean_L0.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,4.5,2026-10-31T15:30:41
+L1/jute_dieback/jute_dieback_018_motion_blur_L1.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.65,False,3.6,2026-10-31T15:30:44
+L2/jute_dieback/jute_dieback_018_motion_blur_L2.png,gemini-3.5-flash-lite,Jute: healthy,jute_healthy,0.1,False,5.6,2026-10-31T15:30:50
+L3/jute_dieback/jute_dieback_018_motion_blur_L3.png,gemini-3.5-flash-lite,Jute: healthy,jute_healthy,0.1,False,3.3,2026-10-31T15:30:53
+L0/jute_mosaic/jute_mosaic_007_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,4.5,2026-10-31T15:30:58
+L1/jute_mosaic/jute_mosaic_007_jpeg_compression_L1.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,4.2,2026-10-31T15:31:02
+L2/jute_mosaic/jute_mosaic_007_jpeg_compression_L2.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,4.3,2026-10-31T15:31:06
+L3/jute_mosaic/jute_mosaic_007_jpeg_compression_L3.png,gemini-3.5-flash-lite,Jute: mosaic,jute_mosaic,0.9,True,5.3,2026-10-31T15:31:12
+L0/grape_leaf_blight/grape_leaf_blight_023_clean_L0.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,2.9,2026-10-31T15:31:14
+L1/grape_leaf_blight/grape_leaf_blight_023_defocus_blur_L1.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.45,False,4.3,2026-10-31T15:31:19
+L2/grape_leaf_blight/grape_leaf_blight_023_defocus_blur_L2.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.45,False,4.4,2026-10-31T15:31:23
+L3/grape_leaf_blight/grape_leaf_blight_023_defocus_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,4.6,2026-10-31T15:31:28
+L0/potato_late_blight/potato_late_blight_005_clean_L0.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.95,True,5.3,2026-10-31T15:31:33
+L1/potato_late_blight/potato_late_blight_005_defocus_blur_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,2.6,2026-10-31T15:31:36
+L2/potato_late_blight/potato_late_blight_005_defocus_blur_L2.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.4,False,4.9,2026-10-31T15:31:41
+L3/potato_late_blight/potato_late_blight_005_defocus_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,4.2,2026-10-31T15:31:45
+L0/apple_scab/apple_scab_023_clean_L0.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,4.6,2026-10-31T15:31:49
+L1/apple_scab/apple_scab_023_gaussian_noise_L1.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.85,True,3.8,2026-10-31T15:31:53
+L2/apple_scab/apple_scab_023_gaussian_noise_L2.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.45,False,5.0,2026-10-31T15:31:58
+L3/apple_scab/apple_scab_023_gaussian_noise_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,3.5,2026-10-31T15:32:02
+L0/rice_stem_borer/rice_stem_borer_004_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,4.5,2026-10-31T15:32:06
+L1/rice_stem_borer/rice_stem_borer_004_jpeg_compression_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,4.4,2026-10-31T15:32:11
+L2/rice_stem_borer/rice_stem_borer_004_jpeg_compression_L2.png,gemini-3.5-flash-lite,Rice: brown spot,rice_brown_spot,0.85,True,4.2,2026-10-31T15:32:15
+L3/rice_stem_borer/rice_stem_borer_004_jpeg_compression_L3.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,4.2,2026-10-31T15:32:19
+L0/apple_scab/apple_scab_005_clean_L0.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.85,True,4.1,2026-10-31T15:32:23
+L1/apple_scab/apple_scab_005_gaussian_noise_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,4.5,2026-10-31T15:32:28
+L2/apple_scab/apple_scab_005_gaussian_noise_L2.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.35,False,3.9,2026-10-31T15:32:31
+L3/apple_scab/apple_scab_005_gaussian_noise_L3.png,gemini-3.5-flash-lite,Apple: powdery mildew,apple_powdery_mildew,0.45,False,4.3,2026-10-31T15:32:36
+L0/jute_dieback/jute_dieback_030_clean_L0.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,6.0,2026-10-31T15:32:42
+L1/jute_dieback/jute_dieback_030_gaussian_noise_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.8,True,3.5,2026-10-31T15:32:45
+L2/jute_dieback/jute_dieback_030_gaussian_noise_L2.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.35,False,3.6,2026-10-31T15:32:49
+L3/jute_dieback/jute_dieback_030_gaussian_noise_L3.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.35,False,4.7,2026-10-31T15:32:54
+L0/pear_leaf_spot/pear_leaf_spot_028_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,3.7,2026-10-31T15:32:57
+L1/pear_leaf_spot/pear_leaf_spot_028_jpeg_compression_L1.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,4.7,2026-10-31T15:33:02
+L2/pear_leaf_spot/pear_leaf_spot_028_jpeg_compression_L2.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,5.8,2026-10-31T15:33:08
+L3/pear_leaf_spot/pear_leaf_spot_028_jpeg_compression_L3.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,2.5,2026-10-31T15:33:10
+L0/jute_dieback/jute_dieback_011_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,6.9,2026-10-31T15:33:17
+L1/jute_dieback/jute_dieback_011_defocus_blur_L1.png,gemini-3.5-flash-lite,Potato: healthy,potato_healthy,0.1,False,1.7,2026-10-31T15:33:19
+L2/jute_dieback/jute_dieback_011_defocus_blur_L2.png,gemini-3.5-flash-lite,Jute: healthy,jute_healthy,0.1,False,4.0,2026-10-31T15:33:23
+L3/jute_dieback/jute_dieback_011_defocus_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.05,False,6.0,2026-10-31T15:33:29
+L0/pear_leaf_spot/pear_leaf_spot_011_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,3.2,2026-10-31T15:33:32
+L1/pear_leaf_spot/pear_leaf_spot_011_low_light_L1.png,gemini-3.5-flash-lite,Pear: healthy,pear_healthy,0.85,True,3.7,2026-10-31T15:33:36
+L2/pear_leaf_spot/pear_leaf_spot_011_low_light_L2.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.45,False,5.8,2026-10-31T15:33:42
+L3/pear_leaf_spot/pear_leaf_spot_011_low_light_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.4,False,5.0,2026-10-31T15:33:47
+L0/apple_scab/apple_scab_019_clean_L0.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.75,True,2.9,2026-10-31T15:33:49
+L1/apple_scab/apple_scab_019_jpeg_compression_L1.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,4.1,2026-10-31T15:33:54
+L2/apple_scab/apple_scab_019_jpeg_compression_L2.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,3.8,2026-10-31T15:33:57
+L3/apple_scab/apple_scab_019_jpeg_compression_L3.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,5.3,2026-10-31T15:34:03
+L0/pear_leaf_spot/pear_leaf_spot_023_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,4.7,2026-10-31T15:34:07
+L1/pear_leaf_spot/pear_leaf_spot_023_low_light_L1.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,3.2,2026-10-31T15:34:10
+L2/pear_leaf_spot/pear_leaf_spot_023_low_light_L2.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.45,False,4.6,2026-10-31T15:34:15
+L3/pear_leaf_spot/pear_leaf_spot_023_low_light_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.3,False,3.6,2026-10-31T15:34:19
+L0/potato_late_blight/potato_late_blight_009_clean_L0.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.95,True,4.6,2026-10-31T15:34:23
+L1/potato_late_blight/potato_late_blight_009_low_light_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,3.9,2026-10-31T15:34:27
+L2/potato_late_blight/potato_late_blight_009_low_light_L2.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.65,False,4.9,2026-10-31T15:34:32
+L3/potato_late_blight/potato_late_blight_009_low_light_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.2,False,3.7,2026-10-31T15:34:36
+L0/jute_dieback/jute_dieback_015_clean_L0.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,4.6,2026-10-31T15:34:40
+L1/jute_dieback/jute_dieback_015_gaussian_noise_L1.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.65,True,5.8,2026-10-31T15:34:46
+L2/jute_dieback/jute_dieback_015_gaussian_noise_L2.png,gemini-3.5-flash-lite,Jute: stem rot,jute_stem_rot,0.45,False,3.2,2026-10-31T15:34:49
+L3/jute_dieback/jute_dieback_015_gaussian_noise_L3.png,gemini-3.5-flash-lite,Grape: healthy,grape_healthy,0.1,False,3.6,2026-10-31T15:34:53
+L0/jute_dieback/jute_dieback_016_clean_L0.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,5.6,2026-10-31T15:34:59
+L1/jute_dieback/jute_dieback_016_motion_blur_L1.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.8,True,3.9,2026-10-31T15:35:02
+L2/jute_dieback/jute_dieback_016_motion_blur_L2.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.2,False,3.4,2026-10-31T15:35:06
+L3/jute_dieback/jute_dieback_016_motion_blur_L3.png,gemini-3.5-flash-lite,Jute: healthy,jute_healthy,0.1,False,5.0,2026-10-31T15:35:11
+L0/apple_scab/apple_scab_017_clean_L0.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.85,True,5.1,2026-10-31T15:35:16
+L1/apple_scab/apple_scab_017_motion_blur_L1.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.65,True,3.1,2026-10-31T15:35:19
+L2/apple_scab/apple_scab_017_motion_blur_L2.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.2,False,3.9,2026-10-31T15:35:23
+L3/apple_scab/apple_scab_017_motion_blur_L3.png,gemini-3.5-flash-lite,Apple: powdery mildew,apple_powdery_mildew,0.4,False,5.3,2026-10-31T15:35:28
+L0/potato_late_blight/potato_late_blight_022_clean_L0.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.95,True,3.3,2026-10-31T15:35:32
+L1/potato_late_blight/potato_late_blight_022_jpeg_compression_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,4.7,2026-10-31T15:35:36
+L2/potato_late_blight/potato_late_blight_022_jpeg_compression_L2.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,3.8,2026-10-31T15:35:40
+L3/potato_late_blight/potato_late_blight_022_jpeg_compression_L3.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,6.4,2026-10-31T15:35:46
+L0/apple_scab/apple_scab_013_clean_L0.png,gemini-3.5-flash-lite,Apple: powdery mildew,apple_powdery_mildew,0.85,True,3.5,2026-10-31T15:35:50
+L1/apple_scab/apple_scab_013_low_light_L1.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.4,False,3.6,2026-10-31T15:35:53
+L2/apple_scab/apple_scab_013_low_light_L2.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.45,False,5.6,2026-10-31T15:35:59
+L3/apple_scab/apple_scab_013_low_light_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,3.1,2026-10-31T15:36:02
+L0/pear_leaf_spot/pear_leaf_spot_012_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,4.7,2026-10-31T15:36:07
+L1/pear_leaf_spot/pear_leaf_spot_012_motion_blur_L1.png,gemini-3.5-flash-lite,Pear: healthy,pear_healthy,0.85,True,3.8,2026-10-31T15:36:11
+L2/pear_leaf_spot/pear_leaf_spot_012_motion_blur_L2.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.2,False,4.3,2026-10-31T15:36:15
+L3/pear_leaf_spot/pear_leaf_spot_012_motion_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.2,False,3.6,2026-10-31T15:36:19
+L0/pear_leaf_spot/pear_leaf_spot_009_clean_L0.png,gemini-3.5-flash-lite,Pear: rust,pear_rust,0.95,True,5.0,2026-10-31T15:36:24
+L1/pear_leaf_spot/pear_leaf_spot_009_defocus_blur_L1.png,gemini-3.5-flash-lite,Pear: rust,pear_rust,0.85,True,3.8,2026-10-31T15:36:27
+L2/pear_leaf_spot/pear_leaf_spot_009_defocus_blur_L2.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.4,False,9.8,2026-10-31T15:36:37
+L3/pear_leaf_spot/pear_leaf_spot_009_defocus_blur_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,1.4,2026-10-31T15:36:39
+L0/rice_stem_borer/rice_stem_borer_030_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,4.6,2026-10-31T15:36:43
+L1/rice_stem_borer/rice_stem_borer_030_motion_blur_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.9,True,4.5,2026-10-31T15:36:48
+L2/rice_stem_borer/rice_stem_borer_030_motion_blur_L2.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.5,False,3.6,2026-10-31T15:36:51
+L3/rice_stem_borer/rice_stem_borer_030_motion_blur_L3.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.4,False,4.8,2026-10-31T15:36:56
+L0/apple_scab/apple_scab_025_clean_L0.png,gemini-3.5-flash-lite,Apple: cedar apple rust,apple_cedar_rust,0.85,True,5.2,2026-10-31T15:37:02
+L1/apple_scab/apple_scab_025_motion_blur_L1.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.85,True,3.3,2026-10-31T15:37:05
+L2/apple_scab/apple_scab_025_motion_blur_L2.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.45,False,5.3,2026-10-31T15:37:10
+L3/apple_scab/apple_scab_025_motion_blur_L3.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.2,False,2.8,2026-10-31T15:37:13
+L0/jute_dieback/jute_dieback_004_clean_L0.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,5.1,2026-10-31T15:37:18
+L1/jute_dieback/jute_dieback_004_defocus_blur_L1.png,gemini-3.5-flash-lite,Jute: stem rot,jute_stem_rot,0.45,False,3.7,2026-10-31T15:37:22
+L2/jute_dieback/jute_dieback_004_defocus_blur_L2.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.2,False,4.8,2026-10-31T15:37:27
+L3/jute_dieback/jute_dieback_004_defocus_blur_L3.png,gemini-3.5-flash-lite,Potato: healthy,potato_healthy,0.1,False,7.3,2026-10-31T15:37:34
+L0/potato_late_blight/potato_late_blight_007_clean_L0.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,1.8,2026-10-31T15:37:36
+L1/potato_late_blight/potato_late_blight_007_low_light_L1.png,gemini-3.5-flash-lite,Potato: late blight,potato_late_blight,0.85,True,4.8,2026-10-31T15:37:40
+L2/potato_late_blight/potato_late_blight_007_low_light_L2.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.45,False,4.5,2026-10-31T15:37:45
+L3/potato_late_blight/potato_late_blight_007_low_light_L3.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.45,False,3.6,2026-10-31T15:37:49
+L0/grape_leaf_blight/grape_leaf_blight_006_clean_L0.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,4.2,2026-10-31T15:37:53
+L1/grape_leaf_blight/grape_leaf_blight_006_jpeg_compression_L1.png,gemini-3.5-flash-lite,Grape: esca (black measles),grape_esca,0.85,True,6.1,2026-10-31T15:37:59
+L2/grape_leaf_blight/grape_leaf_blight_006_jpeg_compression_L2.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.85,True,2.7,2026-10-31T15:38:02
+L3/grape_leaf_blight/grape_leaf_blight_006_jpeg_compression_L3.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,3.5,2026-10-31T15:38:05
+L0/rice_stem_borer/rice_stem_borer_022_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,5.8,2026-10-31T15:38:11
+L1/rice_stem_borer/rice_stem_borer_022_jpeg_compression_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,3.0,2026-10-31T15:38:14
+L2/rice_stem_borer/rice_stem_borer_022_jpeg_compression_L2.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,5.5,2026-10-31T15:38:19
+L3/rice_stem_borer/rice_stem_borer_022_jpeg_compression_L3.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,3.3,2026-10-31T15:38:23
+L0/jute_mosaic/jute_mosaic_005_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,5.4,2026-10-31T15:38:28
+L1/jute_mosaic/jute_mosaic_005_gaussian_noise_L1.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.65,True,3.0,2026-10-31T15:38:31
+L2/jute_mosaic/jute_mosaic_005_gaussian_noise_L2.png,gemini-3.5-flash-lite,Black gram: yellow mosaic,black_gram_yellow_mosaic,0.35,False,5.2,2026-10-31T15:38:36
+L3/jute_mosaic/jute_mosaic_005_gaussian_noise_L3.png,gemini-3.5-flash-lite,Black gram: yellow mosaic,black_gram_yellow_mosaic,0.15,False,3.5,2026-10-31T15:38:40
+L0/jute_dieback/jute_dieback_025_clean_L0.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,4.9,2026-10-31T15:38:45
+L1/jute_dieback/jute_dieback_025_jpeg_compression_L1.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,5.0,2026-10-31T15:38:50
+L2/jute_dieback/jute_dieback_025_jpeg_compression_L2.png,gemini-3.5-flash-lite,Jute: dieback,jute_dieback,0.85,True,2.8,2026-10-31T15:38:52
+L3/jute_dieback/jute_dieback_025_jpeg_compression_L3.png,gemini-3.5-flash-lite,Jute: stem rot,jute_stem_rot,0.85,True,5.0,2026-10-31T15:38:57
+L0/jute_mosaic/jute_mosaic_020_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,4.1,2026-10-31T15:39:01
+L1/jute_mosaic/jute_mosaic_020_motion_blur_L1.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,4.0,2026-10-31T15:39:05
+L2/jute_mosaic/jute_mosaic_020_motion_blur_L2.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.35,False,4.3,2026-10-31T15:39:10
+L3/jute_mosaic/jute_mosaic_020_motion_blur_L3.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.3,False,5.8,2026-10-31T15:39:16
+L0/grape_leaf_blight/grape_leaf_blight_002_clean_L0.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.85,True,4.1,2026-10-31T15:39:20
+L1/grape_leaf_blight/grape_leaf_blight_002_gaussian_noise_L1.png,gemini-3.5-flash-lite,Grape: healthy,grape_healthy,0.85,True,3.0,2026-10-31T15:39:23
+L2/grape_leaf_blight/grape_leaf_blight_002_gaussian_noise_L2.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.85,True,4.1,2026-10-31T15:39:27
+L3/grape_leaf_blight/grape_leaf_blight_002_gaussian_noise_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.1,False,4.4,2026-10-31T15:39:31
+L0/grape_leaf_blight/grape_leaf_blight_012_clean_L0.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,4.8,2026-10-31T15:39:36
+L1/grape_leaf_blight/grape_leaf_blight_012_motion_blur_L1.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,7.1,2026-10-31T15:39:43
+L2/grape_leaf_blight/grape_leaf_blight_012_motion_blur_L2.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.4,False,2.4,2026-10-31T15:39:45
+L3/grape_leaf_blight/grape_leaf_blight_012_motion_blur_L3.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.2,False,3.8,2026-10-31T15:39:49
+L0/grape_leaf_blight/grape_leaf_blight_013_clean_L0.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.85,True,4.7,2026-10-31T15:39:54
+L1/grape_leaf_blight/grape_leaf_blight_013_defocus_blur_L1.png,gemini-3.5-flash-lite,Grape: leaf blight (Isariopsis leaf spot),grape_leaf_blight,0.45,False,4.0,2026-10-31T15:39:58
+L2/grape_leaf_blight/grape_leaf_blight_013_defocus_blur_L2.png,gemini-3.5-flash-lite,Grape: black rot,grape_black_rot,0.45,False,4.3,2026-10-31T15:40:02
+L3/grape_leaf_blight/grape_leaf_blight_013_defocus_blur_L3.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.4,False,4.9,2026-10-31T15:40:07
+L0/pear_leaf_spot/pear_leaf_spot_029_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,3.7,2026-10-31T15:40:11
+L1/pear_leaf_spot/pear_leaf_spot_029_jpeg_compression_L1.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,4.1,2026-10-31T15:40:15
+L2/pear_leaf_spot/pear_leaf_spot_029_jpeg_compression_L2.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,4.1,2026-10-31T15:40:19
+L3/pear_leaf_spot/pear_leaf_spot_029_jpeg_compression_L3.png,gemini-3.5-flash-lite,Grape: healthy,grape_healthy,0.5,False,6.3,2026-10-31T15:40:26
+L0/pear_leaf_spot/pear_leaf_spot_027_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,1.9,2026-10-31T15:40:27
+L1/pear_leaf_spot/pear_leaf_spot_027_gaussian_noise_L1.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,4.9,2026-10-31T15:40:32
+L2/pear_leaf_spot/pear_leaf_spot_027_gaussian_noise_L2.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.85,True,3.4,2026-10-31T15:40:36
+L3/pear_leaf_spot/pear_leaf_spot_027_gaussian_noise_L3.png,gemini-3.5-flash-lite,Grape: healthy,grape_healthy,0.15,False,4.9,2026-10-31T15:40:41
+L0/jute_mosaic/jute_mosaic_019_clean_L0.png,gemini-3.5-flash-lite,Jute: mosaic,jute_mosaic,0.85,True,4.5,2026-10-31T15:40:45
+L1/jute_mosaic/jute_mosaic_019_motion_blur_L1.png,gemini-3.5-flash-lite,Jute: mosaic,jute_mosaic,0.85,True,3.4,2026-10-31T15:40:49
+L2/jute_mosaic/jute_mosaic_019_motion_blur_L2.png,gemini-3.5-flash-lite,Potato: early blight,potato_early_blight,0.2,False,4.9,2026-10-31T15:40:54
+L3/jute_mosaic/jute_mosaic_019_motion_blur_L3.png,gemini-3.5-flash-lite,Black gram: healthy,black_gram_healthy,0.1,False,4.1,2026-10-31T15:40:58
+L0/pear_leaf_spot/pear_leaf_spot_016_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,5.5,2026-10-31T15:41:03
+L1/pear_leaf_spot/pear_leaf_spot_016_low_light_L1.png,gemini-3.5-flash-lite,Apple: Alternaria leaf spot,apple_alternaria_leaf_spot,0.85,True,2.8,2026-10-31T15:41:06
+L2/pear_leaf_spot/pear_leaf_spot_016_low_light_L2.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.45,False,4.0,2026-10-31T15:41:10
+L3/pear_leaf_spot/pear_leaf_spot_016_low_light_L3.png,gemini-3.5-flash-lite,Grape: healthy,grape_healthy,0.1,False,4.5,2026-10-31T15:41:14
+L0/rice_stem_borer/rice_stem_borer_028_clean_L0.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,4.8,2026-10-31T15:41:19
+L1/rice_stem_borer/rice_stem_borer_028_jpeg_compression_L1.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,4.3,2026-10-31T15:41:24
+L2/rice_stem_borer/rice_stem_borer_028_jpeg_compression_L2.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.95,True,4.0,2026-10-31T15:41:28
+L3/rice_stem_borer/rice_stem_borer_028_jpeg_compression_L3.png,gemini-3.5-flash-lite,Rice: stem borer damage (dead heart / white head),rice_stem_borer,0.85,True,4.0,2026-10-31T15:41:32
+L0/pear_leaf_spot/pear_leaf_spot_006_clean_L0.png,gemini-3.5-flash-lite,Pear: rust,pear_rust,0.85,True,4.7,2026-10-31T15:41:36
+L1/pear_leaf_spot/pear_leaf_spot_006_gaussian_noise_L1.png,gemini-3.5-flash-lite,Pear: healthy,pear_healthy,0.85,True,4.8,2026-10-31T15:41:41
+L2/pear_leaf_spot/pear_leaf_spot_006_gaussian_noise_L2.png,gemini-3.5-flash-lite,Pear: healthy,pear_healthy,0.3,False,4.8,2026-10-31T15:41:46
+L3/pear_leaf_spot/pear_leaf_spot_006_gaussian_noise_L3.png,gemini-3.5-flash-lite,Black gram: healthy,black_gram_healthy,0.1,False,3.3,2026-10-31T15:41:49
+L0/apple_scab/apple_scab_001_clean_L0.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,4.5,2026-10-31T15:41:54
+L1/apple_scab/apple_scab_001_gaussian_noise_L1.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,4.4,2026-10-31T15:41:58
+L2/apple_scab/apple_scab_001_gaussian_noise_L2.png,gemini-3.5-flash-lite,Apple: scab,apple_scab,0.85,True,4.1,2026-10-31T15:42:02
+L3/apple_scab/apple_scab_001_gaussian_noise_L3.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.05,False,4.3,2026-10-31T15:42:06
+L0/jute_dieback/jute_dieback_029_clean_L0.png,gemini-3.5-flash-lite,Apple: healthy,apple_healthy,0.0,False,3.9,2026-10-31T15:42:10
+L1/jute_dieback/jute_dieback_029_defocus_blur_L1.png,gemini-3.5-flash-lite,Potato: healthy,potato_healthy,0.1,False,4.1,2026-10-31T15:42:14
+L2/jute_dieback/jute_dieback_029_defocus_blur_L2.png,gemini-3.5-flash-lite,Grape: downy mildew,grape_downy_mildew,0.35,False,4.8,2026-10-31T15:42:19
+L3/jute_dieback/jute_dieback_029_defocus_blur_L3.png,gemini-3.5-flash-lite,Grape: healthy,grape_healthy,0.1,False,4.3,2026-10-31T15:42:23
+L0/jute_mosaic/jute_mosaic_002_clean_L0.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.85,True,5.1,2026-10-31T15:42:29
+L1/jute_mosaic/jute_mosaic_002_motion_blur_L1.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.82,True,3.3,2026-10-31T15:42:32
+L2/jute_mosaic/jute_mosaic_002_motion_blur_L2.png,gemini-3.5-flash-lite,Jute: anthracnose,jute_anthracnose,0.2,False,3.9,2026-10-31T15:42:36
+L3/jute_mosaic/jute_mosaic_002_motion_blur_L3.png,gemini-3.5-flash-lite,Rice: brown spot,rice_brown_spot,0.2,False,6.7,2026-10-31T15:42:43
+L0/pear_leaf_spot/pear_leaf_spot_034_clean_L0.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,2.5,2026-10-31T15:42:45
+L1/pear_leaf_spot/pear_leaf_spot_034_jpeg_compression_L1.png,gemini-3.5-flash-lite,Pear: leaf spot,pear_leaf_spot,0.85,True,5.0,2026-10-31T15:42:50
+L2/pear_leaf_spot/pear_leaf_spot_034_jpeg_compression_L2.png,gemini-3.5-flash-lite,Pear: rust,pear_rust,0.85,True,3.1,2026-10-31T15:42:53
+L3/pear_leaf_spot/pear_leaf_spot_034_jpeg_compression_L3.png,gemini-3.5-flash-lite,Pear: healthy,pear_healthy,0.85,True,4.2,2026-10-31T15:42:57

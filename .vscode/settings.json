@@ -1,0 +1,9 @@
+{
+  "python.analysis.extraPaths": ["src", "scripts"],
+  "python.terminal.activateEnvironment": true,
+  "python.envFile": "${workspaceFolder}/.env",
+  "files.exclude": { "**/__pycache__": true, "**/.ipynb_checkpoints": true },
+  "search.exclude": { "data/images": true, "data/extra_references": true, "results": true, ".venv": true },
+  "files.watcherExclude": { "**/data/images/**": true, "**/results/**": true, "**/.venv/**": true },
+  "jupyter.notebookFileRoot": "${workspaceFolder}"
+}

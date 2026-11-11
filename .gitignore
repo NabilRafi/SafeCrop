@@ -1,0 +1,17 @@
+# environments and secrets
+.venv/
+venv/
+.env
+# rebuildable or temporary (the test images, the black gram images and all results ARE in git)
+data/images_recipe_b/
+results/cache/
+results/_smoke/
+results_*.zip
+dist/
+*.pt
+# Python / editors
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.vscode/*.log

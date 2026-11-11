@@ -1,0 +1,8 @@
+# Faster experiments with the smaller CLIP ViT-B/16 (512-d, ~4x less compute than ViT-L/14).
+# Its frozen baseline is NOT the Step 2 numbers: run scripts/reproduce_baseline.py with this config first,
+# and compare fine-tuned ViT-B/16 against frozen ViT-B/16. Final numbers for the report use ViT-L/14.
+model: openai/clip-vit-base-patch16
+finetune:
+  unfreeze_last: 4          # of 12 blocks
+  batch_photos: 32
+  lr: 2.0e-5

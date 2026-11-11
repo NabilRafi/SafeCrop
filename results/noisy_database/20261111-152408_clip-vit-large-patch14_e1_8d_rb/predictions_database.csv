@@ -1,0 +1,961 @@
+image,model,pred_label,confidence,top3
+recipe_b/L0/apple_scab/apple_scab_001_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_001_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L2/apple_scab/apple_scab_001_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.4042,apple_scab; jute_mosaic; black_gram_yellow_mosaic
+recipe_b/L3/apple_scab/apple_scab_001_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.5994,apple_scab; pear_leaf_spot; jute_dieback
+recipe_b/L0/apple_scab/apple_scab_002_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_002_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L2/apple_scab/apple_scab_002_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L3/apple_scab/apple_scab_002_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.7997,apple_scab; jute_mosaic
+recipe_b/L0/apple_scab/apple_scab_003_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_003_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L2/apple_scab/apple_scab_003_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L3/apple_scab/apple_scab_003_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.7995,apple_scab; jute_mosaic
+recipe_b/L0/apple_scab/apple_scab_004_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_004_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L2/apple_scab/apple_scab_004_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.6018,jute_dieback; jute_mosaic; apple_scab
+recipe_b/L3/apple_scab/apple_scab_004_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.5956,apple_scab; pear_leaf_spot; jute_dieback
+recipe_b/L0/apple_scab/apple_scab_005_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_005_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L2/apple_scab/apple_scab_005_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.8025,apple_scab; jute_mosaic
+recipe_b/L3/apple_scab/apple_scab_005_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.597,apple_scab; pear_leaf_spot; jute_dieback
+recipe_b/L0/apple_scab/apple_scab_006_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_006_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.5984,apple_scab; potato_late_blight; jute_mosaic
+recipe_b/L2/apple_scab/apple_scab_006_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.6007,apple_scab; black_gram_yellow_mosaic
+recipe_b/L3/apple_scab/apple_scab_006_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.4072,rice_stem_borer; jute_dieback; black_gram_yellow_mosaic
+recipe_b/L0/apple_scab/apple_scab_007_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_007_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L2/apple_scab/apple_scab_007_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L3/apple_scab/apple_scab_007_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.6017,apple_scab; rice_stem_borer; jute_mosaic
+recipe_b/L0/apple_scab/apple_scab_008_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_008_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L2/apple_scab/apple_scab_008_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L3/apple_scab/apple_scab_008_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.6012,jute_dieback; apple_scab
+recipe_b/L0/apple_scab/apple_scab_009_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_009_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.8003,apple_scab; jute_mosaic
+recipe_b/L2/apple_scab/apple_scab_009_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.5986,apple_scab; jute_dieback; jute_mosaic
+recipe_b/L3/apple_scab/apple_scab_009_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.6012,apple_scab; jute_dieback; rice_stem_borer
+recipe_b/L0/apple_scab/apple_scab_010_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_010_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L2/apple_scab/apple_scab_010_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L3/apple_scab/apple_scab_010_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.4021,pear_leaf_spot; apple_scab; jute_dieback
+recipe_b/L0/apple_scab/apple_scab_011_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_011_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L2/apple_scab/apple_scab_011_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.7994,apple_scab; pear_leaf_spot
+recipe_b/L3/apple_scab/apple_scab_011_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.5988,jute_dieback; black_gram_yellow_mosaic; rice_stem_borer
+recipe_b/L0/apple_scab/apple_scab_012_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_012_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L2/apple_scab/apple_scab_012_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.7996,apple_scab; jute_dieback
+recipe_b/L3/apple_scab/apple_scab_012_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L0/apple_scab/apple_scab_013_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_013_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.5994,apple_scab; jute_dieback; black_gram_yellow_mosaic
+recipe_b/L2/apple_scab/apple_scab_013_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.5998,jute_dieback; apple_scab
+recipe_b/L3/apple_scab/apple_scab_013_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.5991,apple_scab; jute_dieback
+recipe_b/L0/apple_scab/apple_scab_014_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_014_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.6012,pear_leaf_spot; apple_scab
+recipe_b/L2/apple_scab/apple_scab_014_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.8011,apple_scab; pear_leaf_spot
+recipe_b/L3/apple_scab/apple_scab_014_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.7992,apple_scab; jute_dieback
+recipe_b/L0/apple_scab/apple_scab_015_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_015_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L2/apple_scab/apple_scab_015_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L3/apple_scab/apple_scab_015_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.7972,apple_scab; grape_leaf_blight
+recipe_b/L0/apple_scab/apple_scab_016_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_016_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L2/apple_scab/apple_scab_016_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.8008,apple_scab; pear_leaf_spot
+recipe_b/L3/apple_scab/apple_scab_016_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.8005,apple_scab; jute_dieback
+recipe_b/L0/apple_scab/apple_scab_017_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_017_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L2/apple_scab/apple_scab_017_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L3/apple_scab/apple_scab_017_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.8006,apple_scab; black_gram_yellow_mosaic
+recipe_b/L0/apple_scab/apple_scab_018_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_018_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L2/apple_scab/apple_scab_018_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L3/apple_scab/apple_scab_018_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.6003,apple_scab; grape_leaf_blight; potato_late_blight
+recipe_b/L0/apple_scab/apple_scab_019_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_019_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.4008,potato_late_blight; apple_scab; grape_leaf_blight
+recipe_b/L2/apple_scab/apple_scab_019_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.802,potato_late_blight; jute_mosaic
+recipe_b/L3/apple_scab/apple_scab_019_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.5996,jute_dieback; grape_leaf_blight; pear_leaf_spot
+recipe_b/L0/apple_scab/apple_scab_020_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_020_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.8,apple_scab; pear_leaf_spot
+recipe_b/L2/apple_scab/apple_scab_020_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.3969,rice_stem_borer; potato_late_blight; grape_leaf_blight
+recipe_b/L3/apple_scab/apple_scab_020_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.8029,rice_stem_borer; grape_leaf_blight
+recipe_b/L0/apple_scab/apple_scab_021_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_021_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L2/apple_scab/apple_scab_021_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.5999,apple_scab; black_gram_yellow_mosaic; jute_dieback
+recipe_b/L3/apple_scab/apple_scab_021_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L0/apple_scab/apple_scab_022_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_022_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L2/apple_scab/apple_scab_022_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L3/apple_scab/apple_scab_022_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.6006,jute_dieback; apple_scab
+recipe_b/L0/apple_scab/apple_scab_023_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_023_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L2/apple_scab/apple_scab_023_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.4019,black_gram_yellow_mosaic; apple_scab; pear_leaf_spot
+recipe_b/L3/apple_scab/apple_scab_023_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.4034,apple_scab; pear_leaf_spot; potato_late_blight
+recipe_b/L0/apple_scab/apple_scab_024_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_024_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L2/apple_scab/apple_scab_024_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L3/apple_scab/apple_scab_024_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.4043,rice_stem_borer; jute_dieback; grape_leaf_blight
+recipe_b/L0/apple_scab/apple_scab_025_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_025_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L2/apple_scab/apple_scab_025_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L3/apple_scab/apple_scab_025_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.6017,jute_dieback; apple_scab
+recipe_b/L0/apple_scab/apple_scab_026_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_026_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L2/apple_scab/apple_scab_026_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.4,apple_scab; jute_dieback; black_gram_yellow_mosaic
+recipe_b/L3/apple_scab/apple_scab_026_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.6001,apple_scab; jute_dieback
+recipe_b/L0/apple_scab/apple_scab_027_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_027_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.8,apple_scab; black_gram_yellow_mosaic
+recipe_b/L2/apple_scab/apple_scab_027_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L3/apple_scab/apple_scab_027_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.4025,rice_stem_borer; jute_dieback; jute_mosaic
+recipe_b/L0/apple_scab/apple_scab_028_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_028_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.7991,apple_scab; potato_late_blight
+recipe_b/L2/apple_scab/apple_scab_028_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.7998,potato_late_blight; jute_mosaic
+recipe_b/L3/apple_scab/apple_scab_028_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.4048,rice_stem_borer; grape_leaf_blight; potato_late_blight
+recipe_b/L0/apple_scab/apple_scab_029_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_029_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L2/apple_scab/apple_scab_029_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.6007,apple_scab; jute_mosaic; pear_leaf_spot
+recipe_b/L3/apple_scab/apple_scab_029_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.6015,apple_scab; jute_dieback; pear_leaf_spot
+recipe_b/L0/apple_scab/apple_scab_030_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L1/apple_scab/apple_scab_030_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L2/apple_scab/apple_scab_030_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.801,apple_scab; jute_mosaic
+recipe_b/L3/apple_scab/apple_scab_030_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.5977,apple_scab; pear_leaf_spot; jute_dieback
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_001_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_001_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_001_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.8013,grape_leaf_blight; potato_late_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_001_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.7977,potato_late_blight; grape_leaf_blight
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_002_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_002_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_002_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_002_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.4005,grape_leaf_blight; potato_late_blight; pear_leaf_spot
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_003_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_003_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_003_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_003_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.4015,pear_leaf_spot; apple_scab; jute_dieback
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_004_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_004_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_004_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.5993,grape_leaf_blight; potato_late_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_004_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.6014,potato_late_blight; grape_leaf_blight
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_005_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_005_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_005_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_005_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_006_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_006_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_006_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_006_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_007_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_007_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_007_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.4002,jute_dieback; grape_leaf_blight; potato_late_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_007_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_008_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_008_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_008_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.802,grape_leaf_blight; potato_late_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_008_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.7999,grape_leaf_blight; potato_late_blight
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_009_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_009_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_009_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_009_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_010_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_010_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_010_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_010_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.3996,apple_scab; grape_leaf_blight; pear_leaf_spot
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_011_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_011_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.8003,grape_leaf_blight; potato_late_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_011_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.6004,grape_leaf_blight; potato_late_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_011_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.7972,grape_leaf_blight; potato_late_blight
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_012_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_012_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_012_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_012_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.801,grape_leaf_blight; apple_scab
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_013_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_013_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.7979,grape_leaf_blight; apple_scab
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_013_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_013_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_014_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_014_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_014_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.5996,grape_leaf_blight; potato_late_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_014_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.4016,pear_leaf_spot; apple_scab; jute_dieback
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_015_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_015_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_015_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_015_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.7993,apple_scab; grape_leaf_blight
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_016_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_016_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_016_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.8009,grape_leaf_blight; potato_late_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_016_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_017_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_017_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_017_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.8017,grape_leaf_blight; potato_late_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_017_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.801,grape_leaf_blight; potato_late_blight
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_018_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_018_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_018_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_018_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_019_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_019_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_019_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_019_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_020_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_020_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_020_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_020_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.6044,grape_leaf_blight; potato_late_blight
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_021_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_021_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_021_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_021_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.7988,grape_leaf_blight; potato_late_blight
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_022_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_022_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_022_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.8016,grape_leaf_blight; potato_late_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_022_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.7999,grape_leaf_blight; potato_late_blight
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_023_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_023_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_023_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_023_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.7988,grape_leaf_blight; jute_mosaic
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_024_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_024_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_024_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.8004,grape_leaf_blight; potato_late_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_024_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_025_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_025_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_025_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_025_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_026_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_026_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_026_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_026_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.5985,grape_leaf_blight; potato_late_blight
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_027_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_027_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_027_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_027_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.8008,grape_leaf_blight; potato_late_blight
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_028_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_028_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_028_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.5991,potato_late_blight; grape_leaf_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_028_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.5951,potato_late_blight; grape_leaf_blight
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_029_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_029_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_029_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_029_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.4001,grape_leaf_blight; apple_scab; potato_late_blight
+recipe_b/L0/grape_leaf_blight/grape_leaf_blight_030_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L1/grape_leaf_blight/grape_leaf_blight_030_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L2/grape_leaf_blight/grape_leaf_blight_030_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,1.0,grape_leaf_blight
+recipe_b/L3/grape_leaf_blight/grape_leaf_blight_030_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.3988,apple_scab; pear_leaf_spot; grape_leaf_blight
+recipe_b/L0/jute_dieback/jute_dieback_001_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_001_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_001_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L3/jute_dieback/jute_dieback_001_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L0/jute_dieback/jute_dieback_002_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_002_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_002_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L3/jute_dieback/jute_dieback_002_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.5969,jute_dieback; rice_stem_borer
+recipe_b/L0/jute_dieback/jute_dieback_003_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_003_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.8013,jute_dieback; rice_stem_borer
+recipe_b/L2/jute_dieback/jute_dieback_003_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L3/jute_dieback/jute_dieback_003_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.3962,apple_scab; rice_stem_borer; black_gram_yellow_mosaic
+recipe_b/L0/jute_dieback/jute_dieback_004_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_004_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_004_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L3/jute_dieback/jute_dieback_004_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.8006,jute_dieback; apple_scab
+recipe_b/L0/jute_dieback/jute_dieback_005_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_005_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_005_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.8021,jute_dieback; jute_mosaic
+recipe_b/L3/jute_dieback/jute_dieback_005_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.4037,pear_leaf_spot; jute_dieback; apple_scab
+recipe_b/L0/jute_dieback/jute_dieback_006_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_006_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_006_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L3/jute_dieback/jute_dieback_006_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L0/jute_dieback/jute_dieback_007_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_007_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_007_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L3/jute_dieback/jute_dieback_007_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.7999,jute_dieback; rice_stem_borer
+recipe_b/L0/jute_dieback/jute_dieback_008_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_008_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_008_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L3/jute_dieback/jute_dieback_008_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L0/jute_dieback/jute_dieback_009_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_009_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_009_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L3/jute_dieback/jute_dieback_009_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L0/jute_dieback/jute_dieback_010_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_010_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_010_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L3/jute_dieback/jute_dieback_010_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.5998,pear_leaf_spot; jute_dieback
+recipe_b/L0/jute_dieback/jute_dieback_011_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_011_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_011_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.8019,jute_dieback; jute_mosaic
+recipe_b/L3/jute_dieback/jute_dieback_011_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.6013,jute_dieback; apple_scab
+recipe_b/L0/jute_dieback/jute_dieback_012_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_012_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.7981,rice_stem_borer; jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_012_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L3/jute_dieback/jute_dieback_012_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.8025,jute_dieback; apple_scab
+recipe_b/L0/jute_dieback/jute_dieback_013_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_013_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_013_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L3/jute_dieback/jute_dieback_013_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.4014,pear_leaf_spot; jute_dieback; jute_mosaic
+recipe_b/L0/jute_dieback/jute_dieback_014_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_014_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_014_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L3/jute_dieback/jute_dieback_014_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.4036,pear_leaf_spot; jute_dieback; rice_stem_borer
+recipe_b/L0/jute_dieback/jute_dieback_015_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_015_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_015_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L3/jute_dieback/jute_dieback_015_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.5981,jute_dieback; pear_leaf_spot
+recipe_b/L0/jute_dieback/jute_dieback_016_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_016_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_016_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L3/jute_dieback/jute_dieback_016_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.6034,jute_dieback; rice_stem_borer
+recipe_b/L0/jute_dieback/jute_dieback_017_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_017_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_017_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L3/jute_dieback/jute_dieback_017_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.7982,jute_dieback; apple_scab
+recipe_b/L0/jute_dieback/jute_dieback_018_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_018_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_018_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L3/jute_dieback/jute_dieback_018_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L0/jute_dieback/jute_dieback_019_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_019_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_019_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L3/jute_dieback/jute_dieback_019_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L0/jute_dieback/jute_dieback_020_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_020_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_020_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L3/jute_dieback/jute_dieback_020_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L0/jute_dieback/jute_dieback_021_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_021_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_021_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.5998,jute_dieback; black_gram_yellow_mosaic; jute_mosaic
+recipe_b/L3/jute_dieback/jute_dieback_021_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.5984,jute_dieback; pear_leaf_spot
+recipe_b/L0/jute_dieback/jute_dieback_022_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_022_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_022_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L3/jute_dieback/jute_dieback_022_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.804,jute_dieback; rice_stem_borer
+recipe_b/L0/jute_dieback/jute_dieback_023_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_023_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_023_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L3/jute_dieback/jute_dieback_023_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.8011,jute_dieback; rice_stem_borer
+recipe_b/L0/jute_dieback/jute_dieback_024_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_024_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_024_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L3/jute_dieback/jute_dieback_024_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L0/jute_dieback/jute_dieback_025_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_025_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_025_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L3/jute_dieback/jute_dieback_025_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L0/jute_dieback/jute_dieback_026_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.8009,jute_dieback; jute_mosaic
+recipe_b/L1/jute_dieback/jute_dieback_026_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_026_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.602,jute_dieback; jute_mosaic
+recipe_b/L3/jute_dieback/jute_dieback_026_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.6007,rice_stem_borer; jute_dieback; jute_mosaic
+recipe_b/L0/jute_dieback/jute_dieback_027_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_027_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_027_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.8007,jute_dieback; rice_stem_borer
+recipe_b/L3/jute_dieback/jute_dieback_027_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.8014,jute_dieback; rice_stem_borer
+recipe_b/L0/jute_dieback/jute_dieback_028_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_028_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_028_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.8023,jute_dieback; rice_stem_borer
+recipe_b/L3/jute_dieback/jute_dieback_028_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L0/jute_dieback/jute_dieback_029_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_029_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_029_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.7972,jute_dieback; jute_mosaic
+recipe_b/L3/jute_dieback/jute_dieback_029_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.8007,jute_dieback; apple_scab
+recipe_b/L0/jute_dieback/jute_dieback_030_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L1/jute_dieback/jute_dieback_030_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L2/jute_dieback/jute_dieback_030_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L3/jute_dieback/jute_dieback_030_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.4014,jute_dieback; pear_leaf_spot; apple_scab
+recipe_b/L0/jute_mosaic/jute_mosaic_001_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_001_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_001_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_001_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.3998,jute_mosaic; black_gram_yellow_mosaic; jute_dieback
+recipe_b/L0/jute_mosaic/jute_mosaic_002_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.8007,jute_mosaic; jute_dieback
+recipe_b/L1/jute_mosaic/jute_mosaic_002_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_002_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_002_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L0/jute_mosaic/jute_mosaic_003_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_003_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_003_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_003_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.602,pear_leaf_spot; jute_dieback; potato_late_blight
+recipe_b/L0/jute_mosaic/jute_mosaic_004_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_004_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_004_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_004_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L0/jute_mosaic/jute_mosaic_005_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.8014,jute_mosaic; jute_dieback
+recipe_b/L1/jute_mosaic/jute_mosaic_005_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_005_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.5971,black_gram_yellow_mosaic; jute_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_005_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.8018,pear_leaf_spot; jute_dieback
+recipe_b/L0/jute_mosaic/jute_mosaic_006_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.602,jute_mosaic; jute_dieback
+recipe_b/L1/jute_mosaic/jute_mosaic_006_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.6025,black_gram_yellow_mosaic; jute_dieback
+recipe_b/L2/jute_mosaic/jute_mosaic_006_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.4005,black_gram_yellow_mosaic; jute_dieback; jute_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_006_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.6014,jute_dieback; black_gram_yellow_mosaic
+recipe_b/L0/jute_mosaic/jute_mosaic_007_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_007_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_007_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_007_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.4065,rice_stem_borer; jute_mosaic; grape_leaf_blight
+recipe_b/L0/jute_mosaic/jute_mosaic_008_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.8045,jute_mosaic; jute_dieback
+recipe_b/L1/jute_mosaic/jute_mosaic_008_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_008_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_008_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L0/jute_mosaic/jute_mosaic_009_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_009_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_009_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.5987,jute_mosaic; jute_dieback; black_gram_yellow_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_009_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.5995,jute_dieback; apple_scab
+recipe_b/L0/jute_mosaic/jute_mosaic_010_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_010_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.801,jute_mosaic; jute_dieback
+recipe_b/L2/jute_mosaic/jute_mosaic_010_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_010_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.8004,jute_dieback; jute_mosaic
+recipe_b/L0/jute_mosaic/jute_mosaic_011_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_011_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_011_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_011_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.6034,rice_stem_borer; jute_mosaic; jute_dieback
+recipe_b/L0/jute_mosaic/jute_mosaic_012_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_012_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_012_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_012_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.8005,apple_scab; jute_mosaic
+recipe_b/L0/jute_mosaic/jute_mosaic_013_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_013_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_013_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_013_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.5994,jute_mosaic; rice_stem_borer; potato_late_blight
+recipe_b/L0/jute_mosaic/jute_mosaic_014_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_014_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_014_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_014_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.7999,apple_scab; jute_mosaic
+recipe_b/L0/jute_mosaic/jute_mosaic_015_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_015_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_015_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_015_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.8004,apple_scab; jute_mosaic
+recipe_b/L0/jute_mosaic/jute_mosaic_016_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_016_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_016_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.6002,jute_mosaic; rice_stem_borer; jute_dieback
+recipe_b/L3/jute_mosaic/jute_mosaic_016_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.3942,jute_dieback; rice_stem_borer; grape_leaf_blight
+recipe_b/L0/jute_mosaic/jute_mosaic_017_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_017_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_017_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_017_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.5983,apple_scab; pear_leaf_spot; potato_late_blight
+recipe_b/L0/jute_mosaic/jute_mosaic_018_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_018_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_018_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_018_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.8002,jute_mosaic; rice_stem_borer
+recipe_b/L0/jute_mosaic/jute_mosaic_019_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_019_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_019_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.6053,jute_mosaic; pear_leaf_spot; black_gram_yellow_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_019_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L0/jute_mosaic/jute_mosaic_020_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.8056,jute_mosaic; black_gram_yellow_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_020_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.8016,jute_mosaic; apple_scab
+recipe_b/L2/jute_mosaic/jute_mosaic_020_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.6004,jute_mosaic; black_gram_yellow_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_020_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.799,jute_dieback; apple_scab
+recipe_b/L0/jute_mosaic/jute_mosaic_021_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_021_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_021_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_021_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.4009,apple_scab; rice_stem_borer; jute_mosaic
+recipe_b/L0/jute_mosaic/jute_mosaic_022_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.8028,jute_mosaic; jute_dieback
+recipe_b/L1/jute_mosaic/jute_mosaic_022_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_022_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_022_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.5996,jute_mosaic; pear_leaf_spot; apple_scab
+recipe_b/L0/jute_mosaic/jute_mosaic_023_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_023_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_023_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_023_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.5974,apple_scab; pear_leaf_spot; jute_mosaic
+recipe_b/L0/jute_mosaic/jute_mosaic_024_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_024_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_024_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.6022,jute_mosaic; jute_dieback; pear_leaf_spot
+recipe_b/L3/jute_mosaic/jute_mosaic_024_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.4015,jute_mosaic; apple_scab; jute_dieback
+recipe_b/L0/jute_mosaic/jute_mosaic_025_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_025_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_025_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_025_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.5954,apple_scab; pear_leaf_spot; jute_dieback
+recipe_b/L0/jute_mosaic/jute_mosaic_026_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_026_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_026_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_026_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.4004,jute_mosaic; jute_dieback; rice_stem_borer
+recipe_b/L0/jute_mosaic/jute_mosaic_027_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_027_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_027_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_027_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.5978,jute_mosaic; jute_dieback; rice_stem_borer
+recipe_b/L0/jute_mosaic/jute_mosaic_028_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_028_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.6044,jute_mosaic; apple_scab; black_gram_yellow_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_028_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.5996,jute_mosaic; black_gram_yellow_mosaic; apple_scab
+recipe_b/L3/jute_mosaic/jute_mosaic_028_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.5992,jute_mosaic; apple_scab
+recipe_b/L0/jute_mosaic/jute_mosaic_029_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_029_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_029_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.6007,apple_scab; jute_mosaic
+recipe_b/L3/jute_mosaic/jute_mosaic_029_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.5997,apple_scab; jute_dieback; jute_mosaic
+recipe_b/L0/jute_mosaic/jute_mosaic_030_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L1/jute_mosaic/jute_mosaic_030_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.8009,jute_mosaic; black_gram_yellow_mosaic
+recipe_b/L2/jute_mosaic/jute_mosaic_030_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.6031,jute_mosaic; potato_late_blight; rice_stem_borer
+recipe_b/L3/jute_mosaic/jute_mosaic_030_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.6008,jute_mosaic; rice_stem_borer; apple_scab
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_001_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_001_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_001_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_001_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.6,jute_dieback; pear_leaf_spot
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_002_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_002_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_002_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.6004,pear_leaf_spot; jute_dieback; apple_scab
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_002_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.4002,pear_leaf_spot; jute_dieback; apple_scab
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_003_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_003_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_003_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_003_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.8009,pear_leaf_spot; jute_dieback
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_004_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_004_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_004_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_004_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.8025,pear_leaf_spot; jute_dieback
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_005_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_005_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_005_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_005_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.3983,pear_leaf_spot; apple_scab; black_gram_yellow_mosaic
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_006_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_006_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_006_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_006_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.5978,jute_dieback; pear_leaf_spot
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_007_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_007_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_007_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_007_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.4031,pear_leaf_spot; rice_stem_borer; grape_leaf_blight
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_008_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_008_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.7921,pear_leaf_spot; apple_scab
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_008_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_008_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.4007,jute_dieback; apple_scab; pear_leaf_spot
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_009_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_009_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.5961,apple_scab; pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_009_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_009_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.4003,apple_scab; pear_leaf_spot; jute_dieback
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_010_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_010_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_010_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.6014,pear_leaf_spot; jute_dieback
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_010_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_011_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_011_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_011_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.8009,pear_leaf_spot; apple_scab
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_011_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.4009,apple_scab; pear_leaf_spot; jute_dieback
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_012_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_012_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_012_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_012_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.7998,jute_dieback; apple_scab
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_013_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_013_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_013_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_013_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.595,pear_leaf_spot; apple_scab; rice_stem_borer
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_014_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_014_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_014_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.6012,jute_dieback; pear_leaf_spot
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_014_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.5998,jute_dieback; pear_leaf_spot; apple_scab
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_015_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_015_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_015_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_015_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.8021,pear_leaf_spot; jute_dieback
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_016_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_016_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.6007,pear_leaf_spot; apple_scab; jute_dieback
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_016_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.6013,apple_scab; jute_dieback; pear_leaf_spot
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_016_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.4007,jute_dieback; apple_scab; rice_stem_borer
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_017_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_017_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.6035,pear_leaf_spot; apple_scab
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_017_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.6009,pear_leaf_spot; apple_scab; jute_dieback
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_017_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.5977,jute_dieback; pear_leaf_spot
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_018_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_018_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_018_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.4015,pear_leaf_spot; jute_dieback; black_gram_yellow_mosaic
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_018_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.5996,jute_dieback; pear_leaf_spot; apple_scab
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_019_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_019_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_019_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_019_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.5997,pear_leaf_spot; jute_dieback
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_020_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_020_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_020_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_020_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.8011,pear_leaf_spot; jute_dieback
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_021_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_021_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_021_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_021_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.6001,apple_scab; jute_dieback; pear_leaf_spot
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_022_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_022_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_022_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_022_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.5998,pear_leaf_spot; jute_dieback; apple_scab
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_023_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_023_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.601,apple_scab; pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_023_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.7994,pear_leaf_spot; apple_scab
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_023_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.4024,pear_leaf_spot; jute_dieback; apple_scab
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_024_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_024_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_024_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.8028,pear_leaf_spot; apple_scab
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_024_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_025_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_025_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_025_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.4018,pear_leaf_spot; apple_scab; jute_dieback
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_025_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_026_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_026_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_026_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.8009,pear_leaf_spot; jute_dieback
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_026_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.4004,jute_dieback; pear_leaf_spot; apple_scab
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_027_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_027_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_027_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_027_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_028_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_028_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_028_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_028_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.598,pear_leaf_spot; rice_stem_borer; jute_dieback
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_029_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_029_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_029_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.597,pear_leaf_spot; rice_stem_borer; jute_dieback
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_029_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.604,rice_stem_borer; pear_leaf_spot; jute_dieback
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_030_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_030_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,1.0,apple_scab
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_030_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.3988,apple_scab; pear_leaf_spot; black_gram_yellow_mosaic
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_030_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.5978,pear_leaf_spot; apple_scab; jute_dieback
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_031_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_031_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_031_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.8023,pear_leaf_spot; apple_scab
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_031_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.5997,pear_leaf_spot; jute_dieback
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_032_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_032_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_032_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_032_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.3988,apple_scab; jute_dieback; pear_leaf_spot
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_033_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_033_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_033_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_033_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_034_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_034_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_034_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_034_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.8004,pear_leaf_spot; jute_mosaic
+recipe_b/L0/pear_leaf_spot/pear_leaf_spot_035_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L1/pear_leaf_spot/pear_leaf_spot_035_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,1.0,pear_leaf_spot
+recipe_b/L2/pear_leaf_spot/pear_leaf_spot_035_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.8009,pear_leaf_spot; jute_dieback
+recipe_b/L3/pear_leaf_spot/pear_leaf_spot_035_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.5986,jute_dieback; apple_scab
+recipe_b/L0/potato_late_blight/potato_late_blight_001_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_001_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_001_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.4017,potato_late_blight; black_gram_yellow_mosaic; jute_mosaic
+recipe_b/L3/potato_late_blight/potato_late_blight_001_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.4005,apple_scab; potato_late_blight; pear_leaf_spot
+recipe_b/L0/potato_late_blight/potato_late_blight_002_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_002_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_002_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.8003,potato_late_blight; grape_leaf_blight
+recipe_b/L3/potato_late_blight/potato_late_blight_002_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.8017,potato_late_blight; grape_leaf_blight
+recipe_b/L0/potato_late_blight/potato_late_blight_003_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_003_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_003_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L3/potato_late_blight/potato_late_blight_003_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L0/potato_late_blight/potato_late_blight_004_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_004_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_004_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.6016,potato_late_blight; grape_leaf_blight
+recipe_b/L3/potato_late_blight/potato_late_blight_004_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L0/potato_late_blight/potato_late_blight_005_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_005_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_005_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L3/potato_late_blight/potato_late_blight_005_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.6008,potato_late_blight; grape_leaf_blight
+recipe_b/L0/potato_late_blight/potato_late_blight_006_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_006_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_006_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.6009,potato_late_blight; black_gram_yellow_mosaic
+recipe_b/L3/potato_late_blight/potato_late_blight_006_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.4039,potato_late_blight; apple_scab; black_gram_yellow_mosaic
+recipe_b/L0/potato_late_blight/potato_late_blight_007_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_007_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_007_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.7996,potato_late_blight; apple_scab
+recipe_b/L3/potato_late_blight/potato_late_blight_007_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.5998,potato_late_blight; black_gram_yellow_mosaic; apple_scab
+recipe_b/L0/potato_late_blight/potato_late_blight_008_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_008_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_008_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L3/potato_late_blight/potato_late_blight_008_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.7999,grape_leaf_blight; potato_late_blight
+recipe_b/L0/potato_late_blight/potato_late_blight_009_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_009_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_009_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L3/potato_late_blight/potato_late_blight_009_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.8018,potato_late_blight; black_gram_yellow_mosaic
+recipe_b/L0/potato_late_blight/potato_late_blight_010_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_010_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_010_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L3/potato_late_blight/potato_late_blight_010_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.4018,potato_late_blight; apple_scab; pear_leaf_spot
+recipe_b/L0/potato_late_blight/potato_late_blight_011_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_011_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_011_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L3/potato_late_blight/potato_late_blight_011_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L0/potato_late_blight/potato_late_blight_012_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_012_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_012_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L3/potato_late_blight/potato_late_blight_012_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.7988,potato_late_blight; apple_scab
+recipe_b/L0/potato_late_blight/potato_late_blight_013_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_013_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_013_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.6006,potato_late_blight; grape_leaf_blight; jute_mosaic
+recipe_b/L3/potato_late_blight/potato_late_blight_013_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.7989,potato_late_blight; grape_leaf_blight
+recipe_b/L0/potato_late_blight/potato_late_blight_014_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_014_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_014_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.6013,potato_late_blight; grape_leaf_blight; jute_mosaic
+recipe_b/L3/potato_late_blight/potato_late_blight_014_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.5986,potato_late_blight; grape_leaf_blight
+recipe_b/L0/potato_late_blight/potato_late_blight_015_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_015_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_015_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L3/potato_late_blight/potato_late_blight_015_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.6026,potato_late_blight; grape_leaf_blight
+recipe_b/L0/potato_late_blight/potato_late_blight_016_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_016_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.8012,potato_late_blight; grape_leaf_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_016_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.8024,potato_late_blight; apple_scab
+recipe_b/L3/potato_late_blight/potato_late_blight_016_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.6022,potato_late_blight; grape_leaf_blight; apple_scab
+recipe_b/L0/potato_late_blight/potato_late_blight_017_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_017_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_017_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.6006,apple_scab; potato_late_blight; jute_mosaic
+recipe_b/L3/potato_late_blight/potato_late_blight_017_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L0/potato_late_blight/potato_late_blight_018_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_018_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_018_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L3/potato_late_blight/potato_late_blight_018_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.6019,potato_late_blight; grape_leaf_blight
+recipe_b/L0/potato_late_blight/potato_late_blight_019_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_019_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_019_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L3/potato_late_blight/potato_late_blight_019_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L0/potato_late_blight/potato_late_blight_020_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_020_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_020_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L3/potato_late_blight/potato_late_blight_020_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",grape_leaf_blight,0.5911,grape_leaf_blight; potato_late_blight; black_gram_yellow_mosaic
+recipe_b/L0/potato_late_blight/potato_late_blight_021_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_021_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_021_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L3/potato_late_blight/potato_late_blight_021_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.8007,potato_late_blight; grape_leaf_blight
+recipe_b/L0/potato_late_blight/potato_late_blight_022_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_022_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_022_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L3/potato_late_blight/potato_late_blight_022_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L0/potato_late_blight/potato_late_blight_023_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_023_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_023_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.6008,potato_late_blight; black_gram_yellow_mosaic
+recipe_b/L3/potato_late_blight/potato_late_blight_023_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.3974,apple_scab; pear_leaf_spot; grape_leaf_blight
+recipe_b/L0/potato_late_blight/potato_late_blight_024_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_024_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_024_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L3/potato_late_blight/potato_late_blight_024_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.3994,apple_scab; pear_leaf_spot; grape_leaf_blight
+recipe_b/L0/potato_late_blight/potato_late_blight_025_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L1/potato_late_blight/potato_late_blight_025_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,1.0,potato_late_blight
+recipe_b/L2/potato_late_blight/potato_late_blight_025_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.8002,potato_late_blight; grape_leaf_blight
+recipe_b/L3/potato_late_blight/potato_late_blight_025_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",potato_late_blight,0.6002,potato_late_blight; grape_leaf_blight
+recipe_b/L0/rice_stem_borer/rice_stem_borer_001_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_001_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_001_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_001_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L0/rice_stem_borer/rice_stem_borer_002_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_002_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_002_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_002_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L0/rice_stem_borer/rice_stem_borer_003_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_003_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_003_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_003_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L0/rice_stem_borer/rice_stem_borer_004_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_004_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_004_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_004_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L0/rice_stem_borer/rice_stem_borer_005_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_005_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_005_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_005_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L0/rice_stem_borer/rice_stem_borer_006_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_006_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_006_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_006_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L0/rice_stem_borer/rice_stem_borer_007_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_007_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_007_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.6024,jute_dieback; rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_007_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.4008,jute_dieback; rice_stem_borer; apple_scab
+recipe_b/L0/rice_stem_borer/rice_stem_borer_008_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_008_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_008_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_008_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L0/rice_stem_borer/rice_stem_borer_009_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_009_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_009_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.8011,rice_stem_borer; jute_dieback
+recipe_b/L3/rice_stem_borer/rice_stem_borer_009_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.8015,rice_stem_borer; jute_dieback
+recipe_b/L0/rice_stem_borer/rice_stem_borer_010_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_010_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_010_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.7992,rice_stem_borer; jute_dieback
+recipe_b/L3/rice_stem_borer/rice_stem_borer_010_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.7998,rice_stem_borer; jute_dieback
+recipe_b/L0/rice_stem_borer/rice_stem_borer_011_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_011_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_011_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.7993,jute_dieback; rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_011_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.4001,jute_dieback; apple_scab; pear_leaf_spot
+recipe_b/L0/rice_stem_borer/rice_stem_borer_012_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_012_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_012_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_012_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.6017,rice_stem_borer; pear_leaf_spot; jute_dieback
+recipe_b/L0/rice_stem_borer/rice_stem_borer_013_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_013_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_013_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_013_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L0/rice_stem_borer/rice_stem_borer_014_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_014_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_014_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.8002,rice_stem_borer; jute_dieback
+recipe_b/L3/rice_stem_borer/rice_stem_borer_014_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.8002,rice_stem_borer; jute_dieback
+recipe_b/L0/rice_stem_borer/rice_stem_borer_015_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_015_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_015_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.8016,rice_stem_borer; jute_dieback
+recipe_b/L3/rice_stem_borer/rice_stem_borer_015_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.6016,rice_stem_borer; jute_dieback
+recipe_b/L0/rice_stem_borer/rice_stem_borer_016_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_016_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_016_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_016_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.8006,rice_stem_borer; jute_dieback
+recipe_b/L0/rice_stem_borer/rice_stem_borer_017_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_017_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_017_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_017_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.5997,jute_dieback; rice_stem_borer
+recipe_b/L0/rice_stem_borer/rice_stem_borer_018_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_018_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_018_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.8002,rice_stem_borer; jute_dieback
+recipe_b/L3/rice_stem_borer/rice_stem_borer_018_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.6006,jute_dieback; rice_stem_borer; black_gram_yellow_mosaic
+recipe_b/L0/rice_stem_borer/rice_stem_borer_019_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_019_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_019_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_019_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L0/rice_stem_borer/rice_stem_borer_020_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_020_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_020_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_020_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L0/rice_stem_borer/rice_stem_borer_021_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_021_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_021_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_021_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L0/rice_stem_borer/rice_stem_borer_022_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_022_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_022_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_022_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L0/rice_stem_borer/rice_stem_borer_023_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_023_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_023_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_023_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L0/rice_stem_borer/rice_stem_borer_024_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_024_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_024_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_024_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.6031,rice_stem_borer; jute_dieback
+recipe_b/L0/rice_stem_borer/rice_stem_borer_025_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_025_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_025_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_025_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L0/rice_stem_borer/rice_stem_borer_026_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_026_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_026_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_026_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L0/rice_stem_borer/rice_stem_borer_027_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_027_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_027_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_027_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.6021,rice_stem_borer; pear_leaf_spot; jute_dieback
+recipe_b/L0/rice_stem_borer/rice_stem_borer_028_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_028_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_028_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_028_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,0.7992,rice_stem_borer; jute_dieback
+recipe_b/L0/rice_stem_borer/rice_stem_borer_029_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_029_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_029_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.8011,jute_dieback; rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_029_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.5979,jute_dieback; rice_stem_borer; black_gram_yellow_mosaic
+recipe_b/L0/rice_stem_borer/rice_stem_borer_030_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L1/rice_stem_borer/rice_stem_borer_030_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L2/rice_stem_borer/rice_stem_borer_030_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L3/rice_stem_borer/rice_stem_borer_030_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",rice_stem_borer,1.0,rice_stem_borer
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_001_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_001_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_001_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_001_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.4047,jute_dieback; apple_scab; rice_stem_borer
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_002_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_002_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.7998,black_gram_yellow_mosaic; apple_scab
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_002_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.4013,jute_dieback; black_gram_yellow_mosaic; apple_scab
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_002_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.6007,jute_dieback; apple_scab; jute_mosaic
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_003_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_003_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_003_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_003_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.6007,jute_dieback; apple_scab; jute_mosaic
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_004_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_004_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_004_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.8005,black_gram_yellow_mosaic; jute_mosaic
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_004_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.4,apple_scab; black_gram_yellow_mosaic; pear_leaf_spot
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_005_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_005_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_005_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_005_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.5967,jute_mosaic; jute_dieback
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_006_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_006_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_006_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.4014,black_gram_yellow_mosaic; jute_dieback; jute_mosaic
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_006_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_007_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_007_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_007_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_007_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.4031,jute_dieback; jute_mosaic; potato_late_blight
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_008_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_008_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_008_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_008_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.4031,pear_leaf_spot; jute_dieback; apple_scab
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_009_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_009_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_009_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_009_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.801,black_gram_yellow_mosaic; apple_scab
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_010_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_010_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_010_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_010_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_011_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_011_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_011_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_011_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.4011,apple_scab; jute_dieback; pear_leaf_spot
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_012_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_012_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_012_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.5986,black_gram_yellow_mosaic; apple_scab; jute_dieback
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_012_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.8021,jute_dieback; apple_scab
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_013_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_013_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_013_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.7999,black_gram_yellow_mosaic; jute_mosaic
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_013_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.6005,black_gram_yellow_mosaic; apple_scab; jute_mosaic
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_014_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_014_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_014_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.6,black_gram_yellow_mosaic; apple_scab
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_014_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.5992,jute_dieback; black_gram_yellow_mosaic
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_015_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_015_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_015_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.3991,jute_dieback; black_gram_yellow_mosaic; apple_scab
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_015_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.5981,jute_dieback; black_gram_yellow_mosaic; apple_scab
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_016_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_016_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.8011,black_gram_yellow_mosaic; jute_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_016_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.8005,jute_dieback; black_gram_yellow_mosaic
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_016_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_017_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_017_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_017_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.6016,black_gram_yellow_mosaic; pear_leaf_spot; apple_scab
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_017_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,1.0,jute_dieback
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_018_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_018_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_018_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_018_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.4052,black_gram_yellow_mosaic; jute_mosaic; jute_dieback
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_019_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_019_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_019_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_019_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.4007,jute_dieback; potato_late_blight; jute_mosaic
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_020_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_020_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_020_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_020_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.3978,jute_mosaic; potato_late_blight; jute_dieback
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_021_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_021_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.5994,jute_mosaic; black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_021_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_021_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_022_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.6006,black_gram_yellow_mosaic; jute_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_022_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,1.0,jute_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_022_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.5969,jute_mosaic; black_gram_yellow_mosaic
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_022_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.3992,apple_scab; black_gram_yellow_mosaic; pear_leaf_spot
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_023_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_023_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_023_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.8013,black_gram_yellow_mosaic; apple_scab
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_023_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.603,pear_leaf_spot; potato_late_blight; black_gram_yellow_mosaic
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_024_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.8049,black_gram_yellow_mosaic; jute_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_024_motion_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.8024,black_gram_yellow_mosaic; jute_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_024_motion_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.8024,black_gram_yellow_mosaic; jute_mosaic
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_024_motion_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.4022,apple_scab; black_gram_yellow_mosaic; jute_dieback
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_025_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.8055,black_gram_yellow_mosaic; jute_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_025_defocus_blur_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.4027,black_gram_yellow_mosaic; jute_mosaic; apple_scab
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_025_defocus_blur_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.4016,jute_mosaic; black_gram_yellow_mosaic; jute_dieback
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_025_defocus_blur_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.3994,jute_dieback; jute_mosaic; apple_scab
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_026_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_026_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_026_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_026_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",apple_scab,0.3984,apple_scab; pear_leaf_spot; jute_mosaic
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_027_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_027_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_027_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.8018,black_gram_yellow_mosaic; apple_scab
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_027_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_mosaic,0.5952,jute_mosaic; black_gram_yellow_mosaic; apple_scab
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_028_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_028_jpeg_compression_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_028_jpeg_compression_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_028_jpeg_compression_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.6047,black_gram_yellow_mosaic; jute_mosaic
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_029_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_029_gaussian_noise_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_029_gaussian_noise_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_029_gaussian_noise_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",pear_leaf_spot,0.5981,pear_leaf_spot; black_gram_yellow_mosaic; potato_late_blight
+recipe_b/L0/black_gram_yellow_mosaic/black_gram_yellow_mosaic_030_clean_L0.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,1.0,black_gram_yellow_mosaic
+recipe_b/L1/black_gram_yellow_mosaic/black_gram_yellow_mosaic_030_low_light_L1.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",black_gram_yellow_mosaic,0.8005,black_gram_yellow_mosaic; apple_scab
+recipe_b/L2/black_gram_yellow_mosaic/black_gram_yellow_mosaic_030_low_light_L2.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.8013,jute_dieback; pear_leaf_spot
+recipe_b/L3/black_gram_yellow_mosaic/black_gram_yellow_mosaic_030_low_light_L3.png,"CLIP database + noisy copies (levels [1, 2, 3], x1)",jute_dieback,0.8016,jute_dieback; apple_scab

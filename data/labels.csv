@@ -1,0 +1,34 @@
+key,crop,gemini_name,clip_name,description,in_test_set,group
+apple_scab,apple,scab,apple scab,olive-green to dark brown velvety spots on the leaves that turn dark and scabby; leaves may pucker,True,A
+apple_cedar_rust,apple,cedar apple rust,cedar apple rust,"bright yellow-orange round spots on the upper leaf, often with a red rim; small tubes or cups underneath",False,
+apple_alternaria_leaf_spot,apple,Alternaria leaf spot,apple Alternaria leaf spot,many small round brown spots with a darker purple-brown rim that can merge into larger dead patches,False,
+apple_powdery_mildew,apple,powdery mildew,apple powdery mildew,"white powdery coating on leaves and shoot tips; leaves narrow, curled and crinkled",False,
+apple_healthy,apple,healthy,healthy apple,"evenly green apple leaves with no spots, coating or discoloured patches",False,
+potato_late_blight,potato,late blight,potato late blight,"large dark brown to black water-soaked patches, often from the leaf tip or edge, with a pale border and white mould underneath in damp weather",True,A
+potato_early_blight,potato,early blight,potato early blight,"brown spots with rings inside like a target, mostly on older lower leaves, often with yellow around them",False,
+potato_healthy,potato,healthy,healthy potato,"evenly green potato leaves with no spots, blotches or yellowing",False,
+grape_leaf_blight,grape,leaf blight (Isariopsis leaf spot),grape leaf blight,irregular dark brown to black angular spots that join into large dry dead areas on the leaf,True,B
+grape_black_rot,grape,black rot,grape black rot,round tan to brown spots with a dark brown rim and tiny black dots inside,False,
+grape_esca,grape,esca (black measles),grape esca,"yellow or red-brown stripes between the veins with green along the veins (tiger stripes), parts drying out",False,
+grape_downy_mildew,grape,downy mildew,grape downy mildew,yellow oily-looking patches on the upper leaf with white downy growth underneath,False,
+grape_healthy,grape,healthy,healthy grape,"evenly green grape leaves with no spots, stripes or mould",False,
+pear_leaf_spot,pear,leaf spot,pear leaf spot,many small round grey to brown spots with a dark rim scattered over the leaf,True,B
+pear_scab,pear,scab,pear scab,"olive-black velvety spots on leaves and fruit, like apple scab",False,
+pear_fire_blight,pear,fire blight,pear fire blight,leaves and shoot tips turn black or brown as if burnt and stay attached; shoot tip bends like a hook,False,
+pear_rust,pear,rust,pear rust,bright orange spots on the upper leaf that later form raised bumps or horn-like growths underneath,False,
+pear_healthy,pear,healthy,healthy pear,"evenly green pear leaves with no spots, scorching or rust",False,
+rice_stem_borer,rice,stem borer damage (dead heart / white head),rice stem borer damage,"pest damage: the central shoot dries and turns brown while outer leaves stay green (dead heart), or the grain head stays upright, empty and white (white head)",True,A
+rice_blast,rice,blast,rice blast,diamond or spindle-shaped spots with grey or white centres and brown edges on the leaves,False,
+rice_brown_spot,rice,brown spot,rice brown spot,"many small oval brown spots, often with a grey centre and a yellow halo, scattered over the leaves",False,
+rice_bacterial_leaf_blight,rice,bacterial leaf blight,rice bacterial leaf blight,yellow to white wavy stripes from the leaf tip and edges; leaves dry out from the tip down,False,
+rice_sheath_blight,rice,sheath blight,rice sheath blight,"oval grey-green to white patches with brown edges on the leaf sheath near the water, like snake skin",False,
+rice_healthy,rice,healthy,healthy rice,"green upright rice plants with no spots, stripes, dried shoots or white heads",False,
+jute_mosaic,jute,mosaic,jute mosaic,"leaves with a patchy yellow and green mosaic pattern, sometimes crinkled or smaller than normal",True,B
+jute_dieback,jute,dieback,jute dieback,shoots and branches dry out and die from the tip downward; leaves wilt and turn brown or black,True,B
+jute_stem_rot,jute,stem rot,jute stem rot,"dark brown to black patches on the stem that spread, so the plant wilts or breaks; leaves may get brown spots",False,
+jute_anthracnose,jute,anthracnose,jute anthracnose,sunken dark brown spots or cracks on the stem and brown spots on the leaves,False,
+jute_healthy,jute,healthy,healthy jute,"evenly green jute leaves and stems with no spots, mosaic or drying",False,
+black_gram_yellow_mosaic,black gram,yellow mosaic,black gram yellow mosaic,"bright yellow patches mixed with green across the leaves, spreading until leaves turn mostly yellow",False,
+black_gram_cercospora_leaf_spot,black gram,Cercospora leaf spot,black gram Cercospora leaf spot,small round brown spots with grey centres and red-brown rims on the leaves,False,
+black_gram_powdery_mildew,black gram,powdery mildew,black gram powdery mildew,white powdery patches on the leaves,False,
+black_gram_healthy,black gram,healthy,healthy black gram,"evenly green black gram leaves with no spots, yellowing or powder",False,

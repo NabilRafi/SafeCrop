@@ -1,0 +1,44 @@
+{
+ "CLIP database + noisy copies (levels [1, 2, 3], x1)": {
+  "levels": {
+   "L0": 100.0,
+   "L1": 100.0,
+   "L2": 99.0,
+   "L3": 95.2,
+   "All": 98.6,
+   "n": 840
+  },
+  "A": 98.8,
+  "B": 98.4,
+  "vs": {
+   "CLIP database, frozen (Step 2)": {
+    "All": {
+     "images": 840,
+     "only_new_right": 192,
+     "only_baseline_right": 5,
+     "p": 2.4010047049319614e-50
+    },
+    "L3": {
+     "images": 210,
+     "only_new_right": 120,
+     "only_baseline_right": 4,
+     "p": 9.121014256730856e-31
+    }
+   },
+   "Gemini + references + descriptions (Step 2b)": {
+    "All": {
+     "images": 840,
+     "only_new_right": 172,
+     "only_baseline_right": 6,
+     "p": 2.1934733682426873e-43
+    },
+    "L3": {
+     "images": 210,
+     "only_new_right": 106,
+     "only_baseline_right": 5,
+     "p": 1.035239298994319e-25
+    }
+   }
+  }
+ }
+}

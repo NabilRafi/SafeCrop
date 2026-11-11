@@ -1,0 +1,86 @@
+{
+ "Fine-tuned CLIP database (k4 e15 cons1.0)": {
+  "levels": {
+   "L0": 100.0,
+   "L1": 100.0,
+   "L2": 99.5,
+   "L3": 93.8,
+   "All": 98.3,
+   "n": 840
+  },
+  "A": 98.8,
+  "B": 98.0,
+  "vs": {
+   "CLIP database, frozen (Step 2)": {
+    "All": {
+     "images": 840,
+     "only_new_right": 186,
+     "only_baseline_right": 1,
+     "p": 1.9168081874745666e-54
+    },
+    "L3": {
+     "images": 210,
+     "only_new_right": 114,
+     "only_baseline_right": 1,
+     "p": 5.585196838722984e-33
+    }
+   },
+   "Gemini + references + descriptions (Step 2b)": {
+    "All": {
+     "images": 840,
+     "only_new_right": 165,
+     "only_baseline_right": 1,
+     "p": 3.5708136526831734e-48
+    },
+    "L3": {
+     "images": 210,
+     "only_new_right": 99,
+     "only_baseline_right": 1,
+     "p": 1.5934990285464438e-28
+    }
+   }
+  }
+ },
+ "Fine-tuned CLIP head (k4 e15 cons1.0)": {
+  "levels": {
+   "L0": 100.0,
+   "L1": 100.0,
+   "L2": 99.5,
+   "L3": 95.2,
+   "All": 98.7,
+   "n": 840
+  },
+  "A": 98.8,
+  "B": 98.6,
+  "vs": {
+   "CLIP database, frozen (Step 2)": {
+    "All": {
+     "images": 840,
+     "only_new_right": 189,
+     "only_baseline_right": 1,
+     "p": 2.434244440210387e-55
+    },
+    "L3": {
+     "images": 210,
+     "only_new_right": 117,
+     "only_baseline_right": 1,
+     "p": 7.162051980690033e-34
+    }
+   },
+   "Gemini + references + descriptions (Step 2b)": {
+    "All": {
+     "images": 840,
+     "only_new_right": 168,
+     "only_baseline_right": 1,
+     "p": 4.5437000071567326e-49
+    },
+    "L3": {
+     "images": 210,
+     "only_new_right": 102,
+     "only_baseline_right": 1,
+     "p": 2.0510383535746307e-29
+    }
+   }
+  }
+ }
+}

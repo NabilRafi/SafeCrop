@@ -1,0 +1,13 @@
+# Smoke test: a tiny RANDOM CLIP (no download, runs on any CPU in about a minute).
+# Checks that the code runs end to end; its accuracy numbers mean nothing.
+model: tiny-random
+use_saved_features: false
+batch_size: 64
+results_dir: results/_smoke
+noisy_copies:
+  levels: [3]
+finetune:
+  folds: [0]
+  epochs: 1
+  batch_photos: 32
+  num_workers: 0

@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    { "name": "Check setup", "type": "debugpy", "request": "launch", "program": "scripts/check_setup.py",
+      "cwd": "${workspaceFolder}", "console": "integratedTerminal" },
+    { "name": "Smoke test (tiny model)", "type": "debugpy", "request": "launch", "program": "scripts/smoke_test.py",
+      "cwd": "${workspaceFolder}", "console": "integratedTerminal" },
+    { "name": "Fine-tune: fold 0, tiny model (debug the training loop)", "type": "debugpy", "request": "launch",
+      "program": "scripts/finetune.py", "args": ["--config", "configs/smoke.yaml", "--tag", "debug"],
+      "cwd": "${workspaceFolder}", "console": "integratedTerminal" },
+    { "name": "Fine-tune: fold 0, ViT-L/14", "type": "debugpy", "request": "launch", "program": "scripts/finetune.py",
+      "args": ["--set", "finetune.folds=[0]", "--tag", "fold0"], "cwd": "${workspaceFolder}", "console": "integratedTerminal" }
+  ]
+}

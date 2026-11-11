@@ -1,0 +1,14 @@
+# Intel Macs only. Use Python 3.10-3.12 (PyTorch has no Intel Mac build for 3.13 or newer).
+# PyTorch stopped Intel Mac builds at 2.2.2, so the other packages must stay compatible with it.
+torch==2.2.2
+numpy<2                             # torch 2.2.2 was built for numpy 1.x
+transformers>=4.45,<5
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.4
+opencv-python-headless>=4.8,<4.11   # newer versions need numpy 2
+pillow>=10.0
+pyyaml>=6.0
+tqdm>=4.66
+matplotlib>=3.8
+ipykernel>=6.29

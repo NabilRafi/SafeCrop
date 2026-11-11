@@ -1,0 +1,86 @@
+{
+ "CLIP database, frozen clip-vit-large-patch14 (recomputed)": {
+  "levels": {
+   "L0": 100.0,
+   "L1": 93.3,
+   "L2": 71.9,
+   "L3": 40.0,
+   "All": 76.3,
+   "n": 840
+  },
+  "A": 81.2,
+  "B": 73.0,
+  "vs": {
+   "CLIP database, frozen (Step 2)": {
+    "All": {
+     "images": 840,
+     "only_new_right": 0,
+     "only_baseline_right": 0,
+     "p": 1.0
+    },
+    "L3": {
+     "images": 210,
+     "only_new_right": 0,
+     "only_baseline_right": 0,
+     "p": 1.0
+    }
+   },
+   "Gemini + references + descriptions (Step 2b)": {
+    "All": {
+     "images": 840,
+     "only_new_right": 12,
+     "only_baseline_right": 33,
+     "p": 0.002458900322096724
+    },
+    "L3": {
+     "images": 210,
+     "only_new_right": 3,
+     "only_baseline_right": 18,
+     "p": 0.0014896392822265625
+    }
+   }
+  }
+ },
+ "CLIP zero-shot, frozen clip-vit-large-patch14 (recomputed)": {
+  "levels": {
+   "L0": 25.7,
+   "L1": 15.2,
+   "L2": 8.6,
+   "L3": 3.8,
+   "All": 13.3,
+   "n": 840
+  },
+  "A": 9.1,
+  "B": 16.2,
+  "vs": {
+   "CLIP database, frozen (Step 2)": {
+    "All": {
+     "images": 840,
+     "only_new_right": 15,
+     "only_baseline_right": 544,
+     "p": 1.1213633692694403e-139
+    },
+    "L3": {
+     "images": 210,
+     "only_new_right": 7,
+     "only_baseline_right": 83,
+     "p": 1.3151874833452022e-17
+    }
+   },
+   "Gemini + references + descriptions (Step 2b)": {
+    "All": {
+     "images": 840,
+     "only_new_right": 17,
+     "only_baseline_right": 567,
+     "p": 7.736259189415296e-144
+    },
+    "L3": {
+     "images": 210,
+     "only_new_right": 7,
+     "only_baseline_right": 98,
+     "p": 1.2065431169279858e-21
+    }
+   }
+  }
+ }
+}

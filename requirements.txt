@@ -1,0 +1,15 @@
+# Python 3.10-3.13. Tested on 8 Nov 2026 with: torch 2.15, transformers 5.22 (also 4.57),
+# numpy 2.5, pandas 3.1, scipy 1.18, scikit-learn 1.9, opencv 5.0, pillow 13.
+# Windows + NVIDIA GPU: install torch first from https://pytorch.org/get-started/locally/
+torch>=2.3
+transformers>=4.45
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.4
+opencv-python-headless>=4.8
+pillow>=10.0
+pyyaml>=6.0
+tqdm>=4.66
+matplotlib>=3.8
+ipykernel>=6.29

@@ -1,0 +1,169 @@
+image,model,pred_label,confidence,top3,fold
+L0/apple_scab/apple_scab_007_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),apple_scab,1.0,apple_scab,0
+L1/apple_scab/apple_scab_007_motion_blur_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),apple_scab,1.0,apple_scab,0
+L2/apple_scab/apple_scab_007_motion_blur_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),apple_scab,1.0,apple_scab,0
+L3/apple_scab/apple_scab_007_motion_blur_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L0/apple_scab/apple_scab_010_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),apple_scab,1.0,apple_scab,0
+L1/apple_scab/apple_scab_010_gaussian_noise_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),apple_scab,1.0,apple_scab,0
+L2/apple_scab/apple_scab_010_gaussian_noise_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,0.5942,grape_leaf_blight; rice_stem_borer; jute_mosaic,0
+L3/apple_scab/apple_scab_010_gaussian_noise_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L0/apple_scab/apple_scab_012_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),apple_scab,1.0,apple_scab,0
+L1/apple_scab/apple_scab_012_defocus_blur_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),apple_scab,1.0,apple_scab,0
+L2/apple_scab/apple_scab_012_defocus_blur_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),apple_scab,0.5996,apple_scab; potato_late_blight; jute_mosaic,0
+L3/apple_scab/apple_scab_012_defocus_blur_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L0/apple_scab/apple_scab_018_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),apple_scab,1.0,apple_scab,0
+L1/apple_scab/apple_scab_018_low_light_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),apple_scab,0.8013,apple_scab; jute_mosaic,0
+L2/apple_scab/apple_scab_018_low_light_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),apple_scab,0.399,apple_scab; jute_mosaic; potato_late_blight,0
+L3/apple_scab/apple_scab_018_low_light_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_mosaic,0.4061,jute_mosaic; grape_leaf_blight; potato_late_blight,0
+L0/apple_scab/apple_scab_021_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),apple_scab,1.0,apple_scab,0
+L1/apple_scab/apple_scab_021_defocus_blur_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),apple_scab,1.0,apple_scab,0
+L2/apple_scab/apple_scab_021_defocus_blur_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,0.5978,rice_stem_borer; jute_mosaic; pear_leaf_spot,0
+L3/apple_scab/apple_scab_021_defocus_blur_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,0.8054,rice_stem_borer; jute_mosaic,0
+L0/apple_scab/apple_scab_024_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),apple_scab,1.0,apple_scab,0
+L1/apple_scab/apple_scab_024_jpeg_compression_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),apple_scab,1.0,apple_scab,0
+L2/apple_scab/apple_scab_024_jpeg_compression_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),apple_scab,0.7997,apple_scab; potato_late_blight,0
+L3/apple_scab/apple_scab_024_jpeg_compression_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,0.4003,grape_leaf_blight; apple_scab; potato_late_blight,0
+L0/grape_leaf_blight/grape_leaf_blight_007_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,1.0,grape_leaf_blight,0
+L1/grape_leaf_blight/grape_leaf_blight_007_defocus_blur_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,1.0,grape_leaf_blight,0
+L2/grape_leaf_blight/grape_leaf_blight_007_defocus_blur_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,1.0,grape_leaf_blight,0
+L3/grape_leaf_blight/grape_leaf_blight_007_defocus_blur_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,0.6018,grape_leaf_blight; rice_stem_borer,0
+L0/grape_leaf_blight/grape_leaf_blight_010_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,1.0,grape_leaf_blight,0
+L1/grape_leaf_blight/grape_leaf_blight_010_gaussian_noise_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,1.0,grape_leaf_blight,0
+L2/grape_leaf_blight/grape_leaf_blight_010_gaussian_noise_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,1.0,grape_leaf_blight,0
+L3/grape_leaf_blight/grape_leaf_blight_010_gaussian_noise_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,1.0,grape_leaf_blight,0
+L0/grape_leaf_blight/grape_leaf_blight_015_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,1.0,grape_leaf_blight,0
+L1/grape_leaf_blight/grape_leaf_blight_015_low_light_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,0.5978,grape_leaf_blight; potato_late_blight,0
+L2/grape_leaf_blight/grape_leaf_blight_015_low_light_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,0.6005,grape_leaf_blight; potato_late_blight; jute_mosaic,0
+L3/grape_leaf_blight/grape_leaf_blight_015_low_light_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,0.8006,grape_leaf_blight; rice_stem_borer,0
+L0/grape_leaf_blight/grape_leaf_blight_027_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,1.0,grape_leaf_blight,0
+L1/grape_leaf_blight/grape_leaf_blight_027_jpeg_compression_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,1.0,grape_leaf_blight,0
+L2/grape_leaf_blight/grape_leaf_blight_027_jpeg_compression_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,1.0,grape_leaf_blight,0
+L3/grape_leaf_blight/grape_leaf_blight_027_jpeg_compression_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,0.6002,grape_leaf_blight; rice_stem_borer; potato_late_blight,0
+L0/grape_leaf_blight/grape_leaf_blight_028_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,1.0,grape_leaf_blight,0
+L1/grape_leaf_blight/grape_leaf_blight_028_motion_blur_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,1.0,grape_leaf_blight,0
+L2/grape_leaf_blight/grape_leaf_blight_028_motion_blur_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,0.8026,grape_leaf_blight; jute_mosaic,0
+L3/grape_leaf_blight/grape_leaf_blight_028_motion_blur_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,0.8037,rice_stem_borer; jute_mosaic,0
+L0/grape_leaf_blight/grape_leaf_blight_029_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,1.0,grape_leaf_blight,0
+L1/grape_leaf_blight/grape_leaf_blight_029_gaussian_noise_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,1.0,grape_leaf_blight,0
+L2/grape_leaf_blight/grape_leaf_blight_029_gaussian_noise_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,1.0,grape_leaf_blight,0
+L3/grape_leaf_blight/grape_leaf_blight_029_gaussian_noise_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,1.0,grape_leaf_blight,0
+L0/jute_dieback/jute_dieback_006_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_dieback,1.0,jute_dieback,0
+L1/jute_dieback/jute_dieback_006_low_light_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_mosaic,0.8002,jute_mosaic; jute_dieback,0
+L2/jute_dieback/jute_dieback_006_low_light_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_mosaic,0.6056,jute_mosaic; jute_dieback; potato_late_blight,0
+L3/jute_dieback/jute_dieback_006_low_light_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_mosaic,0.4032,jute_mosaic; rice_stem_borer; jute_dieback,0
+L0/jute_dieback/jute_dieback_014_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_dieback,1.0,jute_dieback,0
+L1/jute_dieback/jute_dieback_014_gaussian_noise_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_dieback,0.8005,jute_dieback; jute_mosaic,0
+L2/jute_dieback/jute_dieback_014_gaussian_noise_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,0.796,rice_stem_borer; jute_mosaic,0
+L3/jute_dieback/jute_dieback_014_gaussian_noise_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L0/jute_dieback/jute_dieback_022_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_dieback,1.0,jute_dieback,0
+L1/jute_dieback/jute_dieback_022_jpeg_compression_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_dieback,1.0,jute_dieback,0
+L2/jute_dieback/jute_dieback_022_jpeg_compression_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_mosaic,0.5927,jute_mosaic; jute_dieback,0
+L3/jute_dieback/jute_dieback_022_jpeg_compression_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,0.7978,rice_stem_borer; jute_mosaic,0
+L0/jute_dieback/jute_dieback_023_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_dieback,1.0,jute_dieback,0
+L1/jute_dieback/jute_dieback_023_motion_blur_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_dieback,1.0,jute_dieback,0
+L2/jute_dieback/jute_dieback_023_motion_blur_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_dieback,0.8009,jute_dieback; jute_mosaic,0
+L3/jute_dieback/jute_dieback_023_motion_blur_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L0/jute_dieback/jute_dieback_026_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_dieback,0.8009,jute_dieback; jute_mosaic,0
+L1/jute_dieback/jute_dieback_026_jpeg_compression_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_dieback,0.6016,jute_dieback; jute_mosaic,0
+L2/jute_dieback/jute_dieback_026_jpeg_compression_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_mosaic,0.5995,jute_mosaic; jute_dieback; potato_late_blight,0
+L3/jute_dieback/jute_dieback_026_jpeg_compression_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_mosaic,0.8007,jute_mosaic; jute_dieback,0
+L0/jute_dieback/jute_dieback_029_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_dieback,1.0,jute_dieback,0
+L1/jute_dieback/jute_dieback_029_defocus_blur_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_dieback,0.8005,jute_dieback; jute_mosaic,0
+L2/jute_dieback/jute_dieback_029_defocus_blur_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_mosaic,0.6003,jute_mosaic; jute_dieback,0
+L3/jute_dieback/jute_dieback_029_defocus_blur_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,0.804,rice_stem_borer; jute_mosaic,0
+L0/jute_mosaic/jute_mosaic_002_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_mosaic,0.8007,jute_mosaic; jute_dieback,0
+L1/jute_mosaic/jute_mosaic_002_motion_blur_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_mosaic,1.0,jute_mosaic,0
+L2/jute_mosaic/jute_mosaic_002_motion_blur_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_mosaic,0.6085,jute_mosaic; rice_stem_borer,0
+L3/jute_mosaic/jute_mosaic_002_motion_blur_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,0.5995,rice_stem_borer; jute_mosaic,0
+L0/jute_mosaic/jute_mosaic_009_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_mosaic,1.0,jute_mosaic,0
+L1/jute_mosaic/jute_mosaic_009_defocus_blur_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_mosaic,1.0,jute_mosaic,0
+L2/jute_mosaic/jute_mosaic_009_defocus_blur_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,0.5989,rice_stem_borer; jute_mosaic,0
+L3/jute_mosaic/jute_mosaic_009_defocus_blur_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L0/jute_mosaic/jute_mosaic_013_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_mosaic,1.0,jute_mosaic,0
+L1/jute_mosaic/jute_mosaic_013_low_light_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_mosaic,0.8027,jute_mosaic; grape_leaf_blight,0
+L2/jute_mosaic/jute_mosaic_013_low_light_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_mosaic,0.4078,jute_mosaic; rice_stem_borer; grape_leaf_blight,0
+L3/jute_mosaic/jute_mosaic_013_low_light_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,0.6022,rice_stem_borer; jute_mosaic,0
+L0/jute_mosaic/jute_mosaic_022_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_mosaic,0.8028,jute_mosaic; jute_dieback,0
+L1/jute_mosaic/jute_mosaic_022_gaussian_noise_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L2/jute_mosaic/jute_mosaic_022_gaussian_noise_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L3/jute_mosaic/jute_mosaic_022_gaussian_noise_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L0/jute_mosaic/jute_mosaic_027_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_mosaic,1.0,jute_mosaic,0
+L1/jute_mosaic/jute_mosaic_027_jpeg_compression_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,1.0,grape_leaf_blight,0
+L2/jute_mosaic/jute_mosaic_027_jpeg_compression_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_mosaic,0.4012,jute_mosaic; grape_leaf_blight; potato_late_blight,0
+L3/jute_mosaic/jute_mosaic_027_jpeg_compression_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,0.7998,rice_stem_borer; jute_mosaic,0
+L0/jute_mosaic/jute_mosaic_030_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_mosaic,1.0,jute_mosaic,0
+L1/jute_mosaic/jute_mosaic_030_low_light_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_mosaic,1.0,jute_mosaic,0
+L2/jute_mosaic/jute_mosaic_030_low_light_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),jute_mosaic,0.4116,jute_mosaic; rice_stem_borer; grape_leaf_blight,0
+L3/jute_mosaic/jute_mosaic_030_low_light_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L0/pear_leaf_spot/pear_leaf_spot_005_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),pear_leaf_spot,1.0,pear_leaf_spot,0
+L1/pear_leaf_spot/pear_leaf_spot_005_low_light_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),pear_leaf_spot,1.0,pear_leaf_spot,0
+L2/pear_leaf_spot/pear_leaf_spot_005_low_light_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),pear_leaf_spot,0.8048,pear_leaf_spot; jute_mosaic,0
+L3/pear_leaf_spot/pear_leaf_spot_005_low_light_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),pear_leaf_spot,0.4047,pear_leaf_spot; rice_stem_borer; jute_mosaic,0
+L0/pear_leaf_spot/pear_leaf_spot_010_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),pear_leaf_spot,1.0,pear_leaf_spot,0
+L1/pear_leaf_spot/pear_leaf_spot_010_motion_blur_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),pear_leaf_spot,1.0,pear_leaf_spot,0
+L2/pear_leaf_spot/pear_leaf_spot_010_motion_blur_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),pear_leaf_spot,0.4073,pear_leaf_spot; rice_stem_borer; jute_mosaic,0
+L3/pear_leaf_spot/pear_leaf_spot_010_motion_blur_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,0.3999,rice_stem_borer; pear_leaf_spot; jute_mosaic,0
+L0/pear_leaf_spot/pear_leaf_spot_012_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),pear_leaf_spot,1.0,pear_leaf_spot,0
+L1/pear_leaf_spot/pear_leaf_spot_012_motion_blur_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),pear_leaf_spot,1.0,pear_leaf_spot,0
+L2/pear_leaf_spot/pear_leaf_spot_012_motion_blur_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),pear_leaf_spot,0.6019,pear_leaf_spot; jute_mosaic; rice_stem_borer,0
+L3/pear_leaf_spot/pear_leaf_spot_012_motion_blur_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,0.6019,rice_stem_borer; pear_leaf_spot; jute_mosaic,0
+L0/pear_leaf_spot/pear_leaf_spot_020_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),pear_leaf_spot,1.0,pear_leaf_spot,0
+L1/pear_leaf_spot/pear_leaf_spot_020_gaussian_noise_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),pear_leaf_spot,0.6038,pear_leaf_spot; apple_scab,0
+L2/pear_leaf_spot/pear_leaf_spot_020_gaussian_noise_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),pear_leaf_spot,0.8044,pear_leaf_spot; jute_mosaic,0
+L3/pear_leaf_spot/pear_leaf_spot_020_gaussian_noise_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,0.8044,rice_stem_borer; pear_leaf_spot,0
+L0/pear_leaf_spot/pear_leaf_spot_021_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),pear_leaf_spot,1.0,pear_leaf_spot,0
+L1/pear_leaf_spot/pear_leaf_spot_021_defocus_blur_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),pear_leaf_spot,0.8034,pear_leaf_spot; jute_mosaic,0
+L2/pear_leaf_spot/pear_leaf_spot_021_defocus_blur_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),pear_leaf_spot,0.4032,pear_leaf_spot; rice_stem_borer; jute_mosaic,0
+L3/pear_leaf_spot/pear_leaf_spot_021_defocus_blur_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,0.8043,rice_stem_borer; jute_mosaic,0
+L0/pear_leaf_spot/pear_leaf_spot_027_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),pear_leaf_spot,1.0,pear_leaf_spot,0
+L1/pear_leaf_spot/pear_leaf_spot_027_gaussian_noise_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),pear_leaf_spot,0.6001,pear_leaf_spot; apple_scab,0
+L2/pear_leaf_spot/pear_leaf_spot_027_gaussian_noise_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),pear_leaf_spot,0.8044,pear_leaf_spot; jute_mosaic,0
+L3/pear_leaf_spot/pear_leaf_spot_027_gaussian_noise_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,0.6113,rice_stem_borer; jute_mosaic; potato_late_blight,0
+L0/pear_leaf_spot/pear_leaf_spot_033_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),pear_leaf_spot,1.0,pear_leaf_spot,0
+L1/pear_leaf_spot/pear_leaf_spot_033_jpeg_compression_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),pear_leaf_spot,1.0,pear_leaf_spot,0
+L2/pear_leaf_spot/pear_leaf_spot_033_jpeg_compression_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),pear_leaf_spot,1.0,pear_leaf_spot,0
+L3/pear_leaf_spot/pear_leaf_spot_033_jpeg_compression_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),pear_leaf_spot,1.0,pear_leaf_spot,0
+L0/potato_late_blight/potato_late_blight_001_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),potato_late_blight,1.0,potato_late_blight,0
+L1/potato_late_blight/potato_late_blight_001_gaussian_noise_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),potato_late_blight,1.0,potato_late_blight,0
+L2/potato_late_blight/potato_late_blight_001_gaussian_noise_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),potato_late_blight,1.0,potato_late_blight,0
+L3/potato_late_blight/potato_late_blight_001_gaussian_noise_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,0.5956,grape_leaf_blight; rice_stem_borer,0
+L0/potato_late_blight/potato_late_blight_009_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),potato_late_blight,1.0,potato_late_blight,0
+L1/potato_late_blight/potato_late_blight_009_low_light_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),potato_late_blight,1.0,potato_late_blight,0
+L2/potato_late_blight/potato_late_blight_009_low_light_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),potato_late_blight,1.0,potato_late_blight,0
+L3/potato_late_blight/potato_late_blight_009_low_light_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),potato_late_blight,0.5969,potato_late_blight; jute_mosaic,0
+L0/potato_late_blight/potato_late_blight_012_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),potato_late_blight,1.0,potato_late_blight,0
+L1/potato_late_blight/potato_late_blight_012_jpeg_compression_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),potato_late_blight,1.0,potato_late_blight,0
+L2/potato_late_blight/potato_late_blight_012_jpeg_compression_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),potato_late_blight,0.8019,potato_late_blight; grape_leaf_blight,0
+L3/potato_late_blight/potato_late_blight_012_jpeg_compression_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,0.6011,grape_leaf_blight; potato_late_blight,0
+L0/potato_late_blight/potato_late_blight_015_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),potato_late_blight,1.0,potato_late_blight,0
+L1/potato_late_blight/potato_late_blight_015_defocus_blur_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),potato_late_blight,1.0,potato_late_blight,0
+L2/potato_late_blight/potato_late_blight_015_defocus_blur_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,1.0,grape_leaf_blight,0
+L3/potato_late_blight/potato_late_blight_015_defocus_blur_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),grape_leaf_blight,0.4003,grape_leaf_blight; rice_stem_borer; potato_late_blight,0
+L0/potato_late_blight/potato_late_blight_021_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),potato_late_blight,1.0,potato_late_blight,0
+L1/potato_late_blight/potato_late_blight_021_motion_blur_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),potato_late_blight,1.0,potato_late_blight,0
+L2/potato_late_blight/potato_late_blight_021_motion_blur_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),potato_late_blight,1.0,potato_late_blight,0
+L3/potato_late_blight/potato_late_blight_021_motion_blur_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),potato_late_blight,0.3994,potato_late_blight; grape_leaf_blight; jute_mosaic,0
+L0/rice_stem_borer/rice_stem_borer_006_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L1/rice_stem_borer/rice_stem_borer_006_jpeg_compression_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L2/rice_stem_borer/rice_stem_borer_006_jpeg_compression_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L3/rice_stem_borer/rice_stem_borer_006_jpeg_compression_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L0/rice_stem_borer/rice_stem_borer_009_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L1/rice_stem_borer/rice_stem_borer_009_defocus_blur_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L2/rice_stem_borer/rice_stem_borer_009_defocus_blur_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L3/rice_stem_borer/rice_stem_borer_009_defocus_blur_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L0/rice_stem_borer/rice_stem_borer_012_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L1/rice_stem_borer/rice_stem_borer_012_gaussian_noise_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L2/rice_stem_borer/rice_stem_borer_012_gaussian_noise_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L3/rice_stem_borer/rice_stem_borer_012_gaussian_noise_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L0/rice_stem_borer/rice_stem_borer_014_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L1/rice_stem_borer/rice_stem_borer_014_motion_blur_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L2/rice_stem_borer/rice_stem_borer_014_motion_blur_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L3/rice_stem_borer/rice_stem_borer_014_motion_blur_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L0/rice_stem_borer/rice_stem_borer_020_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L1/rice_stem_borer/rice_stem_borer_020_low_light_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L2/rice_stem_borer/rice_stem_borer_020_low_light_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L3/rice_stem_borer/rice_stem_borer_020_low_light_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L0/rice_stem_borer/rice_stem_borer_026_clean_L0.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L1/rice_stem_borer/rice_stem_borer_026_gaussian_noise_L1.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L2/rice_stem_borer/rice_stem_borer_026_gaussian_noise_L2.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0
+L3/rice_stem_borer/rice_stem_borer_026_gaussian_noise_L3.png,Fine-tuned CLIP database (k4 e0 cons1.0),rice_stem_borer,1.0,rice_stem_borer,0

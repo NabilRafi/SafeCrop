@@ -1,0 +1,60 @@
+{
+ "SVM on frozen CLIP (clean + noisy copies) [8 diseases]": {
+  "levels": {
+   "L0": 99.5,
+   "L1": 99.5,
+   "L2": 98.6,
+   "L3": 97.1,
+   "All": 98.7,
+   "n": 840
+  },
+  "A": 99.4,
+  "B": 98.2,
+  "vs": {
+   "CLIP database, frozen (Step 2)": {
+    "All": {
+     "images": 840,
+     "only_new_right": 192,
+     "only_baseline_right": 4,
+     "p": 1.212372257262961e-51
+    },
+    "L3": {
+     "images": 210,
+     "only_new_right": 122,
+     "only_baseline_right": 2,
+     "p": 7.28900537057884e-34
+    }
+   },
+   "Gemini + references + descriptions (Step 2b)": {
+    "All": {
+     "images": 840,
+     "only_new_right": 171,
+     "only_baseline_right": 4,
+     "p": 1.6139448357562614e-45
+    },
+    "L3": {
+     "images": 210,
+     "only_new_right": 107,
+     "only_baseline_right": 2,
+     "p": 1.8476601514473386e-29
+    }
+   }
+  },
+  "black_gram": {
+   "L0": 100.0,
+   "L1": 100.0,
+   "L2": 100.0,
+   "L3": 96.7,
+   "All": 99.2,
+   "n": 120
+  },
+  "all_images": {
+   "L0": 99.6,
+   "L1": 99.6,
+   "L2": 98.8,
+   "L3": 97.1,
+   "All": 98.8,
+   "n": 960
+  }
+ }
+}

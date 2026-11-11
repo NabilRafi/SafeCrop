@@ -1,0 +1,43 @@
+time,run_dir,method,n,L0,L1,L2,L3,All,A,B,L3_vs_frozen_db_new,L3_vs_frozen_db_old,L3_vs_frozen_db_p
+2026-11-11T17:44:40,20261111-174417_clip-vit-large-patch14_e0,"CLIP database, frozen clip-vit-large-patch14 (recomputed)",840,100.0,93.3,71.9,40.0,76.3,81.2,73.0,0,0,1.0
+2026-11-11T17:44:40,20261111-174417_clip-vit-large-patch14_e0,"CLIP zero-shot, frozen clip-vit-large-patch14 (recomputed)",840,25.7,15.2,8.6,3.8,13.3,9.1,16.2,7,83,0.0
+2026-11-11T12:09:39,20261111-120939_clip-vit-large-patch14_e1,"CLIP database + noisy copies (levels [1, 2, 3], x1)",840,100.0,100.0,99.0,95.2,98.6,98.8,98.4,120,4,0.0
+2026-11-11T13:13:37,20261111-131304_clip-vit-large-patch14_sanity_f0,Fine-tuned CLIP database (k4 e0 cons1.0),168,100.0,92.9,76.2,35.7,76.2,82.4,72.0,0,0,1.0
+2026-11-11T13:13:37,20261111-131304_clip-vit-large-patch14_sanity_f0,Fine-tuned CLIP head (k4 e0 cons1.0),168,97.6,92.9,59.5,33.3,70.8,79.4,65.0,1,2,1.0
+2026-11-11T13:16:42,20261111-131642_clip-vit-large-patch14_svm,SVM on frozen CLIP (clean + noisy copies),840,100.0,99.5,99.0,97.6,99.0,99.4,98.8,123,2,0.0
+2026-11-11T13:18:29,20261111-131650_clip-vit-large-patch14_e3_f0,Fine-tuned CLIP database (k4 e15 cons1.0),168,100.0,100.0,100.0,88.1,97.0,98.5,96.0,22,0,0.0
+2026-11-11T13:18:29,20261111-131650_clip-vit-large-patch14_e3_f0,Fine-tuned CLIP head (k4 e15 cons1.0),168,100.0,100.0,100.0,95.2,98.8,98.5,99.0,25,0,0.0
+2026-11-11T13:21:24,20261111-131836_clip-vit-large-patch14_e4_f0,Fine-tuned CLIP database (k4 e15 cons1.0) + noisy copies,168,100.0,100.0,100.0,97.6,99.4,100.0,99.0,26,0,0.0
+2026-11-11T13:21:24,20261111-131836_clip-vit-large-patch14_e4_f0,Fine-tuned CLIP head (k4 e15 cons1.0),168,100.0,100.0,100.0,95.2,98.8,98.5,99.0,25,0,0.0
+2026-11-11T13:44:14,20261111-133622_clip-vit-large-patch14_e3_all,Fine-tuned CLIP database (k4 e15 cons1.0),840,100.0,100.0,99.5,93.8,98.3,98.8,98.0,114,1,0.0
+2026-11-11T13:44:14,20261111-133622_clip-vit-large-patch14_e3_all,Fine-tuned CLIP head (k4 e15 cons1.0),840,100.0,100.0,99.5,95.2,98.7,98.8,98.6,117,1,0.0
+2026-11-11T13:57:47,20261111-134420_clip-vit-large-patch14_e4_all,Fine-tuned CLIP database (k4 e15 cons1.0) + noisy copies,840,100.0,100.0,99.5,97.1,99.2,99.4,99.0,121,1,0.0
+2026-11-11T13:57:47,20261111-134420_clip-vit-large-patch14_e4_all,Fine-tuned CLIP head (k4 e15 cons1.0),840,100.0,100.0,99.5,95.2,98.7,98.8,98.6,117,1,0.0
+2026-11-11T15:22:03,20261111-152201_clip-vit-large-patch14_e0_8d,"CLIP database, frozen clip-vit-large-patch14 (recomputed) [8 diseases] (original 7 diseases)",840,100.0,93.3,71.9,40.0,76.3,81.2,73.0,0,0,1.0
+2026-11-11T15:22:03,20261111-152201_clip-vit-large-patch14_e0_8d,"CLIP database, frozen clip-vit-large-patch14 (recomputed) [8 diseases] (black gram only)",120,100.0,66.7,20.0,6.7,48.3,48.3,,,,
+2026-11-11T15:22:03,20261111-152201_clip-vit-large-patch14_e0_8d,"CLIP zero-shot, frozen clip-vit-large-patch14 (recomputed) [8 diseases] (original 7 diseases)",840,25.7,15.2,8.6,3.8,13.3,9.1,16.2,7,83,0.0
+2026-11-11T15:22:03,20261111-152201_clip-vit-large-patch14_e0_8d,"CLIP zero-shot, frozen clip-vit-large-patch14 (recomputed) [8 diseases] (black gram only)",120,0.0,3.3,6.7,10.0,5.0,5.0,,,,
+2026-11-11T15:22:30,20261111-152229_clip-vit-large-patch14_e0_8d_rb,"CLIP database, frozen clip-vit-large-patch14 (recomputed) [recipe B, 8 diseases] (original 7 diseases)",840,100.0,85.2,55.7,30.5,67.9,74.1,63.6,,,
+2026-11-11T15:22:30,20261111-152229_clip-vit-large-patch14_e0_8d_rb,"CLIP zero-shot, frozen clip-vit-large-patch14 (recomputed) [recipe B, 8 diseases] (original 7 diseases)",840,25.7,14.3,10.5,1.4,13.0,6.2,17.6,,,
+2026-11-11T15:23:56,20261111-152356_clip-vit-large-patch14_e1_8d,"CLIP database + noisy copies (levels [1, 2, 3], x1) [8 diseases] (original 7 diseases)",840,100.0,100.0,98.6,95.7,98.6,98.8,98.4,121,4,0.0
+2026-11-11T15:24:08,20261111-152408_clip-vit-large-patch14_e1_8d_rb,"CLIP database + noisy copies (levels [1, 2, 3], x1) [recipe B, 8 diseases] (original 7 diseases)",840,100.0,96.7,91.4,67.1,88.8,90.3,87.8,,,
+2026-11-11T15:26:44,20261111-152643_clip-vit-large-patch14_svm_8d,SVM on frozen CLIP (clean + noisy copies) [8 diseases] (original 7 diseases),840,99.5,99.5,98.6,97.1,98.7,99.4,98.2,122,2,0.0
+2026-11-11T15:26:44,20261111-152643_clip-vit-large-patch14_svm_8d,SVM on frozen CLIP (clean + noisy copies) [8 diseases] (black gram only),120,100.0,100.0,100.0,96.7,99.2,99.2,,,,
+2026-11-11T15:29:18,20261111-152918_clip-vit-large-patch14_svm_8d_rb,"SVM on frozen CLIP (clean + noisy copies) [recipe B, 8 diseases] (original 7 diseases)",840,99.5,99.0,97.1,78.1,93.5,96.2,91.6,,,
+2026-11-11T15:29:18,20261111-152918_clip-vit-large-patch14_svm_8d_rb,"SVM on frozen CLIP (clean + noisy copies) [recipe B, 8 diseases] (black gram only)",120,100.0,93.3,93.3,70.0,89.2,89.2,,,,
+2026-11-11T15:39:37,20261111-152925_clip-vit-large-patch14_e3_8d,Fine-tuned CLIP database (k4 e15 cons1.0) [8 diseases] (original 7 diseases),840,100.0,100.0,99.5,92.4,98.0,98.5,97.6,111,1,0.0
+2026-11-11T15:39:37,20261111-152925_clip-vit-large-patch14_e3_8d,Fine-tuned CLIP database (k4 e15 cons1.0) [8 diseases] (black gram only),120,100.0,96.7,93.3,80.0,92.5,92.5,,,,
+2026-11-11T15:39:37,20261111-152925_clip-vit-large-patch14_e3_8d,Fine-tuned CLIP head (k4 e15 cons1.0) [8 diseases] (original 7 diseases),840,100.0,100.0,99.5,94.3,98.5,97.9,98.8,115,1,0.0
+2026-11-11T15:39:37,20261111-152925_clip-vit-large-patch14_e3_8d,Fine-tuned CLIP head (k4 e15 cons1.0) [8 diseases] (black gram only),120,100.0,96.7,96.7,93.3,96.7,96.7,,,,
+2026-11-11T15:39:38,20261111-153937_clip-vit-large-patch14_e3_8d_rb,"Fine-tuned CLIP database (k4 e15 cons1.0) [recipe B, 8 diseases] (original 7 diseases)",840,100.0,99.0,94.8,73.8,91.9,96.8,88.6,,,
+2026-11-11T15:39:38,20261111-153937_clip-vit-large-patch14_e3_8d_rb,"Fine-tuned CLIP database (k4 e15 cons1.0) [recipe B, 8 diseases] (black gram only)",120,100.0,96.7,93.3,63.3,88.3,88.3,,,,
+2026-11-11T15:39:38,20261111-153937_clip-vit-large-patch14_e3_8d_rb,"Fine-tuned CLIP head (k4 e15 cons1.0) [recipe B, 8 diseases] (original 7 diseases)",840,100.0,99.5,97.6,79.5,94.2,97.1,92.2,,,
+2026-11-11T15:39:38,20261111-153937_clip-vit-large-patch14_e3_8d_rb,"Fine-tuned CLIP head (k4 e15 cons1.0) [recipe B, 8 diseases] (black gram only)",120,100.0,96.7,96.7,73.3,91.7,91.7,,,,
+2026-11-11T16:02:58,20261111-153945_clip-vit-large-patch14_e4_8d,Fine-tuned CLIP database (k4 e15 cons1.0) + noisy copies [8 diseases] (original 7 diseases),840,100.0,100.0,99.0,96.7,98.9,98.8,99.0,120,1,0.0
+2026-11-11T16:02:58,20261111-153945_clip-vit-large-patch14_e4_8d,Fine-tuned CLIP database (k4 e15 cons1.0) + noisy copies [8 diseases] (black gram only),120,100.0,96.7,96.7,90.0,95.8,95.8,,,,
+2026-11-11T16:02:58,20261111-153945_clip-vit-large-patch14_e4_8d,Fine-tuned CLIP head (k4 e15 cons1.0) [8 diseases] (original 7 diseases),840,100.0,100.0,99.5,94.3,98.5,97.9,98.8,115,1,0.0
+2026-11-11T16:02:58,20261111-153945_clip-vit-large-patch14_e4_8d,Fine-tuned CLIP head (k4 e15 cons1.0) [8 diseases] (black gram only),120,100.0,96.7,96.7,93.3,96.7,96.7,,,,
+2026-11-11T16:02:59,20261111-160258_clip-vit-large-patch14_e4_8d_rb,"Fine-tuned CLIP database (k4 e15 cons1.0) + noisy copies [recipe B, 8 diseases] (original 7 diseases)",840,100.0,99.0,97.1,85.2,95.4,98.2,93.4,,,
+2026-11-11T16:02:59,20261111-160258_clip-vit-large-patch14_e4_8d_rb,"Fine-tuned CLIP database (k4 e15 cons1.0) + noisy copies [recipe B, 8 diseases] (black gram only)",120,100.0,96.7,96.7,76.7,92.5,92.5,,,,
+2026-11-11T16:02:59,20261111-160258_clip-vit-large-patch14_e4_8d_rb,"Fine-tuned CLIP head (k4 e15 cons1.0) [recipe B, 8 diseases] (original 7 diseases)",840,100.0,99.5,97.6,79.5,94.2,97.1,92.2,,,
+2026-11-11T16:02:59,20261111-160258_clip-vit-large-patch14_e4_8d_rb,"Fine-tuned CLIP head (k4 e15 cons1.0) [recipe B, 8 diseases] (black gram only)",120,100.0,96.7,96.7,73.3,91.7,91.7,,,,

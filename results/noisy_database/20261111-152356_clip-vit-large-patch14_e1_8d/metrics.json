@@ -1,0 +1,60 @@
+{
+ "CLIP database + noisy copies (levels [1, 2, 3], x1) [8 diseases]": {
+  "levels": {
+   "L0": 100.0,
+   "L1": 100.0,
+   "L2": 98.6,
+   "L3": 95.7,
+   "All": 98.6,
+   "n": 840
+  },
+  "A": 98.8,
+  "B": 98.4,
+  "vs": {
+   "CLIP database, frozen (Step 2)": {
+    "All": {
+     "images": 840,
+     "only_new_right": 193,
+     "only_baseline_right": 6,
+     "p": 2.052931199075097e-49
+    },
+    "L3": {
+     "images": 210,
+     "only_new_right": 121,
+     "only_baseline_right": 4,
+     "p": 4.709971235072482e-31
+    }
+   },
+   "Gemini + references + descriptions (Step 2b)": {
+    "All": {
+     "images": 840,
+     "only_new_right": 173,
+     "only_baseline_right": 7,
+     "p": 1.4673730133749156e-42
+    },
+    "L3": {
+     "images": 210,
+     "only_new_right": 107,
+     "only_baseline_right": 5,
+     "p": 5.415668049444862e-26
+    }
+   }
+  },
+  "black_gram": {
+   "L0": 100.0,
+   "L1": 96.7,
+   "L2": 86.7,
+   "L3": 90.0,
+   "All": 93.3,
+   "n": 120
+  },
+  "all_images": {
+   "L0": 100.0,
+   "L1": 99.6,
+   "L2": 97.1,
+   "L3": 95.0,
+   "All": 97.9,
+   "n": 960
+  }
+ }
+}

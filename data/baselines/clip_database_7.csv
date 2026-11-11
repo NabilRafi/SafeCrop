@@ -1,0 +1,841 @@
+image,model,pred_label,confidence,top3,clip_model
+L0/apple_scab/apple_scab_001_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_001_gaussian_noise_L1.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_001_gaussian_noise_L2.png,CLIP photo database,potato_late_blight,0.596686719456435,potato_late_blight; jute_mosaic; rice_stem_borer,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_001_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_002_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_002_low_light_L1.png,CLIP photo database,grape_leaf_blight,0.5939024647202042,grape_leaf_blight; jute_mosaic; apple_scab,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_002_low_light_L2.png,CLIP photo database,grape_leaf_blight,0.39629502233323466,grape_leaf_blight; pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_002_low_light_L3.png,CLIP photo database,grape_leaf_blight,0.39592645243806585,grape_leaf_blight; jute_mosaic; rice_stem_borer,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_003_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_003_motion_blur_L1.png,CLIP photo database,apple_scab,0.5952120181377359,apple_scab; pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_003_motion_blur_L2.png,CLIP photo database,rice_stem_borer,0.597347283210741,rice_stem_borer; jute_mosaic; pear_leaf_spot,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_003_motion_blur_L3.png,CLIP photo database,rice_stem_borer,0.5967443414866294,rice_stem_borer; jute_mosaic; pear_leaf_spot,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_004_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_004_gaussian_noise_L1.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_004_gaussian_noise_L2.png,CLIP photo database,rice_stem_borer,0.40414915073302393,rice_stem_borer; jute_mosaic; potato_late_blight,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_004_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_005_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_005_gaussian_noise_L1.png,CLIP photo database,apple_scab,0.8033026717433044,apple_scab; potato_late_blight,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_005_gaussian_noise_L2.png,CLIP photo database,grape_leaf_blight,0.7994362599324328,grape_leaf_blight; potato_late_blight,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_005_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,0.612893863107108,rice_stem_borer; grape_leaf_blight; potato_late_blight,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_006_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_006_jpeg_compression_L1.png,CLIP photo database,apple_scab,0.6013288636902228,apple_scab; potato_late_blight,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_006_jpeg_compression_L2.png,CLIP photo database,apple_scab,0.598847255581251,apple_scab; potato_late_blight,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_006_jpeg_compression_L3.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_007_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_007_motion_blur_L1.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_007_motion_blur_L2.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_007_motion_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_008_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_008_defocus_blur_L1.png,CLIP photo database,apple_scab,0.597156723607904,apple_scab; pear_leaf_spot,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_008_defocus_blur_L2.png,CLIP photo database,apple_scab,0.4033517466196457,apple_scab; jute_mosaic; pear_leaf_spot,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_008_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,0.6055698854889694,rice_stem_borer; jute_mosaic; pear_leaf_spot,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_009_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_009_low_light_L1.png,CLIP photo database,jute_mosaic,0.6057673551503424,jute_mosaic; potato_late_blight; apple_scab,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_009_low_light_L2.png,CLIP photo database,jute_mosaic,0.4094151583520855,jute_mosaic; potato_late_blight; grape_leaf_blight,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_009_low_light_L3.png,CLIP photo database,rice_stem_borer,0.805433305732652,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_010_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_010_gaussian_noise_L1.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_010_gaussian_noise_L2.png,CLIP photo database,grape_leaf_blight,0.5942402025522645,grape_leaf_blight; rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_010_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_011_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_011_motion_blur_L1.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_011_motion_blur_L2.png,CLIP photo database,apple_scab,0.800584445908394,apple_scab; jute_mosaic,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_011_motion_blur_L3.png,CLIP photo database,rice_stem_borer,0.800370443140716,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_012_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_012_defocus_blur_L1.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_012_defocus_blur_L2.png,CLIP photo database,apple_scab,0.5997400268549482,apple_scab; potato_late_blight; jute_mosaic,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_012_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_013_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_013_low_light_L1.png,CLIP photo database,apple_scab,0.6029279011998354,apple_scab; rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_013_low_light_L2.png,CLIP photo database,jute_mosaic,0.4012669710670285,jute_mosaic; potato_late_blight; rice_stem_borer,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_013_low_light_L3.png,CLIP photo database,rice_stem_borer,0.8023840373794606,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_014_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_014_low_light_L1.png,CLIP photo database,apple_scab,0.8007582491725526,apple_scab; pear_leaf_spot,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_014_low_light_L2.png,CLIP photo database,pear_leaf_spot,0.404732719992756,pear_leaf_spot; apple_scab; jute_mosaic,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_014_low_light_L3.png,CLIP photo database,rice_stem_borer,0.39178665528203793,rice_stem_borer; pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_015_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_015_low_light_L1.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_015_low_light_L2.png,CLIP photo database,jute_mosaic,0.605352751457296,jute_mosaic; grape_leaf_blight; potato_late_blight,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_015_low_light_L3.png,CLIP photo database,rice_stem_borer,0.4019759679070441,rice_stem_borer; jute_mosaic; potato_late_blight,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_016_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_016_defocus_blur_L1.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_016_defocus_blur_L2.png,CLIP photo database,rice_stem_borer,0.603838265644008,rice_stem_borer; jute_mosaic; pear_leaf_spot,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_016_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,0.8041935509411532,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_017_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_017_motion_blur_L1.png,CLIP photo database,apple_scab,0.5986238802606403,apple_scab; jute_mosaic; pear_leaf_spot,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_017_motion_blur_L2.png,CLIP photo database,jute_mosaic,0.40096412453174624,jute_mosaic; pear_leaf_spot; apple_scab,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_017_motion_blur_L3.png,CLIP photo database,rice_stem_borer,0.40097588805610623,rice_stem_borer; pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_018_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_018_low_light_L1.png,CLIP photo database,apple_scab,0.801287108430492,apple_scab; jute_mosaic,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_018_low_light_L2.png,CLIP photo database,apple_scab,0.3990817924562281,apple_scab; jute_mosaic; potato_late_blight,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_018_low_light_L3.png,CLIP photo database,jute_mosaic,0.4061186725763233,jute_mosaic; grape_leaf_blight; potato_late_blight,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_019_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_019_jpeg_compression_L1.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_019_jpeg_compression_L2.png,CLIP photo database,apple_scab,0.6024790582116223,apple_scab; potato_late_blight,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_019_jpeg_compression_L3.png,CLIP photo database,potato_late_blight,0.40270342664471254,potato_late_blight; jute_mosaic; apple_scab,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_020_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_020_jpeg_compression_L1.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_020_jpeg_compression_L2.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_020_jpeg_compression_L3.png,CLIP photo database,potato_late_blight,0.39609420293724557,potato_late_blight; rice_stem_borer; grape_leaf_blight,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_021_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_021_defocus_blur_L1.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_021_defocus_blur_L2.png,CLIP photo database,rice_stem_borer,0.5976896180243149,rice_stem_borer; jute_mosaic; pear_leaf_spot,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_021_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,0.805435532749247,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_022_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_022_motion_blur_L1.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_022_motion_blur_L2.png,CLIP photo database,apple_scab,0.602419796788843,apple_scab; jute_mosaic; potato_late_blight,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_022_motion_blur_L3.png,CLIP photo database,rice_stem_borer,0.4007766147350217,rice_stem_borer; jute_mosaic; apple_scab,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_023_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_023_gaussian_noise_L1.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_023_gaussian_noise_L2.png,CLIP photo database,apple_scab,0.39869011613156463,apple_scab; rice_stem_borer; pear_leaf_spot,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_023_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_024_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_024_jpeg_compression_L1.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_024_jpeg_compression_L2.png,CLIP photo database,apple_scab,0.7996884135143362,apple_scab; potato_late_blight,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_024_jpeg_compression_L3.png,CLIP photo database,grape_leaf_blight,0.4003019432452081,grape_leaf_blight; apple_scab; potato_late_blight,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_025_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_025_motion_blur_L1.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_025_motion_blur_L2.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_025_motion_blur_L3.png,CLIP photo database,rice_stem_borer,0.4063091750734375,rice_stem_borer; pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_026_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_026_defocus_blur_L1.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_026_defocus_blur_L2.png,CLIP photo database,apple_scab,0.39602554929698086,apple_scab; jute_mosaic; rice_stem_borer,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_026_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,0.8039153275239506,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_027_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_027_jpeg_compression_L1.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_027_jpeg_compression_L2.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_027_jpeg_compression_L3.png,CLIP photo database,apple_scab,0.4067623618114023,apple_scab; pear_leaf_spot; potato_late_blight,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_028_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_028_jpeg_compression_L1.png,CLIP photo database,apple_scab,0.8009992934871416,apple_scab; potato_late_blight,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_028_jpeg_compression_L2.png,CLIP photo database,potato_late_blight,0.5992557438349605,potato_late_blight; apple_scab,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_028_jpeg_compression_L3.png,CLIP photo database,potato_late_blight,0.6046905395658309,potato_late_blight; grape_leaf_blight,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_029_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_029_defocus_blur_L1.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_029_defocus_blur_L2.png,CLIP photo database,rice_stem_borer,0.4009362246854212,rice_stem_borer; potato_late_blight; jute_mosaic,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_029_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,0.8046942947045577,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/apple_scab/apple_scab_030_clean_L0.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L1/apple_scab/apple_scab_030_gaussian_noise_L1.png,CLIP photo database,apple_scab,1.0,apple_scab,openai/clip-vit-large-patch14
+L2/apple_scab/apple_scab_030_gaussian_noise_L2.png,CLIP photo database,rice_stem_borer,0.4043831377544199,rice_stem_borer; grape_leaf_blight; jute_mosaic,openai/clip-vit-large-patch14
+L3/apple_scab/apple_scab_030_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_001_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_001_motion_blur_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_001_motion_blur_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_001_motion_blur_L3.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_002_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_002_gaussian_noise_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_002_gaussian_noise_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_002_gaussian_noise_L3.png,CLIP photo database,grape_leaf_blight,0.8002808532665454,grape_leaf_blight; rice_stem_borer,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_003_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_003_gaussian_noise_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_003_gaussian_noise_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_003_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,0.6049767162954862,rice_stem_borer; grape_leaf_blight,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_004_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_004_low_light_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_004_low_light_L2.png,CLIP photo database,grape_leaf_blight,0.8009036767982035,grape_leaf_blight; rice_stem_borer,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_004_low_light_L3.png,CLIP photo database,rice_stem_borer,0.8058943278983399,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_005_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_005_jpeg_compression_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_005_jpeg_compression_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_005_jpeg_compression_L3.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_006_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_006_jpeg_compression_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_006_jpeg_compression_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_006_jpeg_compression_L3.png,CLIP photo database,grape_leaf_blight,0.5976516647221191,grape_leaf_blight; rice_stem_borer,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_007_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_007_defocus_blur_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_007_defocus_blur_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_007_defocus_blur_L3.png,CLIP photo database,grape_leaf_blight,0.6017791143924449,grape_leaf_blight; rice_stem_borer,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_008_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_008_motion_blur_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_008_motion_blur_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_008_motion_blur_L3.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_009_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_009_motion_blur_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_009_motion_blur_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_009_motion_blur_L3.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_010_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_010_gaussian_noise_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_010_gaussian_noise_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_010_gaussian_noise_L3.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_011_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_011_low_light_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_011_low_light_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_011_low_light_L3.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_012_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_012_motion_blur_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_012_motion_blur_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_012_motion_blur_L3.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_013_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_013_defocus_blur_L1.png,CLIP photo database,grape_leaf_blight,0.6018534755393934,grape_leaf_blight; apple_scab; jute_mosaic,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_013_defocus_blur_L2.png,CLIP photo database,grape_leaf_blight,0.798015673753441,grape_leaf_blight; jute_mosaic,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_013_defocus_blur_L3.png,CLIP photo database,grape_leaf_blight,0.8004079152754382,grape_leaf_blight; jute_mosaic,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_014_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_014_gaussian_noise_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_014_gaussian_noise_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_014_gaussian_noise_L3.png,CLIP photo database,grape_leaf_blight,0.5962922915452817,grape_leaf_blight; rice_stem_borer,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_015_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_015_low_light_L1.png,CLIP photo database,grape_leaf_blight,0.597833731047151,grape_leaf_blight; potato_late_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_015_low_light_L2.png,CLIP photo database,grape_leaf_blight,0.6005125718364303,grape_leaf_blight; potato_late_blight; jute_mosaic,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_015_low_light_L3.png,CLIP photo database,grape_leaf_blight,0.8006762638744629,grape_leaf_blight; rice_stem_borer,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_016_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_016_defocus_blur_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_016_defocus_blur_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_016_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,0.4017468597305192,rice_stem_borer; grape_leaf_blight; jute_mosaic,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_017_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_017_jpeg_compression_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_017_jpeg_compression_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_017_jpeg_compression_L3.png,CLIP photo database,rice_stem_borer,0.6021617914408963,rice_stem_borer; grape_leaf_blight,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_018_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_018_jpeg_compression_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_018_jpeg_compression_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_018_jpeg_compression_L3.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_019_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_019_low_light_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_019_low_light_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_019_low_light_L3.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_020_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_020_jpeg_compression_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_020_jpeg_compression_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_020_jpeg_compression_L3.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_021_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_021_low_light_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_021_low_light_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_021_low_light_L3.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_022_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_022_motion_blur_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_022_motion_blur_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_022_motion_blur_L3.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_023_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_023_defocus_blur_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_023_defocus_blur_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_023_defocus_blur_L3.png,CLIP photo database,grape_leaf_blight,0.5963449624012016,grape_leaf_blight; rice_stem_borer,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_024_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_024_defocus_blur_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_024_defocus_blur_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_024_defocus_blur_L3.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_025_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_025_defocus_blur_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_025_defocus_blur_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_025_defocus_blur_L3.png,CLIP photo database,grape_leaf_blight,0.8007995583388864,grape_leaf_blight; potato_late_blight,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_026_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_026_low_light_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_026_low_light_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_026_low_light_L3.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_027_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_027_jpeg_compression_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_027_jpeg_compression_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_027_jpeg_compression_L3.png,CLIP photo database,grape_leaf_blight,0.6002480698118752,grape_leaf_blight; rice_stem_borer; potato_late_blight,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_028_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_028_motion_blur_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_028_motion_blur_L2.png,CLIP photo database,grape_leaf_blight,0.8026547305110879,grape_leaf_blight; jute_mosaic,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_028_motion_blur_L3.png,CLIP photo database,rice_stem_borer,0.8037477534078581,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_029_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_029_gaussian_noise_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_029_gaussian_noise_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_029_gaussian_noise_L3.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L0/grape_leaf_blight/grape_leaf_blight_030_clean_L0.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L1/grape_leaf_blight/grape_leaf_blight_030_gaussian_noise_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/grape_leaf_blight/grape_leaf_blight_030_gaussian_noise_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/grape_leaf_blight/grape_leaf_blight_030_gaussian_noise_L3.png,CLIP photo database,grape_leaf_blight,0.8000282800715109,grape_leaf_blight; rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_001_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_001_low_light_L1.png,CLIP photo database,jute_mosaic,0.40557654447281355,jute_mosaic; rice_stem_borer; jute_dieback,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_001_low_light_L2.png,CLIP photo database,rice_stem_borer,0.5949359221914741,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_001_low_light_L3.png,CLIP photo database,rice_stem_borer,0.8020239621081023,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_002_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_002_jpeg_compression_L1.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_002_jpeg_compression_L2.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_002_jpeg_compression_L3.png,CLIP photo database,jute_dieback,0.8035852194303064,jute_dieback; jute_mosaic,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_003_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_003_low_light_L1.png,CLIP photo database,jute_dieback,0.6028333002644497,jute_dieback; jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_003_low_light_L2.png,CLIP photo database,jute_dieback,0.4021083100032727,jute_dieback; jute_mosaic; rice_stem_borer,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_003_low_light_L3.png,CLIP photo database,jute_mosaic,0.40473474179013685,jute_mosaic; rice_stem_borer; potato_late_blight,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_004_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_004_defocus_blur_L1.png,CLIP photo database,jute_dieback,0.800772224177689,jute_dieback; jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_004_defocus_blur_L2.png,CLIP photo database,rice_stem_borer,0.796173925321208,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_004_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_005_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_005_gaussian_noise_L1.png,CLIP photo database,jute_mosaic,0.40441281451455147,jute_mosaic; rice_stem_borer; potato_late_blight,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_005_gaussian_noise_L2.png,CLIP photo database,rice_stem_borer,0.8029237268404804,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_005_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_006_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_006_low_light_L1.png,CLIP photo database,jute_mosaic,0.8002697030539523,jute_mosaic; jute_dieback,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_006_low_light_L2.png,CLIP photo database,jute_mosaic,0.6055797204126004,jute_mosaic; jute_dieback; potato_late_blight,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_006_low_light_L3.png,CLIP photo database,jute_mosaic,0.40318441315780973,jute_mosaic; rice_stem_borer; jute_dieback,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_007_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_007_motion_blur_L1.png,CLIP photo database,jute_dieback,0.7981152984726515,jute_dieback; jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_007_motion_blur_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_007_motion_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_008_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_008_defocus_blur_L1.png,CLIP photo database,rice_stem_borer,0.7947162780128457,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_008_defocus_blur_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_008_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_009_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_009_motion_blur_L1.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_009_motion_blur_L2.png,CLIP photo database,rice_stem_borer,0.6045604168730591,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_009_motion_blur_L3.png,CLIP photo database,rice_stem_borer,0.8036535101072375,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_010_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_010_gaussian_noise_L1.png,CLIP photo database,jute_dieback,0.8005632034273588,jute_dieback; jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_010_gaussian_noise_L2.png,CLIP photo database,rice_stem_borer,0.7957463525313445,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_010_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_011_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_011_defocus_blur_L1.png,CLIP photo database,jute_dieback,0.6039603792909013,jute_dieback; jute_mosaic; rice_stem_borer,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_011_defocus_blur_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_011_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_012_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_012_low_light_L1.png,CLIP photo database,jute_dieback,0.6002673635494785,jute_dieback; jute_mosaic; rice_stem_borer,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_012_low_light_L2.png,CLIP photo database,rice_stem_borer,0.7988137814881171,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_012_low_light_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_013_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_013_jpeg_compression_L1.png,CLIP photo database,rice_stem_borer,0.397633478212766,rice_stem_borer; potato_late_blight; apple_scab,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_013_jpeg_compression_L2.png,CLIP photo database,rice_stem_borer,0.5987892441498551,rice_stem_borer; potato_late_blight,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_013_jpeg_compression_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_014_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_014_gaussian_noise_L1.png,CLIP photo database,jute_dieback,0.8005824241675746,jute_dieback; jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_014_gaussian_noise_L2.png,CLIP photo database,rice_stem_borer,0.7960172361300724,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_014_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_015_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_015_gaussian_noise_L1.png,CLIP photo database,jute_dieback,0.8025033014041805,jute_dieback; jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_015_gaussian_noise_L2.png,CLIP photo database,rice_stem_borer,0.8016044815810456,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_015_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_016_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_016_motion_blur_L1.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_016_motion_blur_L2.png,CLIP photo database,rice_stem_borer,0.6026605631530731,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_016_motion_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_017_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_017_defocus_blur_L1.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_017_defocus_blur_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_017_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_018_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_018_motion_blur_L1.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_018_motion_blur_L2.png,CLIP photo database,rice_stem_borer,0.8048179902382069,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_018_motion_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_019_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_019_defocus_blur_L1.png,CLIP photo database,jute_dieback,0.8008937155386804,jute_dieback; jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_019_defocus_blur_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_019_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_020_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_020_jpeg_compression_L1.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_020_jpeg_compression_L2.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_020_jpeg_compression_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_021_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_021_gaussian_noise_L1.png,CLIP photo database,jute_dieback,0.8002692146547993,jute_dieback; jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_021_gaussian_noise_L2.png,CLIP photo database,rice_stem_borer,0.5987464498524038,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_021_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_022_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_022_jpeg_compression_L1.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_022_jpeg_compression_L2.png,CLIP photo database,jute_mosaic,0.5927192324608284,jute_mosaic; jute_dieback,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_022_jpeg_compression_L3.png,CLIP photo database,rice_stem_borer,0.7978294799363373,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_023_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_023_motion_blur_L1.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_023_motion_blur_L2.png,CLIP photo database,jute_dieback,0.8008477444163707,jute_dieback; jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_023_motion_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_024_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_024_low_light_L1.png,CLIP photo database,rice_stem_borer,0.5949658415348464,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_024_low_light_L2.png,CLIP photo database,rice_stem_borer,0.7991496844870916,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_024_low_light_L3.png,CLIP photo database,rice_stem_borer,0.8033131530564104,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_025_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_025_jpeg_compression_L1.png,CLIP photo database,jute_dieback,0.8026303935593825,jute_dieback; jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_025_jpeg_compression_L2.png,CLIP photo database,jute_dieback,0.798390048612459,jute_dieback; jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_025_jpeg_compression_L3.png,CLIP photo database,rice_stem_borer,0.4019626281433213,rice_stem_borer; jute_dieback; jute_mosaic,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_026_clean_L0.png,CLIP photo database,jute_dieback,0.8008875786627143,jute_dieback; jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_026_jpeg_compression_L1.png,CLIP photo database,jute_dieback,0.6016753708581642,jute_dieback; jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_026_jpeg_compression_L2.png,CLIP photo database,jute_mosaic,0.5994287168962137,jute_mosaic; jute_dieback; potato_late_blight,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_026_jpeg_compression_L3.png,CLIP photo database,jute_mosaic,0.8006690360973263,jute_mosaic; jute_dieback,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_027_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_027_motion_blur_L1.png,CLIP photo database,jute_mosaic,0.8012876954459295,jute_mosaic; jute_dieback,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_027_motion_blur_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_027_motion_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_028_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_028_low_light_L1.png,CLIP photo database,jute_dieback,0.5891198395178268,jute_dieback; jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_028_low_light_L2.png,CLIP photo database,jute_dieback,0.40097554032650146,jute_dieback; rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_028_low_light_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_029_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_029_defocus_blur_L1.png,CLIP photo database,jute_dieback,0.8004617143039852,jute_dieback; jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_029_defocus_blur_L2.png,CLIP photo database,jute_mosaic,0.6002715736238057,jute_mosaic; jute_dieback,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_029_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,0.803938722943758,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/jute_dieback/jute_dieback_030_clean_L0.png,CLIP photo database,jute_dieback,1.0,jute_dieback,openai/clip-vit-large-patch14
+L1/jute_dieback/jute_dieback_030_gaussian_noise_L1.png,CLIP photo database,jute_dieback,0.8009206150380774,jute_dieback; jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_dieback/jute_dieback_030_gaussian_noise_L2.png,CLIP photo database,rice_stem_borer,0.8012113851004496,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_dieback/jute_dieback_030_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_001_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_001_motion_blur_L1.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_001_motion_blur_L2.png,CLIP photo database,jute_mosaic,0.805729619702659,jute_mosaic; rice_stem_borer,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_001_motion_blur_L3.png,CLIP photo database,rice_stem_borer,0.8006073255645296,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_002_clean_L0.png,CLIP photo database,jute_mosaic,0.8007121161756003,jute_mosaic; jute_dieback,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_002_motion_blur_L1.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_002_motion_blur_L2.png,CLIP photo database,jute_mosaic,0.6083396425815161,jute_mosaic; rice_stem_borer,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_002_motion_blur_L3.png,CLIP photo database,rice_stem_borer,0.5996522379371947,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_003_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_003_gaussian_noise_L1.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_003_gaussian_noise_L2.png,CLIP photo database,rice_stem_borer,0.6001718106301004,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_003_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_004_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_004_motion_blur_L1.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_004_motion_blur_L2.png,CLIP photo database,jute_mosaic,0.8047135085859008,jute_mosaic; rice_stem_borer,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_004_motion_blur_L3.png,CLIP photo database,rice_stem_borer,0.5957409241726813,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_005_clean_L0.png,CLIP photo database,jute_mosaic,0.8013661266563649,jute_mosaic; jute_dieback,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_005_gaussian_noise_L1.png,CLIP photo database,jute_mosaic,0.610997790471381,jute_mosaic; rice_stem_borer,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_005_gaussian_noise_L2.png,CLIP photo database,jute_mosaic,0.6018596006789987,jute_mosaic; rice_stem_borer,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_005_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_006_clean_L0.png,CLIP photo database,jute_mosaic,0.6019585508578139,jute_mosaic; jute_dieback,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_006_low_light_L1.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_006_low_light_L2.png,CLIP photo database,jute_mosaic,0.6100353503760307,jute_mosaic; potato_late_blight,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_006_low_light_L3.png,CLIP photo database,rice_stem_borer,0.597312521739744,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_007_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_007_jpeg_compression_L1.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_007_jpeg_compression_L2.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_007_jpeg_compression_L3.png,CLIP photo database,jute_mosaic,0.6021840517744134,jute_mosaic; rice_stem_borer; potato_late_blight,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_008_clean_L0.png,CLIP photo database,jute_mosaic,0.8045646670087429,jute_mosaic; jute_dieback,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_008_motion_blur_L1.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_008_motion_blur_L2.png,CLIP photo database,jute_mosaic,0.8044733898648166,jute_mosaic; rice_stem_borer,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_008_motion_blur_L3.png,CLIP photo database,rice_stem_borer,0.603729415893397,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_009_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_009_defocus_blur_L1.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_009_defocus_blur_L2.png,CLIP photo database,rice_stem_borer,0.5988756204443172,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_009_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_010_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_010_low_light_L1.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_010_low_light_L2.png,CLIP photo database,jute_mosaic,0.60785388123379,jute_mosaic; pear_leaf_spot; rice_stem_borer,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_010_low_light_L3.png,CLIP photo database,jute_mosaic,0.40441108772700685,jute_mosaic; rice_stem_borer; pear_leaf_spot,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_011_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_011_jpeg_compression_L1.png,CLIP photo database,potato_late_blight,0.8020423488179371,potato_late_blight; jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_011_jpeg_compression_L2.png,CLIP photo database,potato_late_blight,0.5987591701585816,potato_late_blight; apple_scab; jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_011_jpeg_compression_L3.png,CLIP photo database,grape_leaf_blight,0.39782276684127427,grape_leaf_blight; rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_012_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_012_defocus_blur_L1.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_012_defocus_blur_L2.png,CLIP photo database,jute_mosaic,0.8017082714136206,jute_mosaic; rice_stem_borer,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_012_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_013_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_013_low_light_L1.png,CLIP photo database,jute_mosaic,0.802723914173049,jute_mosaic; grape_leaf_blight,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_013_low_light_L2.png,CLIP photo database,jute_mosaic,0.40779392051615604,jute_mosaic; rice_stem_borer; grape_leaf_blight,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_013_low_light_L3.png,CLIP photo database,rice_stem_borer,0.6022101927339373,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_014_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_014_defocus_blur_L1.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_014_defocus_blur_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_014_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_015_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_015_defocus_blur_L1.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_015_defocus_blur_L2.png,CLIP photo database,jute_mosaic,0.8016732319553758,jute_mosaic; rice_stem_borer,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_015_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_016_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_016_jpeg_compression_L1.png,CLIP photo database,jute_mosaic,0.7989181829021771,jute_mosaic; grape_leaf_blight,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_016_jpeg_compression_L2.png,CLIP photo database,jute_mosaic,0.8037142868456828,jute_mosaic; grape_leaf_blight,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_016_jpeg_compression_L3.png,CLIP photo database,rice_stem_borer,0.7982548037345895,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_017_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_017_gaussian_noise_L1.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_017_gaussian_noise_L2.png,CLIP photo database,rice_stem_borer,0.6040972599076359,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_017_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_018_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_018_jpeg_compression_L1.png,CLIP photo database,potato_late_blight,0.3988705859363668,potato_late_blight; grape_leaf_blight; jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_018_jpeg_compression_L2.png,CLIP photo database,grape_leaf_blight,0.7955100876531049,grape_leaf_blight; jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_018_jpeg_compression_L3.png,CLIP photo database,grape_leaf_blight,0.6020531401149704,grape_leaf_blight; jute_mosaic,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_019_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_019_motion_blur_L1.png,CLIP photo database,jute_mosaic,0.803369092867731,jute_mosaic; pear_leaf_spot,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_019_motion_blur_L2.png,CLIP photo database,jute_mosaic,0.40371147410804414,jute_mosaic; rice_stem_borer; pear_leaf_spot,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_019_motion_blur_L3.png,CLIP photo database,rice_stem_borer,0.6044164544472012,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_020_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_020_motion_blur_L1.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_020_motion_blur_L2.png,CLIP photo database,jute_mosaic,0.4072002004163962,jute_mosaic; rice_stem_borer; potato_late_blight,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_020_motion_blur_L3.png,CLIP photo database,rice_stem_borer,0.40486556840570176,rice_stem_borer; jute_mosaic; pear_leaf_spot,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_021_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_021_low_light_L1.png,CLIP photo database,jute_mosaic,0.8064159635472468,jute_mosaic; grape_leaf_blight,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_021_low_light_L2.png,CLIP photo database,jute_mosaic,0.4140870871266198,jute_mosaic; grape_leaf_blight; rice_stem_borer,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_021_low_light_L3.png,CLIP photo database,jute_mosaic,0.40841971698966256,jute_mosaic; pear_leaf_spot; rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_022_clean_L0.png,CLIP photo database,jute_mosaic,0.8028445533836316,jute_mosaic; jute_dieback,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_022_gaussian_noise_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_022_gaussian_noise_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_022_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_023_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_023_gaussian_noise_L1.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_023_gaussian_noise_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_023_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_024_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_024_defocus_blur_L1.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_024_defocus_blur_L2.png,CLIP photo database,jute_mosaic,0.6036373624322234,jute_mosaic; rice_stem_borer,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_024_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,0.8019913799077601,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_025_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_025_gaussian_noise_L1.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_025_gaussian_noise_L2.png,CLIP photo database,jute_mosaic,0.6022943454386486,jute_mosaic; rice_stem_borer,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_025_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,0.6055515624060106,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_026_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_026_jpeg_compression_L1.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_026_jpeg_compression_L2.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_026_jpeg_compression_L3.png,CLIP photo database,jute_mosaic,0.6038116158882298,jute_mosaic; rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_027_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_027_jpeg_compression_L1.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_027_jpeg_compression_L2.png,CLIP photo database,jute_mosaic,0.4011978438078704,jute_mosaic; grape_leaf_blight; potato_late_blight,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_027_jpeg_compression_L3.png,CLIP photo database,rice_stem_borer,0.7999254547549438,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_028_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_028_defocus_blur_L1.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_028_defocus_blur_L2.png,CLIP photo database,rice_stem_borer,0.7974258987327807,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_028_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,0.8040797283584858,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_029_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_029_low_light_L1.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_029_low_light_L2.png,CLIP photo database,jute_mosaic,0.6066144408412554,jute_mosaic; grape_leaf_blight; potato_late_blight,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_029_low_light_L3.png,CLIP photo database,jute_mosaic,0.6031712388332826,jute_mosaic; grape_leaf_blight; rice_stem_borer,openai/clip-vit-large-patch14
+L0/jute_mosaic/jute_mosaic_030_clean_L0.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L1/jute_mosaic/jute_mosaic_030_low_light_L1.png,CLIP photo database,jute_mosaic,1.0,jute_mosaic,openai/clip-vit-large-patch14
+L2/jute_mosaic/jute_mosaic_030_low_light_L2.png,CLIP photo database,jute_mosaic,0.41156830387996657,jute_mosaic; rice_stem_borer; grape_leaf_blight,openai/clip-vit-large-patch14
+L3/jute_mosaic/jute_mosaic_030_low_light_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_001_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_001_low_light_L1.png,CLIP photo database,pear_leaf_spot,0.5980174273882916,pear_leaf_spot; apple_scab,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_001_low_light_L2.png,CLIP photo database,pear_leaf_spot,0.602167702613234,pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_001_low_light_L3.png,CLIP photo database,pear_leaf_spot,0.5989988101702418,pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_002_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_002_low_light_L1.png,CLIP photo database,pear_leaf_spot,0.6012419736036436,pear_leaf_spot; jute_mosaic; apple_scab,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_002_low_light_L2.png,CLIP photo database,pear_leaf_spot,0.795605357322197,pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_002_low_light_L3.png,CLIP photo database,pear_leaf_spot,0.5978053559657092,pear_leaf_spot; jute_mosaic; rice_stem_borer,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_003_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_003_motion_blur_L1.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_003_motion_blur_L2.png,CLIP photo database,jute_mosaic,0.4065626061411484,jute_mosaic; pear_leaf_spot; rice_stem_borer,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_003_motion_blur_L3.png,CLIP photo database,rice_stem_borer,0.4013830101093652,rice_stem_borer; jute_mosaic; pear_leaf_spot,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_004_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_004_jpeg_compression_L1.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_004_jpeg_compression_L2.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_004_jpeg_compression_L3.png,CLIP photo database,pear_leaf_spot,0.8034354654810815,pear_leaf_spot; apple_scab,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_005_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_005_low_light_L1.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_005_low_light_L2.png,CLIP photo database,pear_leaf_spot,0.8048506716467458,pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_005_low_light_L3.png,CLIP photo database,pear_leaf_spot,0.40470729030723407,pear_leaf_spot; rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_006_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_006_gaussian_noise_L1.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_006_gaussian_noise_L2.png,CLIP photo database,pear_leaf_spot,0.4055346848626514,pear_leaf_spot; rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_006_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,0.4025389126248549,rice_stem_borer; jute_mosaic; pear_leaf_spot,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_007_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_007_jpeg_compression_L1.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_007_jpeg_compression_L2.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_007_jpeg_compression_L3.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_008_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_008_defocus_blur_L1.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_008_defocus_blur_L2.png,CLIP photo database,pear_leaf_spot,0.4051649880563639,pear_leaf_spot; rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_008_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,0.4049504156733826,rice_stem_borer; pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_009_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_009_defocus_blur_L1.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_009_defocus_blur_L2.png,CLIP photo database,jute_mosaic,0.6039171519240443,jute_mosaic; pear_leaf_spot; rice_stem_borer,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_009_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_010_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_010_motion_blur_L1.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_010_motion_blur_L2.png,CLIP photo database,pear_leaf_spot,0.4071779474710481,pear_leaf_spot; rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_010_motion_blur_L3.png,CLIP photo database,rice_stem_borer,0.3999343511644627,rice_stem_borer; pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_011_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_011_low_light_L1.png,CLIP photo database,pear_leaf_spot,0.8051813534668453,pear_leaf_spot; apple_scab,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_011_low_light_L2.png,CLIP photo database,pear_leaf_spot,0.7983175143290661,pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_011_low_light_L3.png,CLIP photo database,pear_leaf_spot,0.4065393914412064,pear_leaf_spot; rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_012_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_012_motion_blur_L1.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_012_motion_blur_L2.png,CLIP photo database,pear_leaf_spot,0.601907448309745,pear_leaf_spot; jute_mosaic; rice_stem_borer,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_012_motion_blur_L3.png,CLIP photo database,rice_stem_borer,0.6020140408173233,rice_stem_borer; pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_013_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_013_gaussian_noise_L1.png,CLIP photo database,pear_leaf_spot,0.5970512373164782,pear_leaf_spot; apple_scab,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_013_gaussian_noise_L2.png,CLIP photo database,pear_leaf_spot,0.7988803796529897,pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_013_gaussian_noise_L3.png,CLIP photo database,grape_leaf_blight,0.6003652565192708,grape_leaf_blight; jute_mosaic; rice_stem_borer,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_014_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_014_defocus_blur_L1.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_014_defocus_blur_L2.png,CLIP photo database,rice_stem_borer,0.40122710383606186,rice_stem_borer; pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_014_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,0.6068594254715926,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_015_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_015_jpeg_compression_L1.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_015_jpeg_compression_L2.png,CLIP photo database,pear_leaf_spot,0.8007011260231316,pear_leaf_spot; apple_scab,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_015_jpeg_compression_L3.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_016_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_016_low_light_L1.png,CLIP photo database,pear_leaf_spot,0.7989355391922413,pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_016_low_light_L2.png,CLIP photo database,jute_mosaic,0.40380294421127433,jute_mosaic; pear_leaf_spot; grape_leaf_blight,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_016_low_light_L3.png,CLIP photo database,rice_stem_borer,0.39838505233998206,rice_stem_borer; jute_mosaic; grape_leaf_blight,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_017_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_017_motion_blur_L1.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_017_motion_blur_L2.png,CLIP photo database,pear_leaf_spot,0.79936526072563,pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_017_motion_blur_L3.png,CLIP photo database,rice_stem_borer,0.39951137358570077,rice_stem_borer; pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_018_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_018_low_light_L1.png,CLIP photo database,pear_leaf_spot,0.5976865426599973,pear_leaf_spot; jute_mosaic; apple_scab,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_018_low_light_L2.png,CLIP photo database,jute_mosaic,0.598899786519525,jute_mosaic; pear_leaf_spot,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_018_low_light_L3.png,CLIP photo database,rice_stem_borer,0.5929389968010984,rice_stem_borer; jute_mosaic; pear_leaf_spot,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_019_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_019_gaussian_noise_L1.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_019_gaussian_noise_L2.png,CLIP photo database,pear_leaf_spot,0.8028577756899978,pear_leaf_spot; rice_stem_borer,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_019_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_020_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_020_gaussian_noise_L1.png,CLIP photo database,pear_leaf_spot,0.6037793190538909,pear_leaf_spot; apple_scab,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_020_gaussian_noise_L2.png,CLIP photo database,pear_leaf_spot,0.8044098160475895,pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_020_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,0.8043801407739938,rice_stem_borer; pear_leaf_spot,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_021_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_021_defocus_blur_L1.png,CLIP photo database,pear_leaf_spot,0.8033786756598399,pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_021_defocus_blur_L2.png,CLIP photo database,pear_leaf_spot,0.40325336466203404,pear_leaf_spot; rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_021_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,0.804288026168218,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_022_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_022_gaussian_noise_L1.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_022_gaussian_noise_L2.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_022_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,0.8063918904668327,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_023_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_023_low_light_L1.png,CLIP photo database,apple_scab,0.798341454032323,apple_scab; pear_leaf_spot,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_023_low_light_L2.png,CLIP photo database,jute_mosaic,0.40213917730594306,jute_mosaic; pear_leaf_spot; apple_scab,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_023_low_light_L3.png,CLIP photo database,pear_leaf_spot,0.5986795171901313,pear_leaf_spot; jute_mosaic; rice_stem_borer,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_024_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_024_motion_blur_L1.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_024_motion_blur_L2.png,CLIP photo database,pear_leaf_spot,0.4018037913437502,pear_leaf_spot; rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_024_motion_blur_L3.png,CLIP photo database,rice_stem_borer,0.5995554158922666,rice_stem_borer; jute_mosaic; pear_leaf_spot,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_025_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_025_motion_blur_L1.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_025_motion_blur_L2.png,CLIP photo database,pear_leaf_spot,0.4035504749991423,pear_leaf_spot; rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_025_motion_blur_L3.png,CLIP photo database,rice_stem_borer,0.5979098089497562,rice_stem_borer; jute_mosaic; pear_leaf_spot,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_026_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_026_defocus_blur_L1.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_026_defocus_blur_L2.png,CLIP photo database,rice_stem_borer,0.5984907899524938,rice_stem_borer; pear_leaf_spot,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_026_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_027_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_027_gaussian_noise_L1.png,CLIP photo database,pear_leaf_spot,0.6000579539612507,pear_leaf_spot; apple_scab,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_027_gaussian_noise_L2.png,CLIP photo database,pear_leaf_spot,0.804328749634655,pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_027_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,0.6114082402580223,rice_stem_borer; jute_mosaic; potato_late_blight,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_028_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_028_jpeg_compression_L1.png,CLIP photo database,pear_leaf_spot,0.7987336412853968,pear_leaf_spot; apple_scab,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_028_jpeg_compression_L2.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_028_jpeg_compression_L3.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_029_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_029_jpeg_compression_L1.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_029_jpeg_compression_L2.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_029_jpeg_compression_L3.png,CLIP photo database,pear_leaf_spot,0.802407676230883,pear_leaf_spot; grape_leaf_blight,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_030_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_030_defocus_blur_L1.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_030_defocus_blur_L2.png,CLIP photo database,rice_stem_borer,0.804363676681672,rice_stem_borer; pear_leaf_spot,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_030_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,0.8061095289426697,rice_stem_borer; jute_mosaic,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_031_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_031_motion_blur_L1.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_031_motion_blur_L2.png,CLIP photo database,pear_leaf_spot,0.8016241499218161,pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_031_motion_blur_L3.png,CLIP photo database,rice_stem_borer,0.4034480917446148,rice_stem_borer; jute_mosaic; pear_leaf_spot,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_032_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_032_gaussian_noise_L1.png,CLIP photo database,pear_leaf_spot,0.5992933683253235,pear_leaf_spot; apple_scab,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_032_gaussian_noise_L2.png,CLIP photo database,pear_leaf_spot,0.8003783002535878,pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_032_gaussian_noise_L3.png,CLIP photo database,jute_mosaic,0.3993568249752269,jute_mosaic; grape_leaf_blight; rice_stem_borer,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_033_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_033_jpeg_compression_L1.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_033_jpeg_compression_L2.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_033_jpeg_compression_L3.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_034_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_034_jpeg_compression_L1.png,CLIP photo database,pear_leaf_spot,0.7971457696050153,pear_leaf_spot; apple_scab,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_034_jpeg_compression_L2.png,CLIP photo database,pear_leaf_spot,0.8037943854969182,pear_leaf_spot; apple_scab,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_034_jpeg_compression_L3.png,CLIP photo database,pear_leaf_spot,0.6049742432875879,pear_leaf_spot; rice_stem_borer,openai/clip-vit-large-patch14
+L0/pear_leaf_spot/pear_leaf_spot_035_clean_L0.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L1/pear_leaf_spot/pear_leaf_spot_035_defocus_blur_L1.png,CLIP photo database,pear_leaf_spot,1.0,pear_leaf_spot,openai/clip-vit-large-patch14
+L2/pear_leaf_spot/pear_leaf_spot_035_defocus_blur_L2.png,CLIP photo database,pear_leaf_spot,0.8015928281052711,pear_leaf_spot; rice_stem_borer,openai/clip-vit-large-patch14
+L3/pear_leaf_spot/pear_leaf_spot_035_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,0.6086102280105011,rice_stem_borer; pear_leaf_spot; jute_mosaic,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_001_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_001_gaussian_noise_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_001_gaussian_noise_L2.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_001_gaussian_noise_L3.png,CLIP photo database,grape_leaf_blight,0.5955242018744177,grape_leaf_blight; rice_stem_borer,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_002_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_002_defocus_blur_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_002_defocus_blur_L2.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_002_defocus_blur_L3.png,CLIP photo database,grape_leaf_blight,0.40238286119478767,grape_leaf_blight; jute_mosaic; rice_stem_borer,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_003_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_003_motion_blur_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_003_motion_blur_L2.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_003_motion_blur_L3.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_004_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_004_motion_blur_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_004_motion_blur_L2.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_004_motion_blur_L3.png,CLIP photo database,potato_late_blight,0.5999996835626825,potato_late_blight; grape_leaf_blight; jute_mosaic,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_005_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_005_defocus_blur_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_005_defocus_blur_L2.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_005_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,0.3994956380638277,rice_stem_borer; potato_late_blight; grape_leaf_blight,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_006_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_006_gaussian_noise_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_006_gaussian_noise_L2.png,CLIP photo database,potato_late_blight,0.802157744287299,potato_late_blight; jute_mosaic,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_006_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,0.4094151625750898,rice_stem_borer; grape_leaf_blight; jute_mosaic,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_007_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_007_low_light_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_007_low_light_L2.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_007_low_light_L3.png,CLIP photo database,potato_late_blight,0.6027139577094728,potato_late_blight; jute_mosaic; grape_leaf_blight,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_008_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_008_low_light_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_008_low_light_L2.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_008_low_light_L3.png,CLIP photo database,grape_leaf_blight,0.40277009524853447,grape_leaf_blight; potato_late_blight; jute_mosaic,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_009_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_009_low_light_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_009_low_light_L2.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_009_low_light_L3.png,CLIP photo database,potato_late_blight,0.5969585604142347,potato_late_blight; jute_mosaic,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_010_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_010_gaussian_noise_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_010_gaussian_noise_L2.png,CLIP photo database,grape_leaf_blight,0.8017326849096004,grape_leaf_blight; potato_late_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_010_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,0.8041934289188793,rice_stem_borer; grape_leaf_blight,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_011_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_011_jpeg_compression_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_011_jpeg_compression_L2.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_011_jpeg_compression_L3.png,CLIP photo database,potato_late_blight,0.6005709131772794,potato_late_blight; grape_leaf_blight; rice_stem_borer,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_012_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_012_jpeg_compression_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_012_jpeg_compression_L2.png,CLIP photo database,potato_late_blight,0.8019204197438212,potato_late_blight; grape_leaf_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_012_jpeg_compression_L3.png,CLIP photo database,grape_leaf_blight,0.6010725336336955,grape_leaf_blight; potato_late_blight,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_013_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_013_motion_blur_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_013_motion_blur_L2.png,CLIP photo database,potato_late_blight,0.6010426397753402,potato_late_blight; grape_leaf_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_013_motion_blur_L3.png,CLIP photo database,rice_stem_borer,0.4040837493770013,rice_stem_borer; jute_mosaic; grape_leaf_blight,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_014_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_014_defocus_blur_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_014_defocus_blur_L2.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_014_defocus_blur_L3.png,CLIP photo database,grape_leaf_blight,0.6020275803987551,grape_leaf_blight; potato_late_blight; jute_mosaic,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_015_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_015_defocus_blur_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_015_defocus_blur_L2.png,CLIP photo database,grape_leaf_blight,1.0,grape_leaf_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_015_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,0.4003496922726029,rice_stem_borer; grape_leaf_blight; potato_late_blight,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_016_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_016_low_light_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_016_low_light_L2.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_016_low_light_L3.png,CLIP photo database,potato_late_blight,0.5997455196145629,potato_late_blight; jute_mosaic; grape_leaf_blight,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_017_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_017_defocus_blur_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_017_defocus_blur_L2.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_017_defocus_blur_L3.png,CLIP photo database,potato_late_blight,0.6014477416434134,potato_late_blight; jute_mosaic; grape_leaf_blight,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_018_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_018_jpeg_compression_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_018_jpeg_compression_L2.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_018_jpeg_compression_L3.png,CLIP photo database,grape_leaf_blight,0.5993796740948537,grape_leaf_blight; rice_stem_borer; potato_late_blight,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_019_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_019_jpeg_compression_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_019_jpeg_compression_L2.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_019_jpeg_compression_L3.png,CLIP photo database,potato_late_blight,0.8008049329176946,potato_late_blight; grape_leaf_blight,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_020_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_020_low_light_L1.png,CLIP photo database,potato_late_blight,0.8001227186862332,potato_late_blight; apple_scab,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_020_low_light_L2.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_020_low_light_L3.png,CLIP photo database,potato_late_blight,0.4010875650891105,potato_late_blight; grape_leaf_blight; jute_mosaic,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_021_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_021_motion_blur_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_021_motion_blur_L2.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_021_motion_blur_L3.png,CLIP photo database,potato_late_blight,0.3994634544727172,potato_late_blight; grape_leaf_blight; jute_mosaic,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_022_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_022_jpeg_compression_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_022_jpeg_compression_L2.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_022_jpeg_compression_L3.png,CLIP photo database,grape_leaf_blight,0.6005206081381402,grape_leaf_blight; rice_stem_borer,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_023_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_023_gaussian_noise_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_023_gaussian_noise_L2.png,CLIP photo database,potato_late_blight,0.6057548826867619,potato_late_blight; grape_leaf_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_023_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,0.6042769453672843,rice_stem_borer; grape_leaf_blight,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_024_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_024_gaussian_noise_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_024_gaussian_noise_L2.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_024_gaussian_noise_L3.png,CLIP photo database,grape_leaf_blight,0.6006273931693518,grape_leaf_blight; rice_stem_borer,openai/clip-vit-large-patch14
+L0/potato_late_blight/potato_late_blight_025_clean_L0.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L1/potato_late_blight/potato_late_blight_025_motion_blur_L1.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L2/potato_late_blight/potato_late_blight_025_motion_blur_L2.png,CLIP photo database,potato_late_blight,1.0,potato_late_blight,openai/clip-vit-large-patch14
+L3/potato_late_blight/potato_late_blight_025_motion_blur_L3.png,CLIP photo database,grape_leaf_blight,0.6017185914398276,grape_leaf_blight; jute_mosaic; rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_001_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_001_motion_blur_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_001_motion_blur_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_001_motion_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_002_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_002_low_light_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_002_low_light_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_002_low_light_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_003_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_003_jpeg_compression_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_003_jpeg_compression_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_003_jpeg_compression_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_004_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_004_jpeg_compression_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_004_jpeg_compression_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_004_jpeg_compression_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_005_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_005_gaussian_noise_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_005_gaussian_noise_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_005_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_006_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_006_jpeg_compression_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_006_jpeg_compression_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_006_jpeg_compression_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_007_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_007_defocus_blur_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_007_defocus_blur_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_007_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_008_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_008_motion_blur_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_008_motion_blur_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_008_motion_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_009_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_009_defocus_blur_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_009_defocus_blur_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_009_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_010_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_010_motion_blur_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_010_motion_blur_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_010_motion_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_011_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_011_gaussian_noise_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_011_gaussian_noise_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_011_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_012_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_012_gaussian_noise_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_012_gaussian_noise_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_012_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_013_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_013_low_light_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_013_low_light_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_013_low_light_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_014_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_014_motion_blur_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_014_motion_blur_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_014_motion_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_015_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_015_low_light_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_015_low_light_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_015_low_light_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_016_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_016_defocus_blur_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_016_defocus_blur_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_016_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_017_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_017_defocus_blur_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_017_defocus_blur_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_017_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_018_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_018_defocus_blur_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_018_defocus_blur_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_018_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_019_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_019_low_light_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_019_low_light_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_019_low_light_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_020_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_020_low_light_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_020_low_light_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_020_low_light_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_021_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_021_motion_blur_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_021_motion_blur_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_021_motion_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_022_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_022_jpeg_compression_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_022_jpeg_compression_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_022_jpeg_compression_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_023_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_023_jpeg_compression_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_023_jpeg_compression_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_023_jpeg_compression_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_024_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_024_low_light_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_024_low_light_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_024_low_light_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_025_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_025_gaussian_noise_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_025_gaussian_noise_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_025_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_026_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_026_gaussian_noise_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_026_gaussian_noise_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_026_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_027_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_027_gaussian_noise_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_027_gaussian_noise_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_027_gaussian_noise_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_028_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_028_jpeg_compression_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_028_jpeg_compression_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_028_jpeg_compression_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_029_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_029_defocus_blur_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_029_defocus_blur_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_029_defocus_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L0/rice_stem_borer/rice_stem_borer_030_clean_L0.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L1/rice_stem_borer/rice_stem_borer_030_motion_blur_L1.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L2/rice_stem_borer/rice_stem_borer_030_motion_blur_L2.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14
+L3/rice_stem_borer/rice_stem_borer_030_motion_blur_L3.png,CLIP photo database,rice_stem_borer,1.0,rice_stem_borer,openai/clip-vit-large-patch14

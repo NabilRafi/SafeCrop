@@ -1,0 +1,46 @@
+model: openai/clip-vit-large-patch14
+device: auto
+images_dir: data/images
+results_dir: results
+seed: 299
+batch_size: 32
+use_saved_features: true
+database:
+  k: 5
+noisy_copies:
+  per_type: 1
+  levels:
+  - 1
+  - 2
+  - 3
+  seed: 2026
+linear_probe:
+  classifier: logistic
+  C: auto
+  use_copies: true
+finetune:
+  folds:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  unfreeze_last: 4
+  epochs: 15
+  batch_photos: 16
+  noisy_views: 1
+  train_levels:
+  - 1
+  - 2
+  - 3
+  geometric_aug: true
+  lr: 1.0e-05
+  head_lr: 0.001
+  weight_decay: 0.05
+  warmup_epochs: 1
+  consistency_weight: 1.0
+  head_scale: 30.0
+  num_workers: 2
+  grad_checkpointing: false
+  db_noisy_copies: true
+  save_checkpoints: false

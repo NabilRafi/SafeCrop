@@ -1,0 +1,44 @@
+{
+ "SVM on frozen CLIP (clean + noisy copies)": {
+  "levels": {
+   "L0": 100.0,
+   "L1": 99.5,
+   "L2": 99.0,
+   "L3": 97.6,
+   "All": 99.0,
+   "n": 840
+  },
+  "A": 99.4,
+  "B": 98.8,
+  "vs": {
+   "CLIP database, frozen (Step 2)": {
+    "All": {
+     "images": 840,
+     "only_new_right": 194,
+     "only_baseline_right": 3,
+     "p": 1.2688917331223315e-53
+    },
+    "L3": {
+     "images": 210,
+     "only_new_right": 123,
+     "only_baseline_right": 2,
+     "p": 3.7032774028305346e-34
+    }
+   },
+   "Gemini + references + descriptions (Step 2b)": {
+    "All": {
+     "images": 840,
+     "only_new_right": 173,
+     "only_baseline_right": 3,
+     "p": 1.8976149179245744e-47
+    },
+    "L3": {
+     "images": 210,
+     "only_new_right": 108,
+     "only_baseline_right": 2,
+     "p": 9.40778259234277e-30
+    }
+   }
+  }
+ }
+}
